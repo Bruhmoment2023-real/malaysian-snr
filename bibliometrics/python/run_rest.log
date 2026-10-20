@@ -1,0 +1,41 @@
+=== 02-malaysian-snr :: snowball
+snowball: central=25 backward candidates=684 forward candidates=2385
+  snowball 400/3043 (103s)
+  snowball 800/3043 (212s)
+  snowball 1200/3043 (286s)
+  snowball 1600/3043 (382s)
+  snowball 2000/3043 (449s)
+  snowball 2400/3043 (499s)
+  snowball 2800/3043 (546s)
+snowball: {'central_papers': 25, 'backward_candidates': 684, 'forward_candidates': 2359, 'snowball_screened': 3043, 'snowball_duplicates': 55, 'snowball_excluded_reasons': {'offtopic_fails_inclusion_rule': 1985, 'no_openalex_record': 220, 'type_excluded': 175, 'offtopic_exclusion_term_in_title': 133, 'uncited_older_record (citation floor)': 50, 'language_not_english': 43, 'year_out_of_range': 16, 'paratext_or_container_record': 16}, 'snowball_included': 350, 'backward_included': 41, 'forward_included': 309, 'final_corpus': 1697}
+=== snowball done in 762s
+=== 02-malaysian-snr :: refs
+refs: distinct cited works=33158 to resolve=22000 (cap 22000)
+  refs 2000/22000 (245s)
+  refs 4000/22000 (599s)
+  refs 6000/22000 (1704s)
+  refs 8000/22000 (2226s)
+  refs 10000/22000 (2634s)
+  refs 12000/22000 (3069s)
+  refs 14000/22000 (3419s)
+  refs 16000/22000 (3868s)
+  refs 18000/22000 (4253s)
+  refs 20000/22000 (5135s)
+  refs 22000/22000 (5425s)
+refs: resolved 7677/22000
+=== refs done in 5431s
+=== 02-malaysian-snr :: master
+  crossref-check 500/1559 (101s)
+  crossref-check 1000/1559 (202s)
+  crossref-check 1500/1559 (302s)
+Traceback (most recent call last):
+  File "D:\Research-Publishing\02-malaysian-snr\bibliometrics\python\kit\pipeline.py", line 839, in <module>
+    STAGES[s](B, cfg)
+  File "D:\Research-Publishing\02-malaysian-snr\bibliometrics\python\kit\pipeline.py", line 733, in stage_master
+    st, tx = C.fetch("https://api.semanticscholar.org/graph/v1/paper/batch?fields=citationCount,referenceCount,externalIds,openAccessPdf",
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Research-Publishing\02-malaysian-snr\bibliometrics\python\kit\common.py", line 104, in fetch
+    cache_put(key, url, r.status_code, r.text)
+  File "D:\Research-Publishing\02-malaysian-snr\bibliometrics\python\kit\common.py", line 79, in cache_put
+    _db().execute("INSERT OR REPLACE INTO http VALUES (?,?,?,?,?)",
+sqlite3.OperationalError: database is locked

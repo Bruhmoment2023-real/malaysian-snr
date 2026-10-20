@@ -1,0 +1,6 @@
+story=simple, 15 real cells, >=100 trades: 20004 configs; change in WF net R (causal minus shipped): mean -0.0020 median -0.0018 p5 -0.032 p95 0.032; share |change|>0.05: 0.046; max up 0.238 max down -0.295
+limit, 15 real cells, >=100 trades: 6762 configs; change (lagged minus shipped): mean -0.1066 median -0.0357 p5 -0.308 p95 0.019; share lower 0.79
+  liq=0: n=3473 mean change -0.0025 (shipped -0.442 -> lagged -0.445)
+  liq=1: n=3289 mean change -0.2164 (shipped -0.278 -> lagged -0.495)
+limit configs with >=400 WF trades and positive shipped net R (15 real cells): 352 -> lagged positive: 16 ; mean shipped 0.063 lagged -0.149
+  of them p<0.05 shipped: 11  lagged: 0

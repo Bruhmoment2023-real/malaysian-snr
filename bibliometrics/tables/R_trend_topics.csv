@@ -1,0 +1,74 @@
+"item","freq","year_q1","year_med","year_q3"
+"central bank intervention",16,2001,2002,2004
+"exchange rates",15,2000,2002,2008
+"genetic programming",23,2002,2005,2010
+"random walk hypothesis",25,2001,2007,2009
+"futures markets",17,2004,2007,2014
+"tick size",15,2004,2007,2018
+"bootstrapping",13,2000,2007,2015
+"foreign exchange market",90,2003,2008,2017
+"chart patterns",20,2002,2008,2014
+"exchange rate forecasting",20,2002,2008,2014
+"stock market predictability",15,2004,2008,2019
+"trading rule profitability",79,2004,2009,2014
+"dow jones industrial average",34,1999,2009,2015
+"portfolio management",9,2003,2009,2014
+"stock returns",67,2002,2010,2016
+"market microstructure",39,2004,2010,2016
+"bid-ask spread",12,2000,2010,2021
+"hong kong stock market",10,2004,2010,2019
+"technical trading rules",198,2005,2011,2017
+"market efficiency",158,2004,2011,2017
+"trading rules",117,2005,2011,2016
+"moving average trading rules",60,2005,2011,2015
+"transaction costs",172,2006,2012,2017
+"technical trading",87,2006,2012,2016
+"trading profitability",53,2006,2012,2017
+"data snooping",48,2007,2012,2017
+"moving average rules",41,2007,2013,2015
+"foreign exchange trading",37,2009,2013,2019
+"trade costs",32,2010,2013,2021
+"s&p 500",31,2005,2013,2020
+"technical analysis",444,2007,2014,2019
+"buy-and-hold strategy",129,2011,2014,2019
+"abnormal returns",100,2009,2014,2020
+"price clustering",87,2007,2014,2019
+"trading strategies",111,2010,2015,2020
+"data snooping bias",66,2009,2015,2020
+"trading signals",58,2009,2015,2019
+"trading strategy profitability",49,2009,2015,2019
+"moving average",87,2010,2016,2020
+"stock price prediction",75,2012,2016,2022
+"chinese stock market",42,2013,2016,2021
+"trading strategy performance",39,2012,2016,2023
+"candlestick patterns",49,2012,2017,2021
+"buy-and-hold comparison",25,2011,2017,2022
+"trend following",25,2011,2017,2020
+"moving average strategy",21,2012,2017,2019
+"macd",64,2014,2018,2023
+"sharpe ratio",47,2014,2018,2023
+"simple moving average",46,2013,2018,2023
+"fundamental analysis",36,2010,2018,2021
+"exponential moving average",36,2015,2019,2023
+"backtesting",33,2014,2019,2024
+"multiple comparisons",25,2015,2019,2024
+"indian stock market",24,2014,2019,2023
+"relative strength index",55,2015,2020,2024
+"support and resistance levels",44,2010,2020,2024
+"algorithmic trading",36,2016,2020,2024
+"bollinger bands",29,2015,2020,2023
+"price volatility",15,2004,2021,2024
+"moving average crossover",13,2011,2021,2022
+"parameter optimization",13,2019,2021,2023
+"technical indicators",161,2016,2022,2025
+"random forest",11,2020,2022,2025
+"rsi",11,2014,2022,2024
+"trend forecasting",10,2020,2022,2022
+"bitcoin",38,2019,2023,2025
+"cryptocurrency market",23,2020,2023,2024
+"cryptocurrency trading",17,2022,2023,2025
+"risk management",18,2017,2024,2025
+"ethereum",12,2023,2024,2025
+"machine learning",12,2020,2024,2025
+"xgboost",10,2022,2024,2025
+"cryptocurrency price prediction",18,2023,2025,2025

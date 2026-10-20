@@ -1,0 +1,13 @@
+SOLUSDT W-D-4H-1H cell built 7.2 s; T4 bars 45023
+story_simple differs (shipped vs causal) on 668 of 45023 entry bars
+  configs done 200 10 s
+  configs done 400 11 s
+  configs done 600 12 s
+  configs done 800 14 s
+  configs done 1000 17 s
+  configs done 1200 18 s
+  configs done 1400 19 s
+  configs done 1600 20 s
+  configs done 1800 21 s
+validation vs stored results (no change applied): 1820 of 1820 configs identical
+seconds 21.5

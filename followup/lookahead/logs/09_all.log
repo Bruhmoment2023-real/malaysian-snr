@@ -1,0 +1,26 @@
+XAGUSD W-D-4H-1H exit=0 wall=36s
+BTCUSDT W-D-4H-1H exit=0 wall=34s
+ETHUSDT W-D-4H-1H exit=0 wall=33s
+SOLUSDT W-D-4H-1H exit=0 wall=26s
+MCXGOLD_SYN W-D-4H-1H exit=0 wall=54s
+XAUUSD D-4H-1H-15m exit=0 wall=150s
+XAGUSD D-4H-1H-15m exit=0 wall=157s
+BTCUSDT D-4H-1H-15m exit=0 wall=102s
+ETHUSDT D-4H-1H-15m exit=0 wall=83s
+SOLUSDT D-4H-1H-15m exit=0 wall=61s
+MCXGOLD_SYN D-4H-1H-15m exit=0 wall=143s
+XAUUSD 4H-1H-15m-5m exit=0 wall=352s
+XAGUSD 4H-1H-15m-5m exit=0 wall=290s
+BTCUSDT 4H-1H-15m-5m exit=1 wall=118s
+ETHUSDT 4H-1H-15m-5m exit=1 wall=128s
+SOLUSDT 4H-1H-15m-5m exit=1 wall=79s
+MCXGOLD_SYN 4H-1H-15m-5m exit=0 wall=405s
+ALLDONE
+BTCUSDT 5m rerun exit=124 wall=582s
+BTCUSDT 5m part=limit exit=0 wall=117s
+BTCUSDT 5m part=simple exit=0 wall=161s
+ETHUSDT 5m part=limit exit=0 wall=173s
+ETHUSDT 5m part=simple exit=0 wall=162s
+SOLUSDT 5m part=limit exit=0 wall=99s
+SOLUSDT 5m part=simple exit=0 wall=127s
+PARTSDONE

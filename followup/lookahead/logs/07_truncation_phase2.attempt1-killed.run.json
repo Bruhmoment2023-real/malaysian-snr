@@ -1,0 +1,9 @@
+﻿{
+    "script":  "07_truncation_phase2",
+    "started":  "2026-10-13T22:26:20",
+    "status":  "KILLED_TIME_LIMIT",
+    "exit_code":  -1,
+    "wall_seconds":  600.4,
+    "cpu_seconds":  558.1,
+    "peak_working_set_MB":  559
+}

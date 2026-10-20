@@ -1,0 +1,266 @@
+[
+  {
+    "file": "R_01_annual_production.png",
+    "title": "Annual scientific production",
+    "what": "Number of corpus documents per publication year, stacked by the sub-literature each record was assigned to.",
+    "how": "Counts of PY in the screened corpus; sub-literature = first inclusion rule matched (see search-protocol.md).",
+    "caution": "Growth partly reflects database growth and the search design (recent records are better indexed); the last year is incomplete.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_02_average_citations_per_year.png",
+    "title": "Average citations per year",
+    "what": "Mean OpenAlex citation count of documents published in each year, divided by the years since publication.",
+    "how": "TC = OpenAlex cited_by_count at the pull date; citable years = current year - PY + 1.",
+    "caution": "Years with few documents (small points) are dominated by one or two highly cited papers; do not read them as trends.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_03_most_relevant_sources.png",
+    "title": "Most relevant sources",
+    "what": "The 20 journals, book series or repositories contributing most documents to the corpus.",
+    "how": "Counts of the OpenAlex primary-location source. Records with no source recorded are listed in the table but left out of the plot.",
+    "caution": "Preprint servers (arXiv, SSRN, NBER) rank high because working papers are counted as documents; this is not a journal-quality ranking.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_04_bradford_law.png",
+    "title": "Bradford's law",
+    "what": "Sources ranked by number of documents (log rank); the shaded zone is Bradford zone 1, the small core of sources that carries about a third of the documents.",
+    "how": "bibliometrix::bradford() on the source field (SO).",
+    "caution": "With a multi-disciplinary corpus the 'core' is partly an artefact of which sub-literature has the most records.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_05_source_dynamics.png",
+    "title": "Source dynamics",
+    "what": "Cumulative number of corpus documents over time in the six most frequent sources.",
+    "how": "bibliometrix::sourceGrowth(top = 6, cdf = TRUE).",
+    "caution": "Small absolute numbers: a difference of two or three papers changes the ordering.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_06_most_productive_authors.png",
+    "title": "Most productive authors",
+    "what": "Authors with the most documents in the corpus (whole counting).",
+    "how": "Author names from OpenAlex authorships, reduced to SURNAME + initials.",
+    "caution": "Name disambiguation is imperfect: common surnames with the same initials can be merged, and one person can be split across spellings.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_07_most_cited_authors.png",
+    "title": "Most cited authors",
+    "what": "Authors ranked by the total OpenAlex citations received by their documents in this corpus.",
+    "how": "Sum of TC over each author's corpus documents (full credit to every co-author).",
+    "caution": "A single famous paper puts all of its co-authors at the top; this is citation to corpus papers only, not career citations.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_08_lotka_law.png",
+    "title": "Lotka's law",
+    "what": "Share of authors who wrote 1, 2, 3 ... corpus documents, against the theoretical inverse-square distribution.",
+    "how": "bibliometrix::lotka().",
+    "caution": "A topical corpus truncates each author's output, so nearly everyone appears once; this describes the corpus, not the authors' careers.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_09_author_production_over_time.png",
+    "title": "Author production over time",
+    "what": "For the 12 most productive authors: when their corpus documents appeared (point size = number of documents, shade = citations per year).",
+    "how": "bibliometrix::authorProdOverTime(k = 12).",
+    "caution": "Shows only documents that passed this corpus's inclusion rules.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_10_most_relevant_affiliations.png",
+    "title": "Most relevant affiliations",
+    "what": "Institutions appearing on the most corpus documents.",
+    "how": "OpenAlex institution of each authorship; one count per document per institution.",
+    "caution": "OpenAlex affiliation data are missing for many older, book and Indian-journal records, so institutions from well-indexed countries are over-represented.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_11_most_relevant_countries.png",
+    "title": "Most relevant countries",
+    "what": "Countries of author institutions, counted once per document.",
+    "how": "OpenAlex authorship country codes.",
+    "caution": "Counts where the authors work, not which country a study is about; records without affiliation data are excluded.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_12_corresponding_author_countries.png",
+    "title": "Corresponding author's country",
+    "what": "Documents by country of the corresponding (else first) author, split into single-country and multi-country papers.",
+    "how": "OpenAlex is_corresponding flag, falling back to the first author; MCP = authors from more than one country.",
+    "caution": "The corresponding-author flag is missing for many records, in which case the first author is used.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_13_country_collaboration_map.png",
+    "title": "Country production and collaboration map",
+    "what": "Shading = documents with an author in the country (log scale); red arcs = pairs of countries that co-authored, thicker = more joint documents.",
+    "how": "Author countries from OpenAlex, joined to the 'maps' world polygons; arcs join country bounding-box centres.",
+    "caution": "Grey means no author affiliation recorded, not no research; affiliation coverage is weakest for India-published and legal sources.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_14_most_global_cited_documents.png",
+    "title": "Most globally cited documents",
+    "what": "Corpus documents with the highest total citation counts in OpenAlex.",
+    "how": "OpenAlex cited_by_count at the pull date.",
+    "caution": "Global citations reward age and breadth: a highly cited paper may be cited mostly for reasons unrelated to this topic.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_15_most_local_cited_documents.png",
+    "title": "Most locally cited documents",
+    "what": "Corpus documents cited most often by other corpus documents - the papers this literature itself treats as central.",
+    "how": "Exact matching of OpenAlex referenced_works ids between corpus records (not string matching).",
+    "caution": "Only as complete as OpenAlex reference lists: books, working papers and many Indian and legal journals have no machine-readable references.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_16_most_local_cited_references.png",
+    "title": "Most locally cited references",
+    "what": "The 25 works cited by the largest number of corpus documents, whether or not they are themselves in the corpus.",
+    "how": "Counts over OpenAlex referenced_works of all corpus records, resolved to metadata by single-record lookups.",
+    "caution": "Grey bars are intellectual foundations outside the search rules (methods papers, classics); they are context, not part of the topical corpus.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_17_rpys.png",
+    "title": "Reference publication year spectroscopy",
+    "what": "How many of the corpus's cited references were published in each year; peaks in the red line mark years with unusually influential older works.",
+    "how": "Publication years of all resolved cited references (one count per citing document); deviation from a centred 5-year median, as in bibliometrix::rpys().",
+    "caution": "Covers only references OpenAlex could link to a work record; pre-1950 and non-journal references are under-counted, so absent early peaks are not evidence of absence.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_18_most_frequent_keywords.png",
+    "title": "Most frequent keywords",
+    "what": "The 30 keywords attached to the most corpus documents.",
+    "how": "OpenAlex 'keywords' field (DE); frequency = number of documents.",
+    "caution": "Keywords are OpenAlex's algorithmically assigned keywords (OpenAlex does not carry author keywords); they reflect OpenAlex's vocabulary as much as the authors' own wording.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_19_wordcloud.png",
+    "title": "Keyword word cloud",
+    "what": "The 120 most frequent keywords, sized by number of documents.",
+    "how": "wordcloud::wordcloud on OpenAlex keywords.",
+    "caution": "Word clouds exaggerate long words and hide relationships; use the frequency table for any number. Keywords are OpenAlex's algorithmically assigned keywords (OpenAlex does not carry author keywords); they reflect OpenAlex's vocabulary as much as the authors' own wording.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_20_keyword_treemap.png",
+    "title": "Keyword treemap",
+    "what": "Share of the 50 most frequent keywords; tile area is proportional to the number of documents.",
+    "how": "treemapify on OpenAlex keywords.",
+    "caution": "Keywords are OpenAlex's algorithmically assigned keywords (OpenAlex does not carry author keywords); they reflect OpenAlex's vocabulary as much as the authors' own wording.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_21_trend_topics.png",
+    "title": "Trend topics",
+    "what": "Each keyword is placed at the median publication year of the documents using it (bar = first to third quartile; point size = frequency).",
+    "how": "bibliometrix::fieldByYear(field = 'DE', n.items = 4 per year).",
+    "caution": "A late median year can simply mean OpenAlex started assigning that keyword recently; it is not proof that the idea is new.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_22_keyword_cooccurrence_network.png",
+    "title": "Keyword co-occurrence network",
+    "what": "Which keywords are attached to the same documents: clusters approximate the sub-topics of the literature.",
+    "how": "bibliometrix::biblioNetwork(co-occurrences, OpenAlex keywords), top 50 keywords, association-strength normalisation, Louvain clustering, Fruchterman-Reingold layout.",
+    "caution": "Layout distances are not a metric and change with the random seed; clusters depend on the 50-keyword cut-off.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_23_thematic_map.png",
+    "title": "Thematic map",
+    "what": "Keyword clusters placed by centrality (links to other clusters: how important the theme is to the field) and density (internal links: how developed it is). Quadrants: motor (upper right), niche (upper left), basic (lower right), emerging or declining (lower left).",
+    "how": "bibliometrix::thematicMap(field = 'DE', n = 250, Louvain); bubble size = keyword occurrences in the cluster.",
+    "caution": "Quadrant positions are relative ranks within this corpus only and shift with minfreq; a 'niche' theme here may be a large field elsewhere.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_24_thematic_evolution.html",
+    "title": "Thematic evolution (interactive Sankey)",
+    "what": "How keyword clusters in one period flow into clusters of the next. Time slices cut after: 2011, 2019. PNG maps of each slice are saved alongside.",
+    "how": "bibliometrix::thematicEvolution(field = 'DE', n = 250) with tercile cut points; flows weighted by the inclusion index.",
+    "caution": "Cut years were chosen mechanically (terciles of publication years); moving them changes the flows, and early slices have few documents.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_25_cocitation_references.png",
+    "title": "Co-citation network of references",
+    "what": "Cited works that corpus documents cite together: clusters are the intellectual bases the literature draws on.",
+    "how": "bibliometrix::biblioNetwork(co-citation, references) on WoS-style reference strings built from OpenAlex referenced_works; top 50 references, Louvain clusters.",
+    "caution": "Reflects only records with machine-readable reference lists; economics and information-science journals dominate because they are best indexed.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_26_cocitation_sources.png",
+    "title": "Co-citation network of sources",
+    "what": "Journals that are cited together, showing which disciplines the literature combines.",
+    "how": "bibliometrix::metaTagExtraction(CR_SO) then biblioNetwork(co-citation, sources); top 40 sources.",
+    "caution": "Generic labels such as BOOK or PREPRINT are pooled categories, not single outlets.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_27_bibliographic_coupling.png",
+    "title": "Bibliographic coupling",
+    "what": "Corpus documents linked when they cite the same references: groups of papers working from the same prior literature.",
+    "how": "bibliometrix::biblioNetwork(coupling, references); the 60 documents with the longest reference lists; Salton normalisation; Louvain clusters.",
+    "caution": "Selecting by reference-list length favours reviews and long articles; documents with no indexed references cannot appear.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_28_historiograph.png",
+    "title": "Historiograph (direct citation network)",
+    "what": "Chronological map of who cites whom among the 25 most locally cited corpus documents; arrows run from the cited to the citing paper along the time axis.",
+    "how": "bibliometrix::histNetwork(min.citations = 1) and histPlot(n = 25). A Python version built from exact OpenAlex ids is in py_citation_network.html and py_main_path.png.",
+    "caution": "bibliometrix matches citations by DOI/label strings, so a few links can be missed; compare with the exact-id Python network.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_29_collaboration_authors.png",
+    "title": "Author collaboration network",
+    "what": "Co-authorship among the 50 most productive authors.",
+    "how": "bibliometrix::biblioNetwork(collaboration, authors); association normalisation; Louvain clusters; isolates removed.",
+    "caution": "Most authors appear once in a topical corpus, so this shows a few teams, not the field's whole social structure.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_30_collaboration_institutions.png",
+    "title": "Institution collaboration network",
+    "what": "Which institutions co-author within the corpus.",
+    "how": "bibliometrix::biblioNetwork(collaboration, universities) on OpenAlex institutions.",
+    "caution": "Limited to records with affiliation data; multi-campus systems may appear as separate nodes.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_31_collaboration_countries.png",
+    "title": "Country collaboration network",
+    "what": "International co-authorship links between the 30 most productive countries.",
+    "how": "bibliometrix::biblioNetwork(collaboration, countries).",
+    "caution": "Based on author addresses only; says nothing about which countries are studied.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_32_three_field_plot_country_keyword_source.html",
+    "title": "Three-field plot: country - keyword - source",
+    "what": "Interactive Sankey linking author countries (left), keywords (middle) and sources (right). Saved as HTML because plotly cannot be rendered to PNG headlessly on this machine.",
+    "how": "bibliometrix::threeFieldsPlot(fields = AU_CO, DE, SO; top 12/15/12).",
+    "caution": "Only the top items of each field are shown; flows are counts of co-appearance, not causal links.",
+    "tool": "R / bibliometrix"
+  },
+  {
+    "file": "R_32_three_field_plot_reference_author_keyword.html",
+    "title": "Three-field plot: cited reference - author - keyword",
+    "what": "Interactive Sankey linking the most cited references (left), the most productive authors (middle) and keywords (right).",
+    "how": "bibliometrix::threeFieldsPlot(fields = CR, AU, DE; top 12 each).",
+    "caution": "Top-12 cut-offs hide most of the corpus; use it to spot schools of thought, not to count.",
+    "tool": "R / bibliometrix"
+  }
+]

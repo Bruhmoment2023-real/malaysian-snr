@@ -1,0 +1,13 @@
+XAGUSD 4H-1H-15m-5m cell built 88.9 s; T4 bars 1154763
+story_simple differs (shipped vs causal) on 34317 of 1154763 entry bars
+  configs done 200 131 s
+  configs done 400 141 s
+  configs done 600 151 s
+  configs done 800 174 s
+  configs done 1000 214 s
+  configs done 1200 229 s
+  configs done 1400 243 s
+  configs done 1600 256 s
+  configs done 1800 288 s
+validation vs stored results (no change applied): 1808 of 1808 configs identical
+seconds 288.3

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Does the Malaysian SnR method find better entries than chance? A codified test on crypto, gold and silver against matched random entries"
+type: software
+authors:
+  - family-names: "Solano Paul"
+    given-names: "Sean"
+    affiliation: "Independent researcher"
+license: MIT
+date-released: "2026-10-20"
+abstract: "Code, result tables, robustness checks and literature map for a codified test of Malaysian SnR (MSNR), a social-media support-and-resistance method, on Bitcoin, Ether, Solana, a gold-backed token, gold and silver at 5-minute to daily bars. Every strategy trade is compared with random entries that share its stop and target geometry, costs and trend direction; a 116,708-variant search is corrected for false discoveries, and a look-ahead error in limit-entry variants is documented and fixed."
+keywords:
+  - "support and resistance"
+  - "technical analysis"
+  - "random-entry benchmark"
+  - "multiple testing"
+  - "cryptocurrency"
+  - "gold"
+  - "retail trading"
+repository-code: "https://github.com/Bruhmoment2023-real/malaysian-snr"

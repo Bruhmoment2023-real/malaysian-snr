@@ -1,0 +1,9 @@
+﻿{
+    "script":  "07_truncation_phase2.A",
+    "started":  "2026-10-13T22:40:11",
+    "status":  "completed",
+    "exit_code":  0,
+    "wall_seconds":  30.2,
+    "cpu_seconds":  25.9,
+    "peak_working_set_MB":  662
+}

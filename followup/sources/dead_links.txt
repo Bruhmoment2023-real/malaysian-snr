@@ -1,0 +1,4 @@
+6	https://www.tradingview.com/script/v5zEBKFJ-Malaysian-SnR-Levels-UAlgo/	DEAD (HTTP 404)
+27	https://www.tiktok.com/@toby.fx1/video/7608116772859890962	FETCH ERROR
+33	https://www.forexfactory.com/thread/1254177-no-indicator-trading-system?page=10	BLOCKED (HTTP 403)
+34	https://www.forexfactory.com/thread/51248-malaysia?page=1119	BLOCKED (HTTP 403)

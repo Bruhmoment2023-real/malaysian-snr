@@ -1,0 +1,75 @@
+=== 02-malaysian-snr :: search
+  crossref_a_technical_analysis_01: total=7023272 retrieved=250 ok
+  crossref_a_technical_analysis_02: total=3283711 retrieved=250 ok
+  crossref_a_technical_analysis_03: total=7465754 retrieved=250 ok
+  crossref_a_technical_analysis_04: total=1488720 retrieved=250 ok
+  crossref_a_technical_analysis_05: total=3252362 retrieved=250 ok
+  crossref_a_technical_analysis_06: total=1025217 retrieved=250 ok
+  crossref_a_technical_analysis_07: total=531082 retrieved=250 ok
+  crossref_a_technical_analysis_08: total=10397085 retrieved=250 ok
+  crossref_a_technical_analysis_09: total=527196 retrieved=250 ok
+  crossref_a_technical_analysis_10: total=8458342 retrieved=250 ok
+  crossref_a_technical_analysis_11: total=529878 retrieved=250 ok
+  s2_a_technical_analysis_01: total=4287 retrieved=800 ok
+  s2_a_technical_analysis_02: total=713 retrieved=713 ok
+  s2_a_technical_analysis_03: total=1476 retrieved=800 ok
+  arxiv_a_technical_analysis_01: total=76 retrieved=76 ok
+  arxiv_a_technical_analysis_02: total=37 retrieved=37 ok
+  arxiv_a_technical_analysis_03: total=17 retrieved=17 ok
+  crossref_b_support_resistance_01: total=8602029 retrieved=250 ok
+  crossref_b_support_resistance_02: total=8651533 retrieved=250 ok
+  crossref_b_support_resistance_03: total=589017 retrieved=250 ok
+  crossref_b_support_resistance_04: total=2794350 retrieved=250 ok
+  crossref_b_support_resistance_05: total=1000881 retrieved=250 ok
+  crossref_b_support_resistance_06: total=9538500 retrieved=250 ok
+  crossref_b_support_resistance_07: total=5380230 retrieved=250 ok
+  crossref_b_support_resistance_08: total=2260355 retrieved=250 ok
+  crossref_b_support_resistance_09: total=3039454 retrieved=250 ok
+  crossref_b_support_resistance_10: total=1438809 retrieved=250 ok
+  crossref_b_support_resistance_11: total=2317714 retrieved=250 ok
+  s2_b_support_resistance_01: total=878 retrieved=800 ok
+  s2_b_support_resistance_02: total=361 retrieved=361 ok
+  s2_b_support_resistance_03: total=27903 retrieved=800 ok
+  arxiv_b_support_resistance_01: total=9 retrieved=9 ok
+  arxiv_b_support_resistance_02: total=25 retrieved=25 ok
+  arxiv_b_support_resistance_03: total=1 retrieved=1 ok
+  arxiv_b_support_resistance_04: total=0 retrieved=0 ok
+  crossref_c_multiple_testing_01: total=5478779 retrieved=250 ok
+  crossref_c_multiple_testing_02: total=2752323 retrieved=250 ok
+  crossref_c_multiple_testing_03: total=1128469 retrieved=250 ok
+  crossref_c_multiple_testing_04: total=1095798 retrieved=250 ok
+  crossref_c_multiple_testing_05: total=1611234 retrieved=250 ok
+  crossref_c_multiple_testing_06: total=806274 retrieved=250 ok
+  crossref_c_multiple_testing_07: total=174369 retrieved=250 ok
+  crossref_c_multiple_testing_08: total=2732207 retrieved=250 ok
+  crossref_c_multiple_testing_09: total=3813794 retrieved=250 ok
+  crossref_c_multiple_testing_10: total=3208432 retrieved=250 ok
+  crossref_c_multiple_testing_11: total=1645752 retrieved=250 ok
+  crossref_c_multiple_testing_12: total=5494006 retrieved=250 ok
+  crossref_c_multiple_testing_13: total=10327708 retrieved=250 ok
+  s2_c_multiple_testing_01: total=982 retrieved=800 ok
+  s2_c_multiple_testing_02: total=14418 retrieved=800 ok
+  s2_c_multiple_testing_03: total=5490 retrieved=800 ok
+  arxiv_c_multiple_testing_01: total=13 retrieved=13 ok
+  arxiv_c_multiple_testing_02: total=11 retrieved=11 ok
+  arxiv_c_multiple_testing_03: total=6 retrieved=6 ok
+  arxiv_c_multiple_testing_04: total=9 retrieved=9 ok
+  arxiv_c_multiple_testing_05: total=13 retrieved=13 ok
+  seed title not matched: Support for Resistance: Technical Analysis and Intraday Exchange Rates
+  seed title not matched: Evidence and behaviour of support and resistance levels in financial time series
+  seed title not matched: Retail Trader's Ruin: An Anatomy of Popular Signal Failure
+search: 15697 hits from 70 queries
+=== search done in 121s
+=== 02-malaysian-snr :: enrich
+enrich: hits=15697 unique=11855 pass title pre-screen=3803
+  openalex 400/3803 (60s)
+  openalex 800/3803 (119s)
+  openalex 1200/3803 (175s)
+  openalex 1600/3803 (229s)
+  openalex 2000/3803 (285s)
+  openalex 2400/3803 (364s)
+  openalex 2800/3803 (516s)
+  openalex 3200/3803 (628s)
+  openalex 3600/3803 (710s)
+enrich: {"date": "2026-10-13", "records_identified": 15697, "by_db": {"crossref": 8750, "s2": 6674, "arxiv": 217, "seed": 56}, "duplicates_removed_identifiers": 3842, "unique_records": 11855, "removed_title_prescreen": 8052, "sent_to_openalex": 3803, "duplicates_removed_openalex": 22, "excluded_reasons": {"offtopic_fails_inclusion_rule": 1753, "type_excluded": 337, "no_openalex_record (no DOI / not indexed)": 182, "uncited_older_record (citation floor)": 134, "language_not_english": 23, "paratext_or_container_record": 3, "offtopic_exclusion_term_in_title": 2}, "included_after_search_screen": 1347}
+=== enrich done in 890s

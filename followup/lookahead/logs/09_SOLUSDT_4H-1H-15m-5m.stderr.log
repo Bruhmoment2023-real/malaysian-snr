@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\Research-Publishing\02-malaysian-snr\followup\lookahead\09_limit_entry_leak.py", line 115, in <module>
+    rec["nL"], rec["netL"], rec["grossL"], rec["tL"], rec["pL"] = stat(cell.trades_lag(cf))
+                                                                       ^^^^^^^^^^^^^^^^^^^
+  File "D:\Research-Publishing\02-malaysian-snr\followup\lookahead\09_limit_entry_leak.py", line 80, in trades_lag
+    return TL.sim_setups(self.o, self.h, self.l, self.c, a4l, S, keep, 4, 0 if cf["stop"] == "zone" else 1, tm, tr_, f["tgt"], f["rb"], bool(cf["rb"]),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ZeroDivisionError: division by zero

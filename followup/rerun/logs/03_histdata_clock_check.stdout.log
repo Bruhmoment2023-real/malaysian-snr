@@ -1,0 +1,13 @@
+XAUUSD done
+XAGUSD done
+symbol  season  n_weekly_opens                label_hhmm_top NY_time_if_label_were_true_UTC
+XAUUSD Jan-Feb             128 2300:0.67 2301:0.27 2303:0.02            1800:0.67 1801:0.27
+XAUUSD Jun-Jul             131 2300:0.60 2301:0.31 0000:0.03            1900:0.60 1901:0.31
+XAGUSD Jan-Feb             128 2300:0.52 2301:0.34 2305:0.07            1800:0.52 1801:0.34
+XAGUSD Jun-Jul             131 2300:0.60 2301:0.30 0000:0.03            1900:0.60 1901:0.30
+
+Reading: if 'label_hhmm_top' is the SAME in winter and summer, the label follows New York wall clock (+5h), i.e. it is
+NOT true UTC in summer (it is one hour late), and 'NY_time_if_label_were_true_UTC' will differ by one hour between seasons.
+Phase 3 buckets metals days at label 22:00 = New York 17:00 wall clock in BOTH seasons under that reading, so the daily and
+weekly bars are New-York-close bars all year (the usual FX convention); only fixed-UTC-hour logic (the 'sess' filter and the
+MCX-proxy session window) is displaced by one hour during US daylight-saving time.

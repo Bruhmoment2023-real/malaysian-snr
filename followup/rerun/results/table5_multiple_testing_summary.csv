@@ -1,0 +1,4 @@
+study,configs,p_lt_05,expected_p_lt_05,bh_q_lt_10,bh_q_lt_10_min100trades,max_DSR,max_DSR_min100,min_RC_p,min_SPA_p,all_six
+Phase 2: MSNR x 31 confluences x exits (20 cells),22640,138,1132,3,0,0.7397,0.0196,0.0733,0.6167,0
+Phase 3: top-down MSNR (18 cells incl. 3 synthetic),94068,90,4703,0,0,0.5367,0.0571,0.1467,0.8467,0
+Phase 3 excluding synthetic MCX proxy (15 cells),67284,22,3364,0,0,0.3485,0.0385,0.1467,0.8467,0

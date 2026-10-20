@@ -1,0 +1,9 @@
+﻿{
+    "script":  "08_truncation_phase3.XAU-W",
+    "started":  "2026-10-13T22:45:37",
+    "status":  "completed",
+    "exit_code":  0,
+    "wall_seconds":  82.9,
+    "cpu_seconds":  59.4,
+    "peak_working_set_MB":  943
+}

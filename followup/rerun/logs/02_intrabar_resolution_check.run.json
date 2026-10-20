@@ -1,0 +1,9 @@
+﻿{
+    "script":  "02_intrabar_resolution_check",
+    "started":  "2026-10-13T22:18:18",
+    "status":  "completed",
+    "exit_code":  0,
+    "wall_seconds":  10.9,
+    "cpu_seconds":  10.7,
+    "peak_working_set_MB":  437
+}

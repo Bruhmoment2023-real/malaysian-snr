@@ -1,0 +1,35 @@
+SOLUSDT 1h full cell built 20.6 s; bars 53896
+SOLUSDT 1h done 36.5 s; bars 53896 ; series 126 ; configs simulated 165
+BTCUSDT 15m full cell built 7.4 s; bars 40000
+BTCUSDT 15m done 26.4 s; bars 40000 ; series 126 ; configs simulated 165
+BTCUSDT 1h full cell built 68.2 s; bars 79950
+BTCUSDT 1h done 173.6 s; bars 79950 ; series 126 ; configs simulated 165
+             series  checks  ...  mismatches  mismatches_after_warmup
+family                       ...                                     
+atr               1       9  ...           0                        0
+aux               8      72  ...           0                        0
+base              8      72  ...           0                        0
+filter           48     432  ...           0                        0
+levelfilter      16     144  ...           0                        0
+limitfill        20     180  ...           0                        0
+regime           11      99  ...           0                        0
+story             1       9  ...           0                        0
+trigger          13     117  ...           3                        0
+
+[9 rows x 5 columns]
+
+SERIES: total checks 1134 ; bar comparisons 39426786 ; mismatching bars 3 ; of which after the 260-bar warm-up 0
+                    checks_with_mismatch  mismatches  first_bad_min  last_bad_max  after_warmup
+series                                                                                         
+trigger_vwap_cross                     3           3              0             0             0
+
+TRADES: checks 1485 ; closed trades compared 6056981 ; trades differing 0
+       checks  closed_trades  differing
+kind                                   
+alone     117         189554          0
+lim       648        4055014          0
+mkt       720        1812413          0
+Empty DataFrame
+Columns: [asset, tf, cut_frac, config, kind, closed_trades_compared, trades_differing]
+Index: []
+total seconds 236.8

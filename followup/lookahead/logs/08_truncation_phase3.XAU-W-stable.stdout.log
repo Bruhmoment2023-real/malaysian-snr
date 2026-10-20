@@ -1,0 +1,38 @@
+XAUUSD W-D-4H-1H full cell built 71.4 s; T4 bars 104392 ; setups d3 10317
+XAUUSD W-D-4H-1H done 107.3 s
+                         checks  bar_comparisons  mismatches  after_warmup
+series                                                                    
+T3_close_at_T4                3           188996           0             0
+T3_high_at_T4                 3           188996           0             0
+T3_low_at_T4                  3           188996           0             0
+atr_T3_at_T4                  3           188996           0             0
+atr_T4                        3           188996           0             0
+roadblock_res                 3           188996           0             0
+roadblock_sup                 3           188996           0             0
+session_flag                  3           188996           0             0
+story_simple                  3           188996           0             0
+story_target                  3           188996           0             0
+story_topdown                 3           188996           0             0
+xfilter_atrpct_hi_long        3           188996           0             0
+xfilter_atrpct_hi_short       3           188996           0             0
+xfilter_ema200_long           3           188996           0             0
+xfilter_ema200_short          3           188996           0             0
+xfilter_macd_turn_long        3           188996           0             0
+xfilter_macd_turn_short       3           188996           0             0
+xfilter_sweep_long            3           188996           0             0
+xfilter_sweep_short           3           188996           0             0
+SERIES: checks 57 ; bar comparisons 3590924 ; mismatching bars 0
+Empty DataFrame
+Columns: [asset, ladder, cut_frac, series, bars_compared, mismatches, first_bad, last_bad, mismatches_after_warmup]
+Index: []
+SETUPS: checks 30 ; setup rows compared 228300 ; differing 0
+Empty DataFrame
+Columns: [asset, ladder, cut_frac, pivot_depth, setups_compared, setups_differing, feature]
+Index: []
+TRADES: checks 30 ; closed trades compared 7719 ; differing 0
+TRADES of the cut run that are absent from (or different in) the full run: 0
+Empty DataFrame
+Columns: [asset, ladder, cut_frac, config, closed_trades_compared, trades_differing, trades_not_in_full_run]
+Index: []
+sort used for simultaneous setups: stable (follow-up variant)
+total seconds 107.5

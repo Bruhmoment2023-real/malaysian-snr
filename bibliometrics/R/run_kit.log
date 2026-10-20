@@ -1,0 +1,35 @@
+scopus-drop: EMPTY - no Scopus/WoS export to merge; corpus is OpenAlex-only 
+Corpus: 1360 documents
+[main_information] ok
+[biblioAnalysis_summary] ok
+[annual_production] ok
+[average_citations_per_year] ok
+[sources] ok
+[bradford] ok
+[source_dynamics] ok
+[authors] ok
+[lotka] ok
+[author_production_over_time] ok
+[affiliations] ok
+[countries] ok
+[most_cited_documents] ok
+[rpys] ok
+[keywords] ok
+[trend_topics] ok
+[cooccurrence_network] ok
+[thematic_map] ok
+[thematic_evolution] ok
+[cocitation_references] ok
+[cocitation_sources] ok
+[bibliographic_coupling] ok
+[historiograph] ok
+[collaboration_authors] ok
+[collaboration_institutions] ok
+[collaboration_countries] ok
+[three_field_plot] ok
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead.
+ℹ The deprecated feature was likely used in the bibliometrix package.
+  Please report the issue at <https://github.com/massimoaria/bibliometrix/issues>. 
+R analysis finished: 27 ok of 27 

@@ -1,0 +1,106 @@
+"""Write config.json (search strings, inclusion rules, seeds, heat-map coding) for paper 02."""
+import json, os
+B = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+FIN = (r"\b(stock|equit\w*|financ\w*|trad(er|ers|ing|e)|invest\w*|market|portfolio|asset|currenc\w*|exchange rates?|foreign exchange|forex|\bfx\b|futures|"
+       r"commodit\w*|gold|bitcoin|crypto\w*|returns?|prices?|securit\w*|funds?)\b")
+cfg = dict(
+    paper_id="02-malaysian-snr",
+    paper_title="A multiple-testing-controlled test of a social-media support/resistance trading method (Malaysian SnR) in gold, silver and crypto",
+    year_min=1960, year_max=2026,
+    n_per_query={"crossref": 250, "s2": 800, "arxiv": 100},
+    snowball_n_central=25, snowball_max_forward=150, min_citations_if_older_than=[3, 1],
+    exclude=(r"(antibiotic|antimicrob|drug[- ]resistan|insulin|cancer|tumou?r|electrical resistance|resistance (training|exercise)|exercise|clinical|patients?|bacteri|pathogen|\bplants?\b|\bsoil|"
+             r"social support|peer support|supply chain|deep learning|neural network|\blstm\b|transformer|reinforcement learning|random forest|support vector|genetic algorithm|deep q|"
+             r"covid|resistance to change|employee|consumer resistance|organi[sz]ational|\bhiv\b|vaccin)"),
+    sublits={
+        "a_technical_analysis": dict(
+            label="Technical analysis and trading-rule profitability",
+            include=[r"(technical analysis|technical trading|technical (indicators?|rules?|signals?)|trading rules?|moving[- ]average|chart(ing)? patterns?|candlestick|filter rules?|trend[- ]following|"
+                     r"momentum (strateg|trading)|channel breakout|trading range break|head and shoulders|retail (traders?|trading)|day[- ]trad\w+)", FIN],
+            title_must=[r"(technical|trading rules?|chart|moving average|candlestick|indicators?|trend|momentum|filter|breakout|profitab|retail|day[- ]trad|rule-based|pattern)"],
+            title_any=r"(technical (analysis|trading)|trading rules?|candlestick|moving average|filter rules?|chart patterns?)",
+            crossref=["technical analysis trading rule profitability", "simple technical trading rules stochastic properties of returns", "profitability of technical analysis foreign exchange",
+                      "technical trading rules out-of-sample profitability transaction costs", "do technical trading rules work cryptocurrency", "trend following trading rules gold",
+                      "candlestick patterns profitability", "retail traders technical analysis use performance", "moving average rules predictability stock returns",
+                      "technical analysis survey profitability evidence", "trading range break rules returns"],
+            s2=[r'"technical analysis" | "technical trading" | "trading rules" + (profitability | profitable | predictive | returns)',
+                r'("technical trading rules" | "technical indicators") + (cryptocurrency | bitcoin | gold | "foreign exchange" | commodities)',
+                r'("candlestick" | "chart patterns" | "moving average") + (profitability | "trading strategy" | "trading rule")'],
+            arxiv=['all:"technical analysis" AND cat:q-fin.*', 'all:"trading rules" AND (cat:q-fin.TR OR cat:q-fin.ST)', 'all:"technical trading" AND cat:q-fin.*'],
+        ),
+        "b_support_resistance": dict(
+            label="Support and resistance, price levels and order clustering",
+            include=[r"(support and resistance|support[/-]resistance|support levels?|resistance levels?|price barriers?|round numbers?|price clustering|order clustering|clusters? of (stop|limit)|"
+                     r"stop[- ]loss orders?|take[- ]profit orders?|supply and demand zones?|smart money|order blocks?|fair value gaps?|liquidity (sweep|grab|pool)s?|inner circle trader|\bict\b|"
+                     r"quasimodo|price levels?|price (reversal|bounce)s?|limit order book depth)", FIN],
+            title_must=[r"(support|resistance|barrier|round|level|cluster|smart money|order block|stop[- ]loss|take[- ]profit|liquidity|orders?|reversal|bounce|price|ict\b|supply and demand|gap)"],
+            title_any=r"(support and resistance|support[/-]resistance|resistance level|support level|price barriers?|round numbers?|smart money|order block|stop[- ]loss orders?)",
+            crossref=["support and resistance levels technical analysis", "support for resistance technical analysis intraday exchange rates", "price barriers round numbers",
+                      "support resistance levels empirical test stocks", "stop-loss orders price cascades currency markets",
+                      "technical analysis liquidity provision limit order book support resistance", "memory effects stock price dynamics technical trading bounces",
+                      "support and resistance prediction accuracy intraday", "smart money concepts trading rules evaluation", "order clustering at round numbers foreign exchange",
+                      "price clustering and support resistance levels"],
+            s2=[r'("support and resistance" | "support resistance" | "resistance level" | "support level") + (price | trading | stock | currency | market)',
+                r'("round numbers" | "price barriers" | "price clustering" | "order clustering") + (stock | currency | exchange | trading | futures)',
+                r'("smart money concepts" | "order block" | "fair value gap" | "inner circle trader" | "ICT") + (trading | forex | strategy)'],
+            arxiv=['all:"support and resistance" AND cat:q-fin.*', 'all:"support and resistance"', 'all:"smart money" AND all:trading', 'all:"price levels" AND all:"technical analysis"'],
+        ),
+        "c_multiple_testing": dict(
+            label="Data snooping, multiple testing and backtest overfitting in finance",
+            include=[r"(data[- ]snooping|data[- ]mining|multiple (hypothesis )?testing|multiple comparisons?|backtest\w*|back-test\w*|overfit\w*|false discover\w*|reality check|superior predictive ability|"
+                     r"deflated sharpe|p-?hacking|selection bias|sharpe ratio haircut|stepwise (multiple )?test\w*|familywise|family-wise|probability of backtest|cross-section of expected returns|\bt-?(stat|hurdle)\w*)",
+                     r"(trading rules?|trading strateg\w*|technical|anomal\w*|factors?|portfolio|asset pricing|investment strateg\w*|stock returns?|mutual funds?|fund managers?|alpha|sharpe|predictab\w*|backtest\w*|hedge funds?)"],
+            title_must=[r"(snooping|multiple|overfit|false discover|reality check|predictive ability|sharpe|p-?hack|backtest|back-test|haircut|factor|anomal|significan|testing|data[- ]mining|selection|luck|skill|trading rules?|technical|replicat|cross-section|hurdle|alpha)"],
+            title_any=r"(data[- ]snooping|multiple testing|backtest|overfitting|false discover|reality check|deflated sharpe|sharpe ratio|p-?hacking|data[- ]mining)",
+            crossref=["data snooping technical trading rule performance bootstrap", "a reality check for data snooping", "test for superior predictive ability",
+                      "false discoveries technical trading rules transaction costs", "backtesting multiple testing Sharpe ratio haircut", "deflated Sharpe ratio selection bias backtest overfitting",
+                      "probability of backtest overfitting", "cross-section of expected returns multiple testing t-statistic hurdle", "stepwise multiple testing data snooping",
+                      "false discovery rate mutual fund performance", "pseudo-mathematics financial charlatanism", "evaluation of alternative multiple testing methods finance",
+                      "does academic research destroy stock return predictability"],
+            s2=[r'("data snooping" | "data-snooping" | "reality check" | "superior predictive ability") + (trading | technical | strategy | rules)',
+                r'("backtest overfitting" | "backtest" | "deflated Sharpe" | "multiple testing" | "false discovery") + (finance | trading | strategy | factors | "asset pricing" | Sharpe)',
+                r'("p-hacking" | "data mining") + (finance | "asset pricing" | anomalies | "trading strategies")'],
+            arxiv=['all:"backtest overfitting"', 'all:"multiple testing" AND cat:q-fin.*', 'all:"deflated Sharpe"', 'all:"data snooping" AND cat:q-fin.*', 'all:"false discovery" AND cat:q-fin.*'],
+        ),
+    },
+    seed_titles=["Support for Resistance: Technical Analysis and Intraday Exchange Rates", "Evidence and behaviour of support and resistance levels in financial time series",
+                 "Retail Trader's Ruin: An Anatomy of Popular Signal Failure", "Data-Snooping, Technical Trading Rule Performance, and the Bootstrap",
+                 "A Reality Check for Data Snooping", "Simple Technical Trading Rules and the Stochastic Properties of Stock Returns",
+                 "Currency Orders and Exchange Rate Dynamics: An Explanation for the Predictive Success of Technical Analysis",
+                 "Technical Analysis and Liquidity Provision", "Memory effects in stock price dynamics: evidences of technical trading",
+                 "Technical trading revisited: false discoveries, persistence tests, and transaction costs",
+                 "Technical trading: is it still beating the foreign exchange market?",
+                 "The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting and Non-Normality",
+                 "The Probability of Backtest Overfitting",
+                 "Smart Money or Costly Folklore? A Systematic Evaluation of ICT/Smart-Money-Concepts Trading Rules in G10 FX"],
+    seed_dois=[], seed_arxiv=["2607.20093", "2101.07410", "2103.02331"], manual_exclude={},
+    core_terms={r"malaysian|\bsnr\b|smart money|order block|fair value gap|inner circle": 3,
+                r"support and resistance|support[/-]resistance|resistance levels?|support levels?|price barriers?": 3,
+                r"technical analysis|technical trading|trading rules?": 2,
+                r"data[- ]snooping|multiple testing|reality check|false discover|deflated sharpe|backtest\w* overfit|superior predictive|p-?hack": 2,
+                r"retail|day[- ]trad": 1, r"foreign exchange|currenc|\bgold\b|bitcoin|crypto|futures|silver": 1},
+    n_evidence_candidates=70,
+    heatmap=dict(
+        title="Methods against markets: how the technical-analysis and snooping literature is spread (coded from title + abstract)",
+        row_title="Method or topic named in title/abstract", col_title="Market or data named in title/abstract",
+        caution="Mention is not design: a paper that names 'stock' once in its motivation counts the same as one that tests only stocks, and only title and abstract are read. Cells are not exclusive.",
+        rows={"Support / resistance, price levels": r"\b(support and resistance|support[/-]resistance|support levels?|resistance levels?|price levels?|price barriers?|round numbers?)\b",
+              "Moving averages / trend following": r"\b(moving[- ]averages?|trend[- ]following|momentum (strateg\w+|trading)|channel breakout|trading range)\b",
+              "Candlestick / chart patterns": r"\b(candlesticks?|chart(ing)? patterns?|head[- ]and[- ]shoulders)\b",
+              "Smart money / ICT / order blocks": r"\b(smart money|order blocks?|fair value gaps?|inner circle|\bict\b|liquidity sweeps?)\b",
+              "Stop-loss / order clustering": r"\b(stop[- ]loss|order clustering|clusters? of orders?|price clustering|take[- ]profit)\b",
+              "Data snooping / reality check / SPA": r"\b(data[- ]snooping|reality check|superior predictive ability|stepwise)\b",
+              "Multiple testing / false discovery": r"\b(multiple (hypothesis )?testing|false discover\w*|multiple comparisons?|familywise|p-?hacking|t-?hurdle)\b",
+              "Backtest overfitting / deflated Sharpe": r"\b(backtest\w*|back-test\w*|overfit\w*|deflated sharpe|probability of backtest)\b",
+              "Retail traders": r"\b(retail (traders?|investors?|trading)|day[- ]trad\w+|individual investors?)\b"},
+        cols={"Stocks / equity indices": r"\b(stocks?|equit\w+|dow jones|s&p|nasdaq|share prices?)\b",
+              "Foreign exchange": r"\b(foreign exchange|exchange rates?|currenc\w+|forex|\bfx\b)\b",
+              "Futures / commodities": r"\b(futures|commodit\w+|oil|crude)\b",
+              "Gold / precious metals": r"\b(gold|silver|precious metals?)\b",
+              "Cryptocurrency": r"\b(bitcoin|crypto\w*|ethereum)\b",
+              "Funds / factors / cross-section": r"\b(mutual funds?|hedge funds?|fund managers?|cross-section|factors?|anomal\w+)\b",
+              "Intraday / high-frequency data": r"\b(intraday|high[- ]frequency|tick data|minute|limit order book)\b"}),
+    readme_limits=["Several papers named in 01-prior-work.md are 2026 SSRN working papers; the corpus includes them only where Crossref/OpenAlex index them."],
+)
+json.dump(cfg, open(os.path.join(B, "config.json"), "w", encoding="utf-8"), indent=1)
+print("ok")

@@ -1,0 +1,10 @@
+phase,instrument,entry_cost,exit_cost,carry_per_year,source
+1,BTC/ETH/SOL (Binance spot bars),0.07% of price,0.07% of price,2%,backtest/run_all.py ASSETS
+1,PAXG (Binance),0.10%,0.10%,2%,backtest/run_all.py ASSETS
+1,Gold futures GC=F (Yahoo),"$0.40 per oz round trip, charged once",-,3%,backtest/run_all.py ASSETS
+1,Silver futures SI=F (Yahoo),$0.04 per oz round trip,-,3%,backtest/run_all.py ASSETS
+2-3,BTC/ETH/SOL,market 0.07%; limit 0.02%,target 0.02%; stop 0.07%,2%,phase2/p2common.py CRYPTO; phase3/p3common.py CRYPTO
+2,PAXG,market 0.15%; limit 0.075%,target 0.075%; stop 0.15%,2%,phase2/p2common.py PAXG
+2-3,Gold (GC=F in phase 2; XAUUSD bid bars in phase 3),market $0.35; limit $0.30,target $0; stop $0.05,3%,p2common.py GOLD; p3common.py XAU
+2-3,Silver (SI=F; XAGUSD bid bars),market $0.035; limit $0.030,target $0; stop $0.005,3%,p2common.py SILV; p3common.py XAG
+3,Synthetic MCX gold proxy (exclude from paper),0.0136%,target 0.0086%; stop 0.0186%,0%,phase3/p3common.py MCX

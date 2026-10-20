@@ -1,0 +1,62 @@
+{
+ "backtest/msnr.py": {
+  "sha256_original": "543bb8c74b52e07c3928ea756ff70a4bc6c28b8a40a88f44bd677a944159891e",
+  "replacements": []
+ },
+ "phase2/engine2.py": {
+  "sha256_original": "3202e3903c915cc9c2620fee1b795fc8e47e111c90564e9867115953d1cd5f48",
+  "replacements": []
+ },
+ "phase2/indicators.py": {
+  "sha256_original": "3737d653392e491e10e95f3cd86064a79ce2b9b1d0084f558ee43f2cb4802af5",
+  "replacements": []
+ },
+ "phase3/topdown.py": {
+  "sha256_original": "8410d6b482930186a7f45efdbd85cc239ccd44c85c2ac25d2f74bd7aefbd1c35",
+  "replacements": []
+ },
+ "phase2/p2common.py": {
+  "sha256_original": "3ef3e9f2ca1a5d16bc679758e62b5499bf30c8bb6de35f25157f8b546a28f481",
+  "replacements": [
+   {
+    "old": "sys.path.insert(0, r\"D:/Malaysian-SNR/backtest\"); sys.path.insert(0, r\"D:/Malaysian-SNR/phase2\")",
+    "new": "sys.path.insert(0, r\"D:/Research-Publishing/02-malaysian-snr/followup/lookahead/code_copy\")"
+   }
+  ]
+ },
+ "phase2/p2_phaseA.py": {
+  "sha256_original": "48007657a3276102e5f499cf49f425b0b3e47fbad15281b9eba6fd79fd2d11ef",
+  "replacements": [
+   {
+    "old": "sys.path.insert(0, r\"D:/Malaysian-SNR/phase2\")",
+    "new": "sys.path.insert(0, r\"D:/Research-Publishing/02-malaysian-snr/followup/lookahead/code_copy\")"
+   },
+   {
+    "old": "OUT = Path(r\"D:/Malaysian-SNR/phase2/results/A\")",
+    "new": "OUT = Path(r\"D:/Research-Publishing/02-malaysian-snr/followup/lookahead/scratch/p2A\")"
+   }
+  ]
+ },
+ "phase3/p3common.py": {
+  "sha256_original": "bf27767e926c0a95d4f1804b232679be33f71f16a25819bff0c755e2e8eb1888",
+  "replacements": [
+   {
+    "old": "sys.path.insert(0, str(ROOT / \"backtest\")); sys.path.insert(0, str(ROOT / \"phase2\")); sys.path.insert(0, str(ROOT / \"phase3\"))",
+    "new": "sys.path.insert(0, r\"D:/Research-Publishing/02-malaysian-snr/followup/lookahead/code_copy\")"
+   }
+  ]
+ },
+ "phase3/p3_msnr.py": {
+  "sha256_original": "4234472fdadd9ac4f6b4e21e6d9a25c8babb88efeca996de5efd159f5b5809e6",
+  "replacements": [
+   {
+    "old": "sys.path.insert(0, r\"D:/Malaysian-SNR/phase3\")",
+    "new": "sys.path.insert(0, r\"D:/Research-Publishing/02-malaysian-snr/followup/lookahead/code_copy\")"
+   },
+   {
+    "old": "RES = C.ROOT / \"phase3\" / \"results\"",
+    "new": "RES = Path(r\"D:/Research-Publishing/02-malaysian-snr/followup/lookahead/scratch/p3\")"
+   }
+  ]
+ }
+}

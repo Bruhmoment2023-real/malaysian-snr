@@ -1,0 +1,49 @@
+"groups","words","name_full","n","centrality","density","rcentrality","rdensity","name","color","freq"
+1,"technical analysis 11.5
+technical indicators 4.1
+trading rules 3
+trading strategies 2.9
+moving average 2.4
+stock price prediction 1.9
+macd 1.7
+relative strength index 1.6
+trading volume 1.4
+candlestick patterns 1.3","technical analysis
+technical indicators
+trading rules",74,1.98128509376851,10.4561879284204,3,4,"technical analysis","#E41A1C80",2432
+2,"technical trading rules 5.9
+transaction costs 5.2
+market efficiency 4.7
+buy-and-hold strategy 4
+abnormal returns 3
+trading rule profitability 2.4
+stock returns 1.9
+data snooping bias 1.9
+moving average trading rules 1.7
+data snooping 1.4","technical trading rules
+transaction costs
+market efficiency",61,2.22912016941168,9.02864727400206,4,2,"technical trading rules","#377EB880",2119
+3,"foreign exchange market 5.9
+technical trading 5.8
+trading signals 3.8
+trading profitability 3.5
+momentum trading 2.6
+market microstructure 2.5
+momentum strategies 2.5
+foreign exchange trading 2.4
+intraday trading 1.5
+exchange rate forecasting 1.3","foreign exchange market
+technical trading
+trading signals",30,1.07540919774022,8.8080483320549,2,1,"foreign exchange market","#4DAF4A80",739
+4,"price clustering 10.6
+behavioral finance 4.4
+investor behavior 3.3
+stock market indices 3
+investor sentiment 2.9
+round numbers 2.6
+stock prices 2.1
+price discovery 2.1
+psychological barriers 1.9
+tick size 1.9","price clustering
+behavioral finance
+investor behavior",18,0.60837777495633,9.32503579319101,1,3,"price clustering","#984EA380",367

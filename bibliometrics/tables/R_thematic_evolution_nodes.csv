@@ -1,0 +1,18 @@
+"name","group","label","slice","color","id","sum","freq"
+"financial time series","1964-2011","financial time series--1964-2011","1","#984EA380",0,0.0135265700483092,23
+"foreign exchange market","1964-2011","foreign exchange market--1964-2011","1","#FF7F0080",1,0.0589371980676328,505
+"multiple comparisons","1964-2011","multiple comparisons--1964-2011","1","#A6562880",2,0.00676328502415459,7
+"price clustering","1964-2011","price clustering--1964-2011","1","#E41A1C80",3,0.0753623188405797,206
+"technical analysis","1964-2011","technical analysis--1964-2011","1","#377EB880",4,0.438647342995169,711
+"technical trading rules","1964-2011","technical trading rules--1964-2011","1","#4DAF4A80",5,0.406763285024155,973
+"foreign exchange trading","2012-2019","foreign exchange trading--2012-2019","2","#F781BF80",6,0.0389972144846797,130
+"out-of-sample performance","2012-2019","out-of-sample performance--2012-2019","2","#66C2A580",7,0.0222841225626741,101
+"price clustering","2012-2019","price clustering--2012-2019","2","#E41A1C80",8,0.0724233983286908,229
+"technical analysis","2012-2019","technical analysis--2012-2019","2","#377EB880",9,0.421541318477252,844
+"technical trading","2012-2019","technical trading--2012-2019","2","#FC8D6280",10,0.0538532961931291,273
+"technical trading rules","2012-2019","technical trading rules--2012-2019","2","#4DAF4A80",11,0.390900649953575,715
+"buy-and-hold strategy","2020-2026","buy-and-hold strategy--2020-2026","3","#8DA0CB80",12,0.129441624365482,265
+"market efficiency","2020-2026","market efficiency--2020-2026","3","#E78AC380",13,0.0748730964467005,148
+"technical indicators","2020-2026","technical indicators--2020-2026","3","#A6D85480",14,0.126903553299492,499
+"technical trading rules","2020-2026","technical trading rules--2020-2026","3","#4DAF4A80",15,0.234771573604061,411
+"technical analysis","2020-2026","technical analysis--2020-2026","3","#377EB880",16,0.434010152284264,556

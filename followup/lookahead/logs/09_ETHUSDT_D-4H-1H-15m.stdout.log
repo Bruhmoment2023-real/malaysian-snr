@@ -1,0 +1,13 @@
+ETHUSDT D-4H-1H-15m cell built 26.6 s; T4 bars 284254
+story_simple differs (shipped vs causal) on 8256 of 284254 entry bars
+  configs done 200 40 s
+  configs done 400 42 s
+  configs done 600 44 s
+  configs done 800 50 s
+  configs done 1000 62 s
+  configs done 1200 65 s
+  configs done 1400 69 s
+  configs done 1600 72 s
+  configs done 1800 80 s
+validation vs stored results (no change applied): 1820 of 1820 configs identical
+seconds 80.8

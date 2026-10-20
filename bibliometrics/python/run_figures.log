@@ -1,0 +1,11 @@
+prisma ok
+year_sub ok
+timeline ok
+db ok
+geography ok
+heatmap ok
+citation_network ok
+main_path ok
+cocitation ok
+vosviewer: not run
+captions.md written with 45 entries

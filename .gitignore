@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.numba_cache/
+.venv/
+venv/
+env/
+.Rhistory
+.RData
+.Rproj.user/
+.env
+*.gguf
+*.safetensors
+data/raw/
+.DS_Store

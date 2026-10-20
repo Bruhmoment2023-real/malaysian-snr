@@ -1,0 +1,151 @@
+id	label	description	url	cluster	weight<Citations in corpus>	score<Pub. year>
+1	brock (1992.0)	Simple Technical Trading Rules and the Stochastic Properties of Stock Returns	https://doi.org/10.1111/j.1540-6261.1992.tb04681.x	1	539	1992.0
+2	sullivan (1999.0)	Data‐Snooping, Technical Trading Rule Performance, and the Bootstrap	https://doi.org/10.1111/0022-1082.00163	4	256	1999.0
+3	lo (2000.0)	Foundations of Technical Analysis: Computational Algorithms, Statistical Inference, and Empirical Implementation	https://doi.org/10.1111/0022-1082.00265	1	215	2000.0
+4	fama (1966.0)	Filter Rules and Stock-Market Trading	https://doi.org/10.1086/294849	1	193	1966.0
+5	fama (1970.0)	Efficient Capital Markets: A Review of Theory and Empirical Work	https://doi.org/10.2307/2325486	1	186	1970.0
+6	malkiel (1970.0)	EFFICIENT CAPITAL MARKETS: A REVIEW OF THEORY AND EMPIRICAL WORK*	https://doi.org/10.1111/j.1540-6261.1970.tb00518.x	1	182	1970.0
+7	park (2007.0)	WHAT DO WE KNOW ABOUT THE PROFITABILITY OF TECHNICAL ANALYSIS?	https://doi.org/10.1111/j.1467-6419.2007.00519.x	4	181	2007.0
+8	taylor (1992.0)	The use of technical analysis in the foreign exchange market	https://doi.org/10.1016/0261-5606(92)90048-3	2	180	1992.0
+9	white (2000.0)	A Reality Check for Data Snooping	https://doi.org/10.1111/1468-0262.00152	4	171	2000.0
+10	bessembinder (1995.0)	The profitability of technical trading rules in the Asian stock markets	https://doi.org/10.1016/0927-538x(95)00002-3	1	156	1995.0
+11	bessembinder (1998.0)	Market Efficiency and the Returns to Technical Analysis	https://doi.org/10.2307/3666289	1	149	1998.0
+12	jegadeesh (1993.0)	Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency	https://doi.org/10.1111/j.1540-6261.1993.tb04702.x	3	147	1993.0
+13	neely (1997.0)	Is Technical Analysis in the Foreign Exchange Market Profitable? A Genetic Programming Approach	https://doi.org/10.2307/2331231	2	145	1997.0
+14	sweeney (1986.0)	Beating the Foreign Exchange Market	https://doi.org/10.1111/j.1540-6261.1986.tb04497.x	2	144	1986.0
+15	levich (1993.0)	The significance of technical trading-rule profits in the foreign exchange market: a bootstrap approach	https://doi.org/10.1016/0261-5606(93)90034-9	2	140	1993.0
+16	allen (1999.0)	Using genetic algorithms to find technical trading rules	https://doi.org/10.1016/s0304-405x(98)00052-x	1	136	1999.0
+17	hudson (1996.0)	A note on the weak form efficiency of capital markets: The application of simple technical trading rules to UK stock prices - 1935 to 1994	https://doi.org/10.1016/0378-4266(95)00043-7	1	123	1996.0
+18	blume (1994.0)	Market Statistics and Technical Analysis: The Role of Volume	https://doi.org/10.1111/j.1540-6261.1994.tb04424.x	1	114	1994.0
+19	jensen (1970.0)	RANDOM WALKS AND TECHNICAL THEORIES: SOME ADDITIONAL EVIDENCE	https://doi.org/10.1111/j.1540-6261.1970.tb00671.x	1	113	1970.0
+20	alexander (1961.0)	Price Movements in Speculative Markets : Trends or Random Walks	https://openalex.org/W3151910759	1	110	1961.0
+21	lebaron (1999.0)	Technical trading rule profitability and foreign exchange intervention	https://doi.org/10.1016/s0022-1996(98)00061-0	2	101	1999.0
+22	ratner (1999.0)	Tests of technical trading strategies in the emerging equity markets of Latin America and Asia	https://doi.org/10.1016/s0378-4266(99)00042-4	1	98	1999.0
+23	harris (1991.0)	Stock Price Clustering and Discreteness	https://doi.org/10.1093/rfs/4.3.389	5	94	1991.0
+24	neftçi (1991.0)	Naive Trading Rules in Financial Markets and Wiener-Kolmogorov Prediction Theory: A Study of "Technical Analysis"	https://doi.org/10.1086/296551	1	93	1991.0
+25	zhu (2009.0)	Technical analysis: An asset allocation perspective on the use of moving averages☆	https://doi.org/10.1016/j.jfineco.2008.07.002	3	92	2009.0
+26	olson (2003.0)	Have trading rule profits in the currency markets declined over time?	https://doi.org/10.1016/s0378-4266(02)00399-0	2	91	2003.0
+27	gençay (1998.0)	The predictability of security returns with simple technical trading rules	https://doi.org/10.1016/s0927-5398(97)00022-4	1	91	1998.0
+28	neely (2014.0)	Forecasting the Equity Risk Premium: The Role of Technical Indicators	https://doi.org/10.1287/mnsc.2013.1838	3	90	2014.0
+29	brown (1989.0)	On Technical Analysis	https://doi.org/10.1093/rfs/2.4.527	3	88	1989.0
+30	menkhoff (2006.0)	The obstinate passion of Foreign Exchange Professionals: \ntechnical analysis	https://openalex.org/W2130180922	2	88	2006.0
+31	sweeney (1988.0)	Some New Filter Rule Tests: Methods and Results	https://doi.org/10.2307/2331068	1	87	1988.0
+32	fama (1993.0)	Common risk factors in the returns on stocks and bonds	https://doi.org/10.1016/0304-405x(93)90023-5	3	86	1993.0
+33	bajgrowicz (2012.0)	Technical trading revisited: False discoveries, persistence tests, and transaction costs	https://doi.org/10.1016/j.jfineco.2012.06.001	4	85	2012.0
+34	fama (1965.0)	The Behavior of Stock-Market Prices	https://doi.org/10.1086/294743	1	83	1965.0
+35	bondt (1985.0)	Does the Stock Market Overreact?	https://doi.org/10.1111/j.1540-6261.1985.tb05004.x	3	82	1985.0
+36	ball (1985.0)	The degree of price resolution: The case of the gold market	https://doi.org/10.1002/fut.3990050105	5	82	1985.0
+37	menkhoff (2010.0)	The use of technical analysis by fund managers: International evidence	https://doi.org/10.1016/j.jbankfin.2010.04.014	4	79	2010.0
+38	hsu (2010.0)	Testing the predictive ability of technical analysis using a new stepwise test without data snooping bias	https://doi.org/10.1016/j.jempfin.2010.01.001	4	79	2010.0
+39	hong (1999.0)	A Unified Theory of Underreaction, Momentum Trading, and Overreaction in Asset Markets	https://doi.org/10.1111/0022-1082.00184	3	78	1999.0
+40	han (2011.0)	A New Anomaly: The Cross-Sectional Profitability of Technical Analysis	https://doi.org/10.1017/s0022109013000586	3	74	2011.0
+41	moskowitz (2011.0)	Time Series Momentum	https://doi.org/10.1016/j.jfineco.2011.11.003	3	72	2011.0
+42	ready (2002.0)	Profits from Technical Trading Rules	https://doi.org/10.2307/3666314	1	70	2002.0
+43	lo (1990.0)	Data-Snooping Biases in Tests of Financial Asset Pricing Models	https://doi.org/10.1093/rfs/3.3.431	4	68	1990.0
+44	hsu (2005.0)	Reexamining the Profitability of Technical Analysis with Data Snooping Checks	https://doi.org/10.1093/jjfinec/nbi026	4	66	2005.0
+45	gençay (1999.0)	Linear, non-linear and essential foreign exchange rate prediction with simple technical trading rules	https://doi.org/10.1016/s0022-1996(98)00017-8	2	65	1999.0
+46	osborne (1962.0)	Periodic Structure in the Brownian Motion of Stock Prices	https://doi.org/10.1287/opre.10.3.345	5	65	1962.0
+47	qi (2006.0)	Technical Trading-Rule Profitability, Data Snooping, and Reality Check: Evidence from the Foreign Exchange Market	https://doi.org/10.1353/mcb.2007.0006	2	63	2006.0
+48	fama (1991.0)	Efficient Capital Markets: II	https://doi.org/10.1111/j.1540-6261.1991.tb04636.x	1	63	1991.0
+49	carhart (1997.0)	On Persistence in Mutual Fund Performance	https://doi.org/10.1111/j.1540-6261.1997.tb03808.x	3	63	1997.0
+50	lo (1988.0)	Stock Market Prices Do Not Follow Random Walks: Evidence from a Simple Specification Test	https://doi.org/10.1093/rfs/1.1.41	1	62	1988.0
+51	romano (2005.0)	Stepwise Multiple Testing as Formalized Data Snooping	https://doi.org/10.1111/j.1468-0262.2005.00615.x	4	62	2005.0
+52	newey (1987.0)	A Simple, Positive Semi-Definite, Heteroskedasticity and Autocorrelation Consistent Covariance Matrix	https://doi.org/10.2307/1913610	3	61	1987.0
+53	jegadeesh (2001.0)	Profitability of Momentum Strategies: An Evaluation of Alternative Explanations	https://doi.org/10.1111/0022-1082.00342	3	60	2001.0
+54	lui (1998.0)	The use of fundamental and technical analyses by foreign exchange dealers: Hong Kong evidence	https://doi.org/10.1016/s0261-5606(98)00011-4	2	59	1998.0
+55	benjamini (1995.0)	Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing	https://doi.org/10.1111/j.2517-6161.1995.tb02031.x	4	59	1995.0
+56	daniel (1998.0)	Investor Psychology and Security Market Under‐ and Overreactions	https://doi.org/10.1111/0022-1082.00077	3	59	1998.0
+57	christie (1994.0)	Why do NASDAQ Market Makers Avoid Odd-Eighth Quotes?	https://doi.org/10.1111/j.1540-6261.1994.tb04782.x	5	57	1994.0
+58	kho (1996.0)	Time-varying risk premia, volatility, and technical trading rule profits: Evidence from foreign currency futures markets	https://doi.org/10.1016/0304-405x(95)00861-8	2	57	1996.0
+59	chang (1999.0)	Methodical Madness: Technical Analysis and the Irrationality of Exchange‐rate Forecasts	https://doi.org/10.1111/1468-0297.00466	2	56	1999.0
+60	gunasekarage (2001.0)	The profitability of moving average trading rules in South Asian stock markets	https://doi.org/10.1016/s1566-0141(00)00017-0	1	56	2001.0
+61	osler (2003.0)	Currency Orders and Exchange Rate Dynamics: An Explanation for the Predictive Success of Technical Analysis	https://doi.org/10.1111/1540-6261.00588	2	55	2003.0
+62	anon. (1999.0)	Technical analysis of the financial markets: a comprehensive guide to trading methods and applications	https://doi.org/10.5860/choice.36-4016	1	55	1999.0
+63	kwon (2002.0)	Technical trading strategies and return predictability: NYSE	https://doi.org/10.1080/09603100010016139	1	55	2002.0
+64	cheung (2001.0)	Currency traders and exchange rate dynamics: a survey of the US market	https://doi.org/10.1016/s0261-5606(01)00002-x	2	54	2001.0
+65	treynor (1985.0)	In Defense of Technical Analysis	https://doi.org/10.1111/j.1540-6261.1985.tb05000.x	2	53	1985.0
+66	niederhoffer (1965.0)	Clustering of Stock Prices	https://doi.org/10.1287/opre.13.2.258	5	50	1965.0
+67	szakmary (1997.0)	Central bank intervention and trading rule profits in foreign exchange markets	https://doi.org/10.1016/s0261-5606(97)00017-x	2	50	1997.0
+68	lo (2004.0)	The Adaptive Markets Hypothesis	https://doi.org/10.3905/jpm.2004.442611	4	50	2004.0
+69	shynkevich (2011.0)	Performance of technical analysis in growth and small cap segments of the US equity market	https://doi.org/10.1016/j.jbankfin.2011.07.001	4	49	2011.0
+70	jegadeesh (1990.0)	Evidence of Predictable Behavior of Security Returns	https://doi.org/10.1111/j.1540-6261.1990.tb05110.x	3	48	1990.0
+71	aitken (1996.0)	Price clustering on the Australian Stock Exchange	https://doi.org/10.1016/0927-538x(96)00016-9	5	48	1996.0
+72	neely (2003.0)	Intraday technical trading in the foreign exchange market	https://doi.org/10.1016/s0261-5606(02)00101-8	2	47	2003.0
+73	wong (2003.0)	How rewarding is technical analysis? Evidence from Singapore stock market	https://doi.org/10.1080/0960310022000020906	1	47	2003.0
+74	lo (2000.0)	Foundations of Technical Analysis: Computational Algorithms, Statistical Inference, and Empirical Implementation	https://doi.org/10.3386/w7613	1	47	2000.0
+75	malkiel (1973.0)	A Random Walk Down Wall Street	https://openalex.org/W1508947067	1	46	1973.0
+76	gehrig (2006.0)	Extended evidence on the use of technical analysis in foreign exchange	https://doi.org/10.1002/ijfe.301	2	45	2006.0
+77	neely (2009.0)	The Adaptive Markets Hypothesis: Evidence from the Foreign Exchange Market	https://doi.org/10.1017/s0022109009090103	2	45	2009.0
+78	barras (2010.0)	False Discoveries in Mutual Fund Performance: Measuring Luck in Estimated Alphas	https://doi.org/10.1111/j.1540-6261.2009.01527.x	4	45	2010.0
+79	mills (1997.0)	Technical analysis and the London Stock Exchange: testing trading rules using the FT30	https://doi.org/10.1002/(sici)1099-1158(199710)2:4<319::aid-jfe53>3.0.co;2-6	1	45	1997.0
+80	horne (1967.0)	The Random-Walk Theory: An Empirical Test	https://doi.org/10.2469/faj.v23.n6.87	1	45	1967.0
+81	okunev (2003.0)	Do Momentum-Based Strategies Still Work in Foreign Currency Markets?	https://doi.org/10.2307/4126758	2	44	2003.0
+82	lukac (1988.0)	A test of futures market disequilibrium using twelve different technical trading systems	https://doi.org/10.1080/00036848800000113	2	43	1988.0
+83	marshall (2007.0)	Does intraday technical analysis in the U.S. equity market have value?	https://doi.org/10.1016/j.jempfin.2006.05.003	4	43	2007.0
+84	kavajecz (2004.0)	Technical Analysis and Liquidity Provision	https://doi.org/10.1093/rfs/hhg057	2	42	2004.0
+85	welch (2007.0)	A Comprehensive Look at The Empirical Performance of Equity Premium Prediction	https://doi.org/10.1093/rfs/hhm014	3	42	2007.0
+86	allen (1990.0)	Charts, Noise and Fundamentals in the London Foreign Exchange Market	https://doi.org/10.2307/2234183	2	41	1990.0
+87	lo (1990.0)	When Are Contrarian Profits Due to Stock Market Overreaction?	https://doi.org/10.1093/rfs/3.2.175	3	41	1990.0
+88	curcio (1991.0)	The Clustering of Bid/Ask Prices and the Spread in the Foreign Exchange Market	https://openalex.org/W1597414979	5	41	1991.0
+89	gwilym (1998.0)	Extreme price clustering in the London equity index futures and options markets	https://doi.org/10.1016/s0378-4266(98)00054-5	5	41	1998.0
+90	hsu (2016.0)	Technical trading: Is it still beating the foreign exchange market?	https://doi.org/10.1016/j.jinteco.2016.03.012	4	41	2016.0
+91	wilder (1978.0)	New Concepts in Technical Trading Systems	https://openalex.org/W2130364193	2	41	1978.0
+92	neely (1999.0)	Technical trading rules in the European Monetary System	https://doi.org/10.1016/s0261-5606(99)85005-0	2	40	1999.0
+93	lebaron (1996.0)	Technical Trading Rule Profitability and Foreing Exchange Intervention	https://openalex.org/W2891985843	2	39	1996.0
+94	lehmann (1990.0)	Fads, Martingales, and Market Efficiency	https://doi.org/10.2307/2937816	3	39	1990.0
+95	newey (1986.0)	A Simple, Positive Semi-Definite, Heteroskedasticity and AutocorrelationConsistent Covariance Matrix	https://doi.org/10.3386/t0055	3	39	1986.0
+96	sopranzetti (2002.0)	Price clustering in foreign exchange spot markets	https://doi.org/10.1016/s1386-4181(01)00032-5	5	39	2002.0
+97	han (2016.0)	A trend factor: Any economic gains from using information over investment horizons?	https://doi.org/10.1016/j.jfineco.2016.01.029	3	39	2016.0
+98	harvey (2015.0)	… and the Cross-Section of Expected Returns	https://doi.org/10.1093/rfs/hhv059	3	39	2015.0
+99	marshall (2005.0)	Candlestick technical trading strategies: Can they create value for investors?	https://doi.org/10.1016/j.jbankfin.2005.08.001	1	39	2005.0
+100	levy (1967.0)	RELATIVE STRENGTH AS A CRITERION FOR INVESTMENT SELECTION	https://doi.org/10.1111/j.1540-6261.1967.tb00295.x	1	39	1967.0
+101	long (1990.0)	Noise Trader Risk in Financial Markets	https://doi.org/10.1086/261703	2	39	1990.0
+102	oberlechner (2001.0)	Importance of technical and fundamental analysis in the European foreign exchange market	https://doi.org/10.1002/ijfe.145	2	38	2001.0
+103	neely (2002.0)	The temporal pattern of trading rule returns and exchange rate intervention: intervention does not generate technical trading profits	https://doi.org/10.1016/s0022-1996(01)00163-5	2	38	2002.0
+104	bollerslev (1986.0)	Generalized autoregressive conditional heteroskedasticity	https://doi.org/10.1016/0304-4076(86)90063-1	1	38	1986.0
+105	efron (1979.0)	Bootstrap Methods: Another Look at the Jackknife	https://doi.org/10.1214/aos/1176344552	1	38	1979.0
+106	gençay (1998.0)	Moving average rules, volume and the predictability of security returns with feedforward networks	https://doi.org/10.1002/(sici)1099-131x(1998090)17:5/6<401::aid-for704>3.0.co;2-c	2	38	1998.0
+107	timmermann (2003.0)	Efficient market hypothesis and forecasting	https://doi.org/10.1016/s0169-2070(03)00012-8	4	37	2003.0
+108	long (1990.0)	Positive Feedback Investment Strategies and Destabilizing Rational Speculation	https://doi.org/10.1111/j.1540-6261.1990.tb03695.x	3	37	1990.0
+109	1893- (1997.0)	Technical analysis of stock trends	https://doi.org/10.5860/choice.35-2224	1	37	1997.0
+110	mclean (2015.0)	Does Academic Research Destroy Stock Return Predictability?	https://doi.org/10.1111/jofi.12365	3	37	2015.0
+111	yu (2012.0)	Predictive ability and profitability of simple technical trading rules: Recent evidence from Southeast Asian stock markets	https://doi.org/10.1016/j.iref.2012.07.016	1	37	2012.0
+112	rouwenhorst (1998.0)	International Momentum Strategies	https://doi.org/10.1111/0022-1082.95722	3	37	1998.0
+113	conrad (1998.0)	An Anatomy of Trading Strategies	https://doi.org/10.1093/rfs/11.3.489	3	37	1998.0
+114	christie (1994.0)	Why Did NASDAQ Market Makers Stop Avoiding Odd‐Eighth Quotes?	https://doi.org/10.1111/j.1540-6261.1994.tb04783.x	5	36	1994.0
+115	mitchell (2001.0)	Clustering and psychological barriers: the importance of numbers	https://doi.org/10.1002/fut.2	5	36	2001.0
+116	lee (1996.0)	Trading rule profits in european currency spot cross-rates	https://doi.org/10.1016/0378-4266(95)00037-2	2	36	1996.0
+117	ikenberry (2007.0)	Clustering in US Stock Prices after Decimalisation	https://doi.org/10.1111/j.1468-036x.2007.00410.x	5	36	2007.0
+118	jensen (1978.0)	Some anomalous evidence regarding market efficiency	https://doi.org/10.1016/0304-405x(78)90025-9	1	36	1978.0
+119	barberis (1998.0)	A model of investor sentiment1We are grateful to the NSF for financial support, and to Oliver Blanchard, Alon Brav, John Campbell (a referee), John Cochrane, Edward Glaeser, J.B. Heaton, Danny Kahneman, David Laibson, Owen Lamont, Drazen Prelec, Jay Ritter (a referee), Ken Singleton, Dick Thaler, an anonymous referee, and the editor, Bill Schwert, for comments.1	https://doi.org/10.1016/s0304-405x(98)00027-0	3	35	1998.0
+120	taylor (2013.0)	The Rise and Fall of Technical Trading Rule Success	https://doi.org/10.1016/j.jbankfin.2013.12.004	4	35	2013.0
+121	grossman (1997.0)	Clustering and Competition in Asset Markets	https://doi.org/10.1086/467365	5	34	1997.0
+122	fifield (2005.0)	An analysis of trading strategies in eleven European stock markets	https://doi.org/10.1080/1351847042000304099	1	34	2005.0
+123	barberis ()	A model of investor sentiment /	https://openalex.org/W3122578644	3	34	
+124	szakmary (2009.0)	Trend-following trading strategies in commodity futures: A re-examination	https://doi.org/10.1016/j.jbankfin.2009.08.004	4	33	2009.0
+125	chong (2008.0)	Technical analysis and the London stock exchange: testing the MACD and RSI rules using the FT30	https://doi.org/10.1080/13504850600993598	1	33	2008.0
+126	fama (1988.0)	Permanent and Temporary Components of Stock Prices	https://doi.org/10.1086/261535	1	32	1988.0
+127	sharpe (1966.0)	Mutual Fund Performance	https://doi.org/10.1086/294846	2	32	1966.0
+128	menkhoff (1997.0)	Examining the use of technical currency analysis	https://doi.org/10.1002/(sici)1099-1158(199710)2:4<307::aid-jfe54>3.0.co;2-8	2	32	1997.0
+129	griffioen (2004.0)	Technical Analysis in Financial Markets	https://doi.org/10.2139/ssrn.566882	1	32	2004.0
+130	marshall (2007.0)	Can commodity futures be profitably traded with quantitative market timing strategies?	https://doi.org/10.1016/j.jbankfin.2007.12.011	4	32	2007.0
+131	fama (1973.0)	Risk, Return, and Equilibrium: Empirical Tests	https://doi.org/10.1086/260061	3	32	1973.0
+132	sharpe (1964.0)	CAPITAL ASSET PRICES: A THEORY OF MARKET EQUILIBRIUM UNDER CONDITIONS OF RISK*	https://doi.org/10.1111/j.1540-6261.1964.tb02865.x	3	32	1964.0
+133	pring (1985.0)	Technical Analysis Explained: The Successful Investor's Guide to Spotting Investment Trends and Turning Points	https://openalex.org/W1512558465	1	32	1985.0
+134	anon. (2011.0)	Technical analysis: the complete resource for financial market technicians	https://doi.org/10.5860/choice.48-5201	1	32	2011.0
+135	gençay (1998.0)	Optimization of technical trading strategies and the profitability in security markets	https://doi.org/10.1016/s0165-1765(98)00051-2	1	32	1998.0
+136	rodríguez (2000.0)	On the profitability of technical trading rules based on artificial neural networks:	https://doi.org/10.1016/s0165-1765(00)00270-6	1	32	2000.0
+137	niederhoffer (1966.0)	A New Look at Clustering of Stock Prices	https://doi.org/10.1086/294854	5	32	1966.0
+138	fama (1992.0)	The Cross-Section of Expected Stock Returns	https://doi.org/10.1111/j.1540-6261.1992.tb04398.x	3	32	1992.0
+139	asness (2013.0)	Value and Momentum Everywhere	https://doi.org/10.1111/jofi.12021	3	32	2013.0
+140	metghalchi (2011.0)	Are moving average trading rules profitable? Evidence from the European stock markets	https://doi.org/10.1080/00036846.2010.543084	4	32	2011.0
+141	storey (2002.0)	A Direct Approach to False Discovery Rates	https://doi.org/10.1111/1467-9868.00346	4	32	2002.0
+142	fama (2014.0)	A five-factor asset pricing model	https://doi.org/10.1016/j.jfineco.2014.10.010	3	32	2014.0
+143	neely (2001.0)	Technical analysis and central bank intervention	https://doi.org/10.1016/s0261-5606(01)00033-x	2	31	2001.0
+144	neely (1997.0)	Technical Analysis in the Foreign Exchange Market: A Layman's Guide	https://doi.org/10.20955/r.79.23-38	2	31	1997.0
+145	nazário (2017.0)	A literature review of technical analysis on stock markets	https://doi.org/10.1016/j.qref.2017.01.014	4	31	2017.0
+146	chan (1996.0)	Momentum Strategies	https://doi.org/10.1111/j.1540-6261.1996.tb05222.x	3	31	1996.0
+147	nison (1991.0)	Japanese candlestick charting techniques	https://openalex.org/W93851859	1	30	1991.0
+148	brown (1998.0)	The Dow Theory: William Peter Hamilton's Track Record Reconsidered	https://doi.org/10.1111/0022-1082.00054	1	30	1998.0
+149	tversky (1974.0)	Judgment under Uncertainty: Heuristics and Biases	https://doi.org/10.1126/science.185.4157.1124	3	30	1974.0
+150	chang (2004.0)	Testing for predictability in emerging equity markets	https://doi.org/10.1016/j.ememar.2004.03.005	1	30	2004.0

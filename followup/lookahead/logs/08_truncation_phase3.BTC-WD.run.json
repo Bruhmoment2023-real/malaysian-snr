@@ -1,0 +1,9 @@
+﻿{
+    "script":  "08_truncation_phase3.BTC-WD",
+    "started":  "2026-10-13T22:50:05",
+    "status":  "completed",
+    "exit_code":  0,
+    "wall_seconds":  205.1,
+    "cpu_seconds":  448.1,
+    "peak_working_set_MB":  708
+}

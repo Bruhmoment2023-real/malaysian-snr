@@ -1,0 +1,62 @@
+[P1] trades in trades_default_full.csv: reported=n/a recomputed=121916 
+[P1] FULL-period cells: n cells: reported=95 recomputed=95 cells compared
+[P1] FULL-period cells: max |trade-count diff|: reported=0 recomputed=0.0 
+[P1] FULL-period cells: max |net avg R diff|: reported=0 recomputed=5e-05 CSV rounded to 4 dp / 6 sig figs
+[P1] FULL-period cells: max |gross avg R diff|: reported=0 recomputed=5e-05 
+[P1] OOS cells total: reported=95 recomputed=95 
+[P1] OOS cells losing money (avg_R<0): reported=84 recomputed=84 zero-trade/NaN cells: 0; avg_R>0: 11
+[P1] OOS cells with >=30 trades: reported=73 recomputed=73 
+[P1] OOS cells >=30 trades and net positive: reported=4 recomputed=4 GC=F 4h V2_story +0.007 (n=69); SI=F 4h V1_plain +0.050 (n=129); GC=F_D2011 1d V1_plain +0.095 (n=130); GC=F_D2011 1d V2_story +0.083 (n=79)
+[P1] OOS cells with a random baseline: reported=89 recomputed=89 
+[P1] OOS cells gross beating random at p<0.05 (one-sided): reported=3 recomputed=3 expected by chance 4.45; BH min q = 0.294
+[P1] OOS cells gross WORSE than random at p>0.95: reported=n/a recomputed=6 lower tail, same expectation
+[P1] OOS win-rate range, cells >=30 trades: reported=25-38% recomputed=0.181-0.405 median 0.306; share within 0.25-0.38: 0.88
+[P1] pooled table: max |net R diff| vs stored: reported=0 recomputed=7e-05 
+[P1] pooled table: max |z diff| vs stored: reported=0 recomputed=0.0032 
+[P1] OOS pooled 1h V0_raw net R / z: reported=-0.68 / 2.6 recomputed=-0.680 / 2.60 n=19613
+[P1] OOS pooled 1h V2_story net R / z: reported=-0.582 / 0.06 recomputed=-0.582 / 0.07 n=6416
+[P1] OOS pooled 4h V3_QM_story net R / z: reported=-0.495 / -2.39 recomputed=-0.495 / -2.39 n=270
+[P1] OOS pooled 1d V3_QM_story net R / z: reported=-0.573 / -2.26 recomputed=-0.573 / -2.26 n=53
+[P1] OOS pooled 1d V1_plain net R / z: reported=-0.095 / 0.45 recomputed=-0.095 / 0.45 n=519
+[P1] IS pooled 1h V0 z vs random: reported=7.3 recomputed=7.31 gross edge +0.0612 R, cost 0.534 R
+[P1] OOS pooled 1h V0 gross edge vs random (R) and avg cost (R): reported=+0.03..+0.06 / 0.4-0.7 recomputed=+0.0261 / 0.626 
+[P1] Gold daily OOS V1: net R / trades / PF: reported=+0.095 / 130 / 1.15 recomputed=+0.095 / 130 / 1.15 p_gross_vs_random=0.050
+[P1] Gold daily IS V1: net R: reported=-0.3 recomputed=-0.3 n=167
+[P1] ALL OOS trades pooled: n / net R / gross R / random gross R: reported=n/a recomputed=50108 / -0.5468 / -0.0583 / -0.0598 overall z vs random 0.26
+[P1] share of LONG trades by variant (full period): reported=not reported recomputed={"V0_raw": 0.492, "V1_plain": 0.5145, "V2_story": 0.5277, "V3_QM_story": 0.5287, "V4_HTFlvl_story": 0.5355} random benchmark uses 50/50 for V0/V1
+[P1] V0/V1 per-cell long share min-max: reported=not reported recomputed=0.447-0.639 
+[P2] configs: reported=22640 recomputed=22640 
+[P2] configs with one-sided t-test p<0.05: reported=138 recomputed=138 expected under global null 1132
+[P2] configs with stored q_BH<0.10: reported=3 recomputed=3 SOLUSDT_1d n=5; SOLUSDT_1d n=5; SOLUSDT_1d n=5
+[P2] configs with recomputed global BH q<0.10: reported=3 recomputed=3 max |q diff| vs stored 0.0000
+[P2] BH survivors that also have >=100 WF trades: reported=0 recomputed=0 
+[P2] configs with DSR>0.95: reported=0 recomputed=0 max DSR 0.7397
+[P2] min Reality-Check p / min SPA p over 20 cells: reported=none significant recomputed=0.073 / 0.617 
+[P2] configs meeting all six criteria (WIN): reported=0 recomputed=0 criteria histogram {"0": 6153, "1": 11740, "2": 4147, "3": 520, "4": 71, "5": 9}
+[P2] MSNR solo fixed V1 2R: WF trades / net R: reported=66,274 / -0.519 recomputed=66274 / -0.519 
+[P2] MSNR solo fixed V1 2R: holdout trades / net R: reported=13,079 / -0.599 recomputed=13079 / -0.599 
+[P2] MSNR solo fixed V1 2R: WF gross R / random gross R: reported=not reported recomputed=-0.0348 / -0.0379 cells gross-beating random p<0.05: 2/20
+[P3] MSNR configs: reported=94068 recomputed=94068 
+[P3] criteria histogram: reported=0:7720 1:77974 2:5990 3:2325 4:55 5:4 recomputed={"0": 7720, "1": 77974, "2": 5990, "3": 2325, "4": 55, "5": 4} 
+[P3] configs passing all six: reported=0 recomputed=0 
+[P3] configs with p<0.05 (one-sided t): reported=not reported recomputed=90 expected under global null 4703
+[P3] min BH q (stored / recomputed global): reported=~1 recomputed=1.0000 / 1.0000 configs q<0.10 stored 0, recomputed 0
+[P3] BH survivors with >=100 WF trades: reported=0 recomputed=0 
+[P3] max DSR (all) / max DSR (>=100 trades): reported=~0 recomputed=0.5367 / 0.0571 
+[P3] min RC p / min SPA p over 18 cells: reported=not reported recomputed=0.147 / 0.847 
+[P3] excluding synthetic MCX proxy: configs / p<0.05 / BH q<0.10 / max DSR(>=100tr): reported=n/a recomputed=67284 / 22 / 0 / 0.0385 
+[P3] canonical pooled WF: trades / net R (trade-weighted): reported=9,155 / -0.496 recomputed=9147 / -0.496 gross -0.0466; unweighted cell mean net -0.352
+[P3] canonical pooled holdout: trades / net R: reported=1,262 / -0.325 recomputed=1262 / -0.325 
+[P3] canonical cells WF-positive / beating random p<0.05: reported=2 / 1 recomputed=2 / 1 
+[P3] canonical, 15 real-data cells only: WF trades / net / gross: reported=n/a recomputed=8125 / -0.511 / -0.0330 holdout 1134 / -0.383; cells WF-pos 1
+[P3] canonical, excl. MCX proxy and silver: WF trades / net / gross: reported=n/a recomputed=6268 / -0.336 / -0.0188 silver's cost per trade dominates the pooled figure
+[P3] canonical trade arrays found (cells): reported=18 recomputed=18 crc 6656813
+[P3] canonical from raw trades, exit before holdout: n / net R / gross R: reported=9,155 / -0.496 recomputed=9145 / -0.498 / -0.0484 continuous run split by exit time; phase A ran fold-by-fold, so counts differ slightly
+[P3] canonical from raw trades, exit in holdout: n / net R: reported=1,262 / -0.325 recomputed=1264 / -0.326 
+[P3] canonical WF win rate / break-even win rate at 3R: reported=not reported recomputed=0.245 / 0.250 TP-hit share 0.245
+[P3] canonical WF long share: reported=not reported recomputed=0.531 
+[P3] canonical WF net R: mean, 95% CI (iid trades): reported=n/a recomputed=-0.498 [-0.537, -0.459] 
+[P3] canonical WF GROSS R: mean, 95% CI (iid trades): reported=n/a recomputed=-0.048 [-0.085, -0.012] 
+[P3] canonical WF GROSS R, 15 real cells: mean, 95% CI: reported=n/a recomputed=-0.034 [-0.071, 0.003] n=8126 
+[P3] best ablation mean WF net R (>=18 cells): reported=-0.22 recomputed=-0.234 the -0.216 row covers only 3 cells (gap levels, MCX proxy)
+WROTE D:\Research-Publishing\02-malaysian-snr\results\reproduction_check.csv 61 rows

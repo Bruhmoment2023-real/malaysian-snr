@@ -1,0 +1,3887 @@
+{
+ "01-newyorkfed-org-medialibrary-media-research-epr-2000-eprvol6no2-pdf": {
+  "n": 1,
+  "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/2000/eprvol6no2.pdf",
+  "source_md_line": 102,
+  "accessed_utc": "2026-10-13T16:54:27Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/01-newyorkfed-org-medialibrary-media-research-epr-2000-eprvol6no2-pdf/live.pdf",
+    "bytes": 952796,
+    "sha256": "00b00a0c3e3072415e3605c9c28bfda5a95f202f1d3e3c71c7575d8ccff59148"
+   },
+   {
+    "file": "snapshots/01-newyorkfed-org-medialibrary-media-research-epr-2000-eprvol6no2-pdf/wayback.pdf",
+    "bytes": 952796,
+    "sha256": "00b00a0c3e3072415e3605c9c28bfda5a95f202f1d3e3c71c7575d8ccff59148"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.newyorkfed.org/medialibrary/media/research/epr/2000/eprvol6no2.pdf",
+  "content_type": "application/pdf",
+  "redirects": [],
+  "kind": "pdf",
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:07:47Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:09:43Z",
+   "status": 200,
+   "captures_days": 19,
+   "captures_200": 8,
+   "first": "20161227142527",
+   "last": "20240725125929",
+   "last_200": "20240725125929"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20240725125929/https://www.newyorkfed.org/medialibrary/media/research/epr/2000/eprvol6no2.pdf",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20240725125929id_/https://www.newyorkfed.org/medialibrary/media/research/epr/2000/eprvol6no2.pdf",
+   "status": 200,
+   "timestamp": "20240725125929",
+   "fetched_utc": "2026-10-13T17:10:01Z"
+  },
+  "wayback_done": true
+ },
+ "02-ideas-repec-org-p-fip-fednsr-125-html": {
+  "n": 2,
+  "url": "https://ideas.repec.org/p/fip/fednsr/125.html",
+  "source_md_line": 106,
+  "accessed_utc": "2026-10-13T16:54:32Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/02-ideas-repec-org-p-fip-fednsr-125-html/live.html",
+    "bytes": 73351,
+    "sha256": "39b2435ef9eacfb80ec47f6f2fe2116a47c5fe07b5977560861fb3923dda6d8e"
+   },
+   {
+    "file": "snapshots/02-ideas-repec-org-p-fip-fednsr-125-html/live.txt",
+    "bytes": 27387,
+    "sha256": "ac6c4ec91146d49a67c9bb5de82eab611968a8070f829f09acbf154b97dafd8e"
+   },
+   {
+    "file": "snapshots/02-ideas-repec-org-p-fip-fednsr-125-html/wayback.html",
+    "bytes": 49578,
+    "sha256": "14334b019172d929e8e9b57e00d2ecd2358dbcba39e949e44935d3b24990095e"
+   },
+   {
+    "file": "snapshots/02-ideas-repec-org-p-fip-fednsr-125-html/wayback.txt",
+    "bytes": 16966,
+    "sha256": "acb1c51d835edcc12436d4ecfc8c7a563974769ebf302a4491e02c3ffa1304b0"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://ideas.repec.org/p/fip/fednsr/125.html",
+  "content_type": "text/html; charset=UTF-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 27370,
+  "page_meta": {
+   "title": "Currency orders and exchange-rate dynamics: explaining the success of technical analysis",
+   "description": "Downloadable! This paper provides a microstructural explanation for the success of two familiar predictions from technical analysis: 1) trends tend to be reversed at predictable support and resistance levels, and 2) trends gain momentum once predictable support and resistance levels are crossed. ; The explanation is based on a close examination of stop-loss and take-profit orders at a large foreign exchange dealing bank. Take-profit orders tend to reflect price trends, and stop-loss orders tend to intensify trends. The requested execution rates of these orders are strongly clustered at round numbers, which are often used as support and resistance levels. Significantly, there are marked differences between the clustering patterns of stop-loss and take-profit orders, and between the patterns of stop-loss buy and stop-loss sell orders. These differences explain the success of the two predictions.",
+   "keywords": "Financial markets; International finance",
+   "author": "Carol L. Osler",
+   "og:title": "Currency orders and exchange-rate dynamics: explaining the s",
+   "og:description": "This paper provides a microstructural explanation for the success of two familiar predictions from technical analysis: 1) trends tend to be reversed at predictable support and resistance levels, and 2",
+   "og:url": "https://ideas.repec.org//p/fip/fednsr/125.html",
+   "json_ld": [
+    {
+     "@context": "http://schema.org",
+     "@graph": [
+      {
+       "@id": "#periodical",
+       "@type": "Periodical",
+       "name": "Staff Reports",
+       "publisher": "Federal Reserve Bank of New York",
+       "url": "https://ideas.repec.org/s/fip/fednsr.html",
+       "requiresSubscription": "false"
+      },
+      {
+       "@id": "#number",
+       "@type": "PublicationIssue",
+       "datePublished": "2001",
+       "issueNumber": "125"
+      },
+      {
+       "@id": "#article",
+       "@type": "ScholarlyArticle",
+       "name": "Currency orders and exchange-rate dynamics: explaining the success of technical analysis",
+       "url": "https://ideas.repec.org//p/fip/fednsr/125.html",
+       "description": "This paper provides a microstructural explanation for the success of two familiar predictions from technical analysis: 1) trends tend to be reversed at predictable support and resistance levels, and 2) trends gain momentum once predictable support and resistance levels are crossed. ; The explanation is based on a close examination of stop-loss and take-profit orders at a large foreign exchange dealing bank. Take-profit orders tend to reflect price trends, and stop-loss orders tend to intensify trends. The requested execution rates of these orders are strongly clustered at round numbers, which are often used as support and resistance levels. Significantly, there are marked differences between the clustering patterns of stop-loss and take-profit orders, and between the patterns of stop-loss buy and stop-loss sell orders. These differences explain the success of the two predictions.",
+       "keywords": "Financial markets; International finance",
+       "author": "Carol L. Osler",
+       "isPartOf": [
+        {
+         "@id": "#periodical"
+        },
+        {
+         "@id": "#number"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:10:22Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:10:46Z",
+   "status": 200,
+   "captures_days": 20,
+   "captures_200": 20,
+   "first": "20030509134503",
+   "last": "20160809074820",
+   "last_200": "20160809074820"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20160809074820/https://ideas.repec.org/p/fip/fednsr/125.html",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20160809074820id_/https://ideas.repec.org/p/fip/fednsr/125.html",
+   "status": 200,
+   "timestamp": "20160809074820",
+   "fetched_utc": "2026-10-13T17:11:04Z",
+   "text_chars": 16959,
+   "title": "Currency orders and exchange-rate dynamics: explaining the success of technical analysis"
+  },
+  "wayback_done": true
+ },
+ "03-arxiv-org-abs-2101-07410": {
+  "n": 3,
+  "url": "https://arxiv.org/abs/2101.07410",
+  "source_md_line": 110,
+  "accessed_utc": "2026-10-13T16:54:35Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/03-arxiv-org-abs-2101-07410/live.html",
+    "bytes": 40081,
+    "sha256": "f2b03407a45d8cc471de5ffc4e09827c4ac242aa8546103d95542cea1ea62a9c"
+   },
+   {
+    "file": "snapshots/03-arxiv-org-abs-2101-07410/live.txt",
+    "bytes": 4260,
+    "sha256": "6faef5f1a8e6face4339032299b05b20397f791d7af03bc945c8217bd8f6e6fa"
+   },
+   {
+    "file": "snapshots/03-arxiv-org-abs-2101-07410/wayback.html",
+    "bytes": 44229,
+    "sha256": "1da02605d1b1833792b9215f42e349be5a83700d76cadcd4aef888e8912e8bbf"
+   },
+   {
+    "file": "snapshots/03-arxiv-org-abs-2101-07410/wayback.txt",
+    "bytes": 4446,
+    "sha256": "775a969acfbd6593225bf6fbf717064630f018074315b26ea272ce3a0bd2f912"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://arxiv.org/abs/2101.07410",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 4249,
+  "page_meta": {
+   "title": "[2101.07410] Evidence and Behaviour of Support and Resistance Levels in Financial Time Series",
+   "description": "Abstract page for arXiv paper 2101.07410: Evidence and Behaviour of Support and Resistance Levels in Financial Time Series",
+   "og:site_name": "arXiv.org",
+   "og:title": "Evidence and Behaviour of Support and Resistance Levels in Financial Time Series",
+   "og:url": "https://arxiv.org/abs/2101.07410v1",
+   "og:description": "This paper investigates the phenomenon of support and resistance levels (SR levels) in financial time series, which act as temporary price barriers that reverses price trends. We develop a heuristic discovery algorithm for this purpose, to discover and evaluate SR levels for intraday price series. Our simple approach discovers SR levels which are able to reverse price trends statistically significantly. Asset price entering SR levels with higher number of price bounces before are more likely to bounce on such SR levels again. We also show that the decay aspect of the discovered SR levels as decreasing probability of price bounce over time. We conclude SR levels are features in financial time series are not explained simply by AR(1) processes, stationary or otherwise; and that they contribute to the temporary predictability and stationarity of the investigated price series."
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:11:20Z",
+   "status": 200,
+   "closest": {
+    "status": "200",
+    "available": true,
+    "url": "http://web.archive.org/web/20251219024003/https://arxiv.org/abs/2101.07410",
+    "timestamp": "20251219024003"
+   }
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:11:39Z",
+   "status": 200,
+   "captures_days": 5,
+   "captures_200": 3,
+   "first": "20210120015409",
+   "last": "20251219024003",
+   "last_200": "20251219024003"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20251219024003/https://arxiv.org/abs/2101.07410",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20251219024003id_/https://arxiv.org/abs/2101.07410",
+   "status": 200,
+   "timestamp": "20251219024003",
+   "fetched_utc": "2026-10-13T17:11:56Z",
+   "text_chars": 4443,
+   "title": "[2101.07410] Evidence and Behaviour of Support and Resistance Levels in Financial Time Series"
+  },
+  "wayback_done": true
+ },
+ "04-tradingview-com-script-20NljIPT-Malaysian-SnR-Levels": {
+  "n": 4,
+  "url": "https://www.tradingview.com/script/20NljIPT-Malaysian-SnR-Levels/",
+  "source_md_line": 134,
+  "accessed_utc": "2026-10-13T16:54:38Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/04-tradingview-com-script-20NljIPT-Malaysian-SnR-Levels/live.html",
+    "bytes": 288212,
+    "sha256": "453a25606f23b99f946e88de9bfca70b8adf28e0425bf3197418bad1bd8b4769"
+   },
+   {
+    "file": "snapshots/04-tradingview-com-script-20NljIPT-Malaysian-SnR-Levels/live.txt",
+    "bytes": 11092,
+    "sha256": "2a309ef93f7bc81c7d776cf1b563be9b2b705e31fe4cdfd96192c8615db41efc"
+   },
+   {
+    "file": "snapshots/04-tradingview-com-script-20NljIPT-Malaysian-SnR-Levels/wayback.html",
+    "bytes": 212234,
+    "sha256": "15a0f038e94f2c8ee0425d74749021156a842aaadada5dc1c96004a5e8621ff5"
+   },
+   {
+    "file": "snapshots/04-tradingview-com-script-20NljIPT-Malaysian-SnR-Levels/wayback.txt",
+    "bytes": 7845,
+    "sha256": "26da7e8b6be5055bb9bb7dc32c71ff973632916cbb7ed17a0b8ab821b5c6b496"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.tradingview.com/script/20NljIPT-Malaysian-SnR-Levels/",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 11075,
+  "page_meta": {
+   "title": "Malaysian SnR Levels — Indicator by trading-guide — TradingView",
+   "description": "This indicator can be used to display support and resistance levels in accordance with Malaysian SnR, in which Support and Resistance are not areas in a chart but clear levels of a line chart. The term line chart refers the current chart in Tradingview as type Line (not Candles) with it's peaks and valleys.\n\nThere are 3 different horizontal levels in Malaysian SnR:\n\n\nA-Level: This level is located at the peak of this line chart. It is named so because this peak has the shape of the letter …",
+   "og:site_name": "TradingView",
+   "og:title": "Malaysian SnR Levels — Indicator by trading-guide",
+   "og:description": "This indicator can be used to display support and resistance levels in accordance with Malaysian SnR, in which Support and Resistance are not areas in a chart but clear levels of a line chart. The term line chart refers the current chart in Tradingview as type Line (not Candles) with it's peaks and valleys.\n\nThere are 3 different horizontal levels in Malaysian SnR:\n\n\nA-Level: This level is located at the peak of this line chart. It is named so because this peak has the shape of the letter …",
+   "og:url": "https://www.tradingview.com/script/20NljIPT-Malaysian-SnR-Levels/"
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:12:19Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:12:39Z",
+   "status": 200,
+   "captures_days": 1,
+   "captures_200": 1,
+   "first": "20240601193001",
+   "last": "20240601193001",
+   "last_200": "20240601193001"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20240601193001/https://www.tradingview.com/script/20NljIPT-Malaysian-SnR-Levels/",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20240601193001id_/https://www.tradingview.com/script/20NljIPT-Malaysian-SnR-Levels/",
+   "status": 200,
+   "timestamp": "20240601193001",
+   "fetched_utc": "2026-10-13T17:12:57Z",
+   "text_chars": 7834,
+   "title": "Malaysian SnR Levels — Indicator by trading-guide — TradingView"
+  },
+  "wayback_done": true
+ },
+ "05-tradingview-com-script-0cJJ9mUO-Malaysian-SNR-Levels-FVG": {
+  "n": 5,
+  "url": "https://www.tradingview.com/script/0cJJ9mUO-Malaysian-SNR-Levels-FVG/",
+  "source_md_line": 135,
+  "accessed_utc": "2026-10-13T16:54:41Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/05-tradingview-com-script-0cJJ9mUO-Malaysian-SNR-Levels-FVG/live.html",
+    "bytes": 298038,
+    "sha256": "b2470da277d64a1bb6a38d89fb9cbadbf5ea00ba35f18333357fc7bb9e5702d9"
+   },
+   {
+    "file": "snapshots/05-tradingview-com-script-0cJJ9mUO-Malaysian-SNR-Levels-FVG/live.txt",
+    "bytes": 9170,
+    "sha256": "6fc3ae828b1b041b65d203e28cb03c05e6e8f3577e29aa84ab6fea5e5d0c1683"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.tradingview.com/script/0cJJ9mUO-Malaysian-SNR-Levels-FVG/",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 9141,
+  "page_meta": {
+   "title": "Malaysian SNR Levels + FVG — Indicator by trading-guide — TradingView",
+   "description": "This indicator combines the precision of Malaysian SnR levels with Fair Value Gap (FVG) detection, filtering levels to only appear within active FVG zones. This unique combination helps traders focus on the most relevant support and resistance levels where institutional order flow is likely present.\n\n█ WHAT ARE FAIR VALUE GAPS (FVGs)?\n\nA Fair Value Gap is a three-candle pattern where price moves so aggressively that it leaves an unfilled gap between the first and third candle:\n\n\nBullish FVG: …",
+   "og:site_name": "TradingView",
+   "og:title": "Malaysian SNR Levels + FVG — Indicator by trading-guide",
+   "og:description": "This indicator combines the precision of Malaysian SnR levels with Fair Value Gap (FVG) detection, filtering levels to only appear within active FVG zones. This unique combination helps traders focus on the most relevant support and resistance levels where institutional order flow is likely present.\n\n█ WHAT ARE FAIR VALUE GAPS (FVGs)?\n\nA Fair Value Gap is a three-candle pattern where price moves so aggressively that it leaves an unfilled gap between the first and third candle:\n\n\nBullish FVG: …",
+   "og:url": "https://www.tradingview.com/script/0cJJ9mUO-Malaysian-SNR-Levels-FVG/"
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:13:19Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:13:57Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:01:33Z",
+   "endpoint": "https://web.archive.org/save/https://www.tradingview.com/script/0cJJ9mUO-Malaysian-SNR-Levels-FVG/",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013180200/https://www.tradingview.com/script/0cJJ9mUO-Malaysian-SNR-Levels-FVG/",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:02:00 GMT",
+   "body_head": " Malaysian SNR Levels + FVG — Indicator by trading-guide — TradingView ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:03:49Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013180200",
+    "last": "20261013180200",
+    "last_200": "20261013180200"
+   },
+   "final": true
+  }
+ },
+ "06-tradingview-com-script-v5zEBKFJ-Malaysian-SnR-Levels-UAlgo": {
+  "n": 6,
+  "url": "https://www.tradingview.com/script/v5zEBKFJ-Malaysian-SnR-Levels-UAlgo/",
+  "source_md_line": 136,
+  "accessed_utc": "2026-10-13T16:54:43Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/06-tradingview-com-script-v5zEBKFJ-Malaysian-SnR-Levels-UAlgo/live.html",
+    "bytes": 162139,
+    "sha256": "ecf64486fc9a87e0c50a4c788bc3729fd3f9fdbdf628d97478d6aedabf6dd997"
+   },
+   {
+    "file": "snapshots/06-tradingview-com-script-v5zEBKFJ-Malaysian-SnR-Levels-UAlgo/live.txt",
+    "bytes": 2204,
+    "sha256": "2cb1ea08bed00dcb30af06fd15167c09e4edf30f58a336609a2650c3e9b9eaf5"
+   }
+  ],
+  "http_status": 404,
+  "final_url": "https://www.tradingview.com/script/v5zEBKFJ-Malaysian-SnR-Levels-UAlgo/",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 2193,
+  "page_meta": {
+   "title": "Publication not found — TradingView",
+   "og:site_name": "TradingView",
+   "og:url": "https://www.tradingview.com/script/v5zEBKFJ-Malaysian-SnR-Levels-UAlgo/"
+  },
+  "live_status": "DEAD (HTTP 404)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:14:15Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:14:44Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:04:19Z",
+   "endpoint": "https://web.archive.org/save/https://www.tradingview.com/script/v5zEBKFJ-Malaysian-SnR-Levels-UAlgo/",
+   "status": 523,
+   "final_url": "https://web.archive.org/save/https://www.tradingview.com/script/v5zEBKFJ-Malaysian-SnR-Levels-UAlgo/",
+   "content_location": null,
+   "x_archive": null,
+   "body_head": " Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:06:17Z",
+    "status": 200,
+    "captures_days": 0,
+    "captures_200": 0,
+    "first": null,
+    "last": null,
+    "last_200": null
+   },
+   "final": true
+  }
+ },
+ "07-tradingview-com-script-iWgxW7bW": {
+  "n": 7,
+  "url": "https://www.tradingview.com/script/iWgxW7bW/",
+  "source_md_line": 137,
+  "accessed_utc": "2026-10-13T16:54:46Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/07-tradingview-com-script-iWgxW7bW/live.html",
+    "bytes": 331710,
+    "sha256": "c57500312c27268874d8015c4d95c4c1c65520eeae779bc94d0909238e896bd9"
+   },
+   {
+    "file": "snapshots/07-tradingview-com-script-iWgxW7bW/live.txt",
+    "bytes": 6154,
+    "sha256": "e4e2f683f6e61b838ca46b163aae1cb2ab5b2083ab73fd6defbccfc849c470e0"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.tradingview.com/script/iWgxW7bW/",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 5447,
+  "page_meta": {
+   "title": "Malaysian SnR and Decision Levels [DoN]  — Indicator by DoN_JCT — TradingView",
+   "description": "Features\nThis script implements a specific Malaysian SnR (Support and Resistance) strategy combined with Decision Levels based on gap analysis. It is designed to help traders identify key reaction levels across multiple timeframes.\nHow it Works\nSnR Levels (Current & Higher Timeframe)\nThe script calculates Support (\"V\" shape) and Resistance (\"A\" shape) based on fractal geometry.\nIt uses a configurable Pivot Depth (default: 3) to confirm peaks and valleys.\nWhen a High or Low is confirmed by the …",
+   "og:site_name": "TradingView",
+   "og:title": "Malaysian SnR and Decision Levels [DoN]  — Indicator by DoN_JCT",
+   "og:description": "Features\nThis script implements a specific Malaysian SnR (Support and Resistance) strategy combined with Decision Levels based on gap analysis. It is designed to help traders identify key reaction levels across multiple timeframes.\nHow it Works\nSnR Levels (Current & Higher Timeframe)\nThe script calculates Support (\"V\" shape) and Resistance (\"A\" shape) based on fractal geometry.\nIt uses a configurable Pivot Depth (default: 3) to confirm peaks and valleys.\nWhen a High or Low is confirmed by the …",
+   "og:url": "https://jp.tradingview.com/script/iWgxW7bW/"
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:15:06Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:15:32Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:06:47Z",
+   "endpoint": "https://web.archive.org/save/https://www.tradingview.com/script/iWgxW7bW/",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013180651/https://www.tradingview.com/script/iWgxW7bW/",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:06:52 GMT",
+   "body_head": " Malaysian SnR and Decision Levels [DoN] — Indicator by DoN_JCT — TradingView ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:08:55Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013180651",
+    "last": "20261013180651",
+    "last_200": "20261013180651"
+   },
+   "final": true
+  }
+ },
+ "08-tradingview-com-script-zHJLrkfS-Malaysian-SnR-Storyline": {
+  "n": 8,
+  "url": "https://www.tradingview.com/script/zHJLrkfS-Malaysian-SnR-Storyline/",
+  "source_md_line": 138,
+  "accessed_utc": "2026-10-13T16:54:49Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/08-tradingview-com-script-zHJLrkfS-Malaysian-SnR-Storyline/live.html",
+    "bytes": 442773,
+    "sha256": "e70808de9d96534ccbb3be349f403a59ce169b36858dd1ed58cf54e8dc2a6542"
+   },
+   {
+    "file": "snapshots/08-tradingview-com-script-zHJLrkfS-Malaysian-SnR-Storyline/live.txt",
+    "bytes": 6436,
+    "sha256": "9986c257abe29737571a5fe34fcf0f048c5ac49531206f4b070e5b17de37a965"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.tradingview.com/script/zHJLrkfS-Malaysian-SnR-Storyline/",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 6362,
+  "page_meta": {
+   "title": "Malaysian SnR + Storyline  — Indicator by zacdivan — TradingView",
+   "description": "This indicator combines the Malaysian Support & Resistance (SnR) method with a Multi-Timeframe Storyline view.\n\n🔹 Malaysian SnR (A/V levels)\n\nPlots Support & Resistance using candlestick bodies only (close → open).\n\n“A” shape = Resistance (bullish close → bearish open).\n\n“V” shape = Support (bearish close → bullish open).\n\nSupports Fresh/Unfresh logic with wick-touch validation.\n\n🔹 Storyline (W/D/H4/H1 bias lines)\n\nWeekly = Big map / macro bias.\n\nDaily = Medium trend / retracement.\n\nH4 = …",
+   "og:site_name": "TradingView",
+   "og:title": "Malaysian SnR + Storyline  — Indicator by zacdivan",
+   "og:description": "This indicator combines the Malaysian Support & Resistance (SnR) method with a Multi-Timeframe Storyline view.\n\n🔹 Malaysian SnR (A/V levels)\n\nPlots Support & Resistance using candlestick bodies only (close → open).\n\n“A” shape = Resistance (bullish close → bearish open).\n\n“V” shape = Support (bearish close → bullish open).\n\nSupports Fresh/Unfresh logic with wick-touch validation.\n\n🔹 Storyline (W/D/H4/H1 bias lines)\n\nWeekly = Big map / macro bias.\n\nDaily = Medium trend / retracement.\n\nH4 = …",
+   "og:url": "https://www.tradingview.com/script/zHJLrkfS-Malaysian-SnR-Storyline/"
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:15:55Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:16:17Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:09:25Z",
+   "endpoint": "https://web.archive.org/save/https://www.tradingview.com/script/zHJLrkfS-Malaysian-SnR-Storyline/",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013181020/https://www.tradingview.com/script/zHJLrkfS-Malaysian-SnR-Storyline/",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:10:20 GMT",
+   "body_head": " Malaysian SnR + Storyline — Indicator by zacdivan — TradingView ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:11:26Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013181020",
+    "last": "20261013181020",
+    "last_200": "20261013181020"
+   },
+   "final": true
+  }
+ },
+ "09-tradingview-com-script-EBP31cIf-Malaysian-SnR-FxMeng": {
+  "n": 9,
+  "url": "https://www.tradingview.com/script/EBP31cIf-Malaysian-SnR-FxMeng/",
+  "source_md_line": 139,
+  "accessed_utc": "2026-10-13T16:54:52Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/09-tradingview-com-script-EBP31cIf-Malaysian-SnR-FxMeng/live.html",
+    "bytes": 293493,
+    "sha256": "ef952e53ab6441e9e9da81a631549d938597f781de3475eda86615ed4cc2c0ed"
+   },
+   {
+    "file": "snapshots/09-tradingview-com-script-EBP31cIf-Malaysian-SnR-FxMeng/live.txt",
+    "bytes": 3559,
+    "sha256": "4f2d068cee6de89c83fac8f581798d0d736229a2a0934e812d51b0ade92fc98c"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.tradingview.com/script/EBP31cIf-Malaysian-SnR-FxMeng/",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 3538,
+  "page_meta": {
+   "title": "Malaysian SnR [FxMeng] — Indicator by FxMeng — TradingView",
+   "description": "Malaysian SnR is a smart money concept indicator that combines ICT market structure, liquidity zones, and Malaysian Support & Resistance (MSNR) levels.\n\nIt identifies key liquidity areas, detects sweeps and CHOCH (Change of Character), and confirms entries using multi-timeframe alignment (M15, H1, H4). The MSNR levels are calculated from the previous day’s range to project potential expansion zones.\n\nThis tool is designed to help traders spot high-probability setups with clear visual signals …",
+   "og:site_name": "TradingView",
+   "og:title": "Malaysian SnR [FxMeng] — Indicator by FxMeng",
+   "og:description": "Malaysian SnR is a smart money concept indicator that combines ICT market structure, liquidity zones, and Malaysian Support & Resistance (MSNR) levels.\n\nIt identifies key liquidity areas, detects sweeps and CHOCH (Change of Character), and confirms entries using multi-timeframe alignment (M15, H1, H4). The MSNR levels are calculated from the previous day’s range to project potential expansion zones.\n\nThis tool is designed to help traders spot high-probability setups with clear visual signals …",
+   "og:url": "https://www.tradingview.com/script/EBP31cIf-Malaysian-SnR-FxMeng/"
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:16:36Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:17:28Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:11:56Z",
+   "endpoint": "https://web.archive.org/save/https://www.tradingview.com/script/EBP31cIf-Malaysian-SnR-FxMeng/",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013181201/https://www.tradingview.com/script/EBP31cIf-Malaysian-SnR-FxMeng/",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:12:01 GMT",
+   "body_head": " Malaysian SnR [FxMeng] — Indicator by FxMeng — TradingView ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:13:38Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013181201",
+    "last": "20261013181201",
+    "last_200": "20261013181201"
+   },
+   "final": true
+  }
+ },
+ "10-tradingview-com-script-jYg6YsfN-MSNR-Jithuze-Fresh-Levels": {
+  "n": 10,
+  "url": "https://www.tradingview.com/script/jYg6YsfN-MSNR-Jithuze-Fresh-Levels/",
+  "source_md_line": 140,
+  "accessed_utc": "2026-10-13T16:54:54Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/10-tradingview-com-script-jYg6YsfN-MSNR-Jithuze-Fresh-Levels/live.html",
+    "bytes": 425444,
+    "sha256": "4a74b2234cf9c646fcf59583a08e4da992ac1ae437e1667bb71d5e7e77c39235"
+   },
+   {
+    "file": "snapshots/10-tradingview-com-script-jYg6YsfN-MSNR-Jithuze-Fresh-Levels/live.txt",
+    "bytes": 8438,
+    "sha256": "4d649ab3cba00b7ef059880a4bb5497b63d3ee70b08ff558c66a8e06db4f0869"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.tradingview.com/script/jYg6YsfN-MSNR-Jithuze-Fresh-Levels/",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 8423,
+  "page_meta": {
+   "title": "MSNR Jithuze Fresh Levels — Indicator by Jithuze_pipstack — TradingView",
+   "description": "This is a Malaysian SNR Fresh Level Detection Indicator. Enjoy",
+   "og:site_name": "TradingView",
+   "og:title": "MSNR Jithuze Fresh Levels — Indicator by Jithuze_pipstack",
+   "og:description": "This is a Malaysian SNR Fresh Level Detection Indicator. Enjoy",
+   "og:url": "https://www.tradingview.com/script/jYg6YsfN-MSNR-Jithuze-Fresh-Levels/"
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:17:51Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:18:14Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:14:08Z",
+   "endpoint": "https://web.archive.org/save/https://www.tradingview.com/script/jYg6YsfN-MSNR-Jithuze-Fresh-Levels/",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013181412/https://www.tradingview.com/script/jYg6YsfN-MSNR-Jithuze-Fresh-Levels/",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:14:12 GMT",
+   "body_head": " MSNR Jithuze Fresh Levels — Indicator by Jithuze_pipstack — TradingView ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:16:07Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013181412",
+    "last": "20261013181412",
+    "last_200": "20261013181412"
+   },
+   "final": true
+  }
+ },
+ "11-tradingview-com-script-rqicMTGc-Multi-Timeframe-Engulfing-Box-Malaysia": {
+  "n": 11,
+  "url": "https://www.tradingview.com/script/rqicMTGc-Multi-Timeframe-Engulfing-Box-Malaysian-SNR/",
+  "source_md_line": 141,
+  "accessed_utc": "2026-10-13T16:54:57Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/11-tradingview-com-script-rqicMTGc-Multi-Timeframe-Engulfing-Box-Malaysia/live.html",
+    "bytes": 487637,
+    "sha256": "f8f013064f0ecb7af524b48a3fc4bad18406d0df75b64598fdee06f6d37b2c4f"
+   },
+   {
+    "file": "snapshots/11-tradingview-com-script-rqicMTGc-Multi-Timeframe-Engulfing-Box-Malaysia/live.txt",
+    "bytes": 9150,
+    "sha256": "043b6a5490ce22c24c11ecc75a8f94001fdb5359b571bc0925d9a227bb144d39"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.tradingview.com/script/rqicMTGc-Multi-Timeframe-Engulfing-Box-Malaysian-SNR/",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 9131,
+  "page_meta": {
+   "title": "Multi-Timeframe Engulfing Box, Malaysian SNR — Indicator by ClickNull — TradingView",
+   "description": "Multi-Timeframe Engulfing Box Indicator Documentation\nOverview\nThe Multi-Timeframe Engulfing Box Indicator is a powerful tool for identifying and visualizing bullish and bearish engulfing patterns across multiple timeframes. It creates boxes that extend to the right, highlighting potential support and resistance zones created by these high-probability reversal patterns.\nKey Features\n\nDetects both bullish and bearish engulfing patterns\nSupports analysis across three timeframes simultaneously …",
+   "og:site_name": "TradingView",
+   "og:title": "Multi-Timeframe Engulfing Box, Malaysian SNR — Indicator by ClickNull",
+   "og:description": "Multi-Timeframe Engulfing Box Indicator Documentation\nOverview\nThe Multi-Timeframe Engulfing Box Indicator is a powerful tool for identifying and visualizing bullish and bearish engulfing patterns across multiple timeframes. It creates boxes that extend to the right, highlighting potential support and resistance zones created by these high-probability reversal patterns.\nKey Features\n\nDetects both bullish and bearish engulfing patterns\nSupports analysis across three timeframes simultaneously …",
+   "og:url": "https://www.tradingview.com/script/rqicMTGc-Multi-Timeframe-Engulfing-Box-Malaysian-SNR/"
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:18:33Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:19:23Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:16:37Z",
+   "endpoint": "https://web.archive.org/save/https://www.tradingview.com/script/rqicMTGc-Multi-Timeframe-Engulfing-Box-Malaysian-SNR/",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013181655/https://www.tradingview.com/script/rqicMTGc-Multi-Timeframe-Engulfing-Box-Malaysian-SNR/",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:16:55 GMT",
+   "body_head": " Multi-Timeframe Engulfing Box, Malaysian SNR — Indicator by ClickNull — TradingView ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:20:19Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013181655",
+    "last": "20261013181655",
+    "last_200": "20261013181655"
+   },
+   "final": true
+  }
+ },
+ "12-in-tradingview-com-scripts-msnr": {
+  "n": 12,
+  "url": "https://in.tradingview.com/scripts/msnr/",
+  "source_md_line": 142,
+  "accessed_utc": "2026-10-13T16:55:00Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/12-in-tradingview-com-scripts-msnr/live.html",
+    "bytes": 252137,
+    "sha256": "f7b95a11d4ff9d936c58bdd3ed696b88af6c54293a2caf5cdd6222833560ed7e"
+   },
+   {
+    "file": "snapshots/12-in-tradingview-com-scripts-msnr/live.txt",
+    "bytes": 6633,
+    "sha256": "83b7e65a2a51517364408182f6204b6e15854525c1a0ebd4f6d3ffb8d0a23996"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://in.tradingview.com/scripts/msnr/",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 6598,
+  "page_meta": {
+   "title": "Msnr — Indicators and Strategies — TradingView — India India",
+   "description": "TradingView India. msnr — Check out the trading ideas, strategies, opinions, analytics at absolutely no cost! — Indicators and Strategies — India",
+   "og:site_name": "TradingView",
+   "og:title": "Msnr — Indicators and Strategies — TradingView — India",
+   "og:description": "msnr — Check out the trading ideas, strategies, opinions, analytics at absolutely no cost! — Indicators and Strategies — India",
+   "og:url": "https://in.tradingview.com/scripts/msnr/",
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "item": {
+        "@id": "https://in.tradingview.com/scripts/",
+        "name": "Indicators and strategies"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "item": {
+        "@id": "https://in.tradingview.com/scripts/msnr/",
+        "name": "Msnr"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:19:42Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:20:24Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:20:49Z",
+   "endpoint": "https://web.archive.org/save/https://in.tradingview.com/scripts/msnr/",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013182156/https://in.tradingview.com/scripts/msnr/",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:21:56 GMT",
+   "body_head": " Msnr — Indicators and Strategies — TradingView — India India ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:25:40Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013182156",
+    "last": "20261013182156",
+    "last_200": "20261013182156"
+   },
+   "final": true
+  }
+ },
+ "13-mql5-com-en-code-76993": {
+  "n": 13,
+  "url": "https://www.mql5.com/en/code/76993",
+  "source_md_line": 145,
+  "accessed_utc": "2026-10-13T16:55:03Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/13-mql5-com-en-code-76993/live.html",
+    "bytes": 67610,
+    "sha256": "165ceffce862e7f74888b9a27a7930edae38e7769ed3e6849017ad2bcf4ea622"
+   },
+   {
+    "file": "snapshots/13-mql5-com-en-code-76993/live.txt",
+    "bytes": 10562,
+    "sha256": "bd74bcf08596eb8a20f0fc164ede4d08ce668c2107579cfdfbe3b2a496f44c2a"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.mql5.com/en/code/76993",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 10498,
+  "page_meta": {
+   "title": "Free download of the 'MSNR Key Levels MTF' indicator by 'Vesath' for MetaTrader 5 in the MQL5 Code Base, 2026.09.09",
+   "description": "MSNR KeyLevels MultiTF draws Malaysian SNR key levels from M5, M10, M15, H1, H4 and D1 at the same time, on any chart you have open. A built-in control panel lets you switch each timeframe on and off with a single click, so you go from a clean chart to full higher timeframe context in a second, and back again just as fast. - Free download of the 'MSNR Key Levels MTF' indicator by 'Vesath' for MetaTrader 5 in the MQL5 Code Base, 2026.09.09",
+   "og:url": "https://www.mql5.com/en/code/76993",
+   "og:title": "MSNR Key Levels MTF",
+   "og:description": "MSNR KeyLevels MultiTF draws Malaysian SNR key levels from M5, M10, M15, H1, H4 and D1 at the same time, on any chart you have open. A built-in control panel lets you switch each timeframe on and off with a single click, so you go from a clean chart to full higher timeframe context in a second, and back again just as fast.",
+   "article:published_time": "2026-09-09T06:46:26.0000000Z",
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "SoftwareApplication",
+     "applicationSubCategory": "Indicators",
+     "applicationCategory": "FinanceApplication",
+     "operatingSystem": "Windows",
+     "description": "MSNR KeyLevels MultiTF draws Malaysian SNR key levels from M5, M10, M15, H1, H4 and D1 at the same time, on any chart you have open. A built-in control panel lets you switch each timeframe on and off with a single click, so you go from a clean chart to full higher timeframe context in a second, and back again just as fast.",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.mql5.com/en/code/76993"
+     },
+     "name": "MSNR Key Levels MTF",
+     "interactionCount": "UserDownloads:236",
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://c.mql5.com/i/code/indicator.png",
+      "width": 60,
+      "height": 60
+     },
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.833333333333333,
+      "ratingCount": 2
+     },
+     "offers": {
+      "price": 0,
+      "priceCurrency": "USD"
+     },
+     "datePublished": "2026-09-09T06:46:26",
+     "dateModified": "2026-09-15T12:58:38",
+     "author": {
+      "@type": "Person",
+      "name": "Vesath",
+      "url": "https://www.mql5.com/en/users/vesath"
+     },
+     "publisher": {
+      "@type": "Organization",
+      "name": "MQL5 Community",
+      "url": "https://www.mql5.com",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "https://c.mql5.com/i/community/logo_mql5-2.png"
+      }
+     }
+    },
+    [
+     {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+       {
+        "@type": "SiteNavigationElement",
+        "position": 1,
+        "name": "Forum",
+        "description": "Discussions of trading strategies and algorithmic trading. MQL5.community  the largest forex forum",
+        "url": "https://www.mql5.com/en/forum",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 2,
+        "name": "Market",
+        "description": "MetaTrader Market - a Market of trading robots, indicators, trading books and magazines",
+        "url": "https://www.mql5.com/en/market",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 3,
+        "name": "Signals",
+        "description": "Social trading, copy trading and account monitoring with MetaTrader - Trading Signals on MQL5.com",
+        "url": "https://www.mql5.com/en/signals",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 4,
+        "name": "Freelance",
+        "description": "Order trading robots, technical indicators and algorithmic trading applications. Forex jobs. Freelance on MQL5.com. Hire MetaTrader experts and specialists",
+        "url": "https://www.mql5.com/en/job",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 5,
+        "name": "Quotes",
+        "description": "",
+        "url": "https://www.mql5.com/en/quotes/overview",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 6,
+        "name": "MetaTrader",
+        "description": "",
+        "url": "https://www.metatrader.com",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 7,
+        "name": "WebTerminal",
+        "description": "WebTerminal for the MetaTrader trading platform. Online forex trading.",
+        "url": "https://web.metatrader.app/terminal?mode=demo",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 8,
+        "name": "Calendar",
+        "description": "",
+        "url": "https://www.mql5.com/en/economic-calendar",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 9,
+        "name": "VPS",
+        "description": "",
+        "url": "https://www.mql5.com/en/vps",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 10,
+        "name": "Articles",
+        "description": "",
+        "url": "https://www.mql5.com/en/articles",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 11,
+        "name": "CodeBase",
+        "description": "Download trading robots, technical indicators and scripts with source code - MQL5 Code Base for MetaTrader 5",
+        "url": "https://www.mql5.com/en/code",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 12,
+        "name": "Algo Forge",
+        "description": "",
+        "url": "https://forge.mql5.io",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 13,
+        "name": "Documentation",
+        "description": "MetaQuotes Language 5 (MQL5) Reference - Documentation on MQL5.com",
+        "url": "https://www.mql5.com/en/docs",
+        "children": []
+       }
+      ]
+     },
+     {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "item": "https://www.mql5.com/en/code",
+        "name": "CodeBase"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "item": "https://www.mql5.com/en/code/mt5",
+        "name": "MetaTrader 5"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "item": "https://www.mql5.com/en/code/mt5/indicators",
+        "name": "Indicators"
+       }
+      ]
+     }
+    ]
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:20:46Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:21:22Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:26:10Z",
+   "endpoint": "https://web.archive.org/save/https://www.mql5.com/en/code/76993",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013182703/https://www.mql5.com/en/code/76993",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:27:03 GMT",
+   "body_head": " Free download of the 'MSNR Key Levels MTF' indicator by 'Vesath' for MetaTrader 5 in the MQL5 Code Base, 2026.09.09 Forum Market Signals Freelance VPS Quotes MetaTrader Articles CodeBase Algo Forge Documentation AlgoBook NeuroBook Calendar WebTerminal Tools About Algo Trading Channel CodeBase Secti",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:28:14Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013182703",
+    "last": "20261013182703",
+    "last_200": "20261013182703"
+   },
+   "final": true
+  }
+ },
+ "14-mql5-com-en-code-73680": {
+  "n": 14,
+  "url": "https://www.mql5.com/en/code/73680",
+  "source_md_line": 146,
+  "accessed_utc": "2026-10-13T16:55:06Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/14-mql5-com-en-code-73680/live.html",
+    "bytes": 65267,
+    "sha256": "5b7ecc63208e36198acb8b29fb0b43966e2d647c3c67abcbe7d9450e2d12ba62"
+   },
+   {
+    "file": "snapshots/14-mql5-com-en-code-73680/live.txt",
+    "bytes": 6401,
+    "sha256": "a962b5fdb2dad3a97aa2e2b492810803eac9ea9e3d45285b8244ff15bcf7f67f"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.mql5.com/en/code/73680",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 6341,
+  "page_meta": {
+   "title": "Free download of the 'MSNR v5.31Plus AEU EA' expert by 'TrangkieuDo' for MetaTrader 5 in the MQL5 Code Base, 2026.06.05",
+   "description": "MSNR v5.31Plus AEU EA is an Expert Advisor for MetaTrader 5 based on Malaysian SNR body levels, Smart Money reaction logic, liquidity sweep, MISS, engulfing confirmation, trendline confluence, QML, CRT and DOL target projection.\r\nThe EA is designed for XAUUSD and works best on the M5 timeframe. It scans higher timeframes such as W1, D1, H4 and H1 to build important support and resistance zones, then waits for price action confirmation on the execution timeframe.\r\nMain features:\r\n- Malaysian SNR body-level detection.\r\n- Higher-timeframe support and resistance scan.\r\n- Liquidity sweep, MISS and engulfing confirmation.\r\n- Trendline, QML, breakout-retest and CRT logic.\r\n- Confluence cluster system.\r\n- Session filter for Asia, Europe and US trading hours.\r\n- Risk management by account percentage.\r\n- Partial close at selected R multiple.\r\n- Break-even and safety guard options.\r\nRecommended settings:\r\nSymbol: XAUUSD\r\nTimeframe: M5. - Free download of the 'MSNR v5.31Plus AEU EA' expert by 'TrangkieuDo' for MetaTrader 5 in the MQL5 Code Base, 2026.06.05",
+   "og:url": "https://www.mql5.com/en/code/73680",
+   "og:title": "MSNR v5.31Plus AEU EA",
+   "og:description": "MSNR v5.31Plus AEU EA is an Expert Advisor for MetaTrader 5 based on Malaysian SNR body levels, Smart Money reaction logic, liquidity sweep, MISS, engulfing confirmation, trendline confluence, QML, CRT and DOL target projection.\r\nThe EA is designed for XAUUSD and works best on the M5 timeframe. It scans higher timeframes such as W1, D1, H4 and H1 to build important support and resistance zones, then waits for price action confirmation on the execution timeframe.\r\nMain features:\r\n- Malaysian SNR body-level detection.\r\n- Higher-timeframe support and resistance scan.\r\n- Liquidity sweep, MISS and engulfing confirmation.\r\n- Trendline, QML, breakout-retest and CRT logic.\r\n- Confluence cluster system.\r\n- Session filter for Asia, Europe and US trading hours.\r\n- Risk management by account percentage.\r\n- Partial close at selected R multiple.\r\n- Break-even and safety guard options.\r\nRecommended settings:\r\nSymbol: XAUUSD\r\nTimeframe: M5.",
+   "article:published_time": "2026-06-05T06:58:52.0000000Z",
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "SoftwareApplication",
+     "applicationSubCategory": "Experts",
+     "applicationCategory": "FinanceApplication",
+     "operatingSystem": "Windows",
+     "description": "MSNR v5.31Plus AEU EA is an Expert Advisor for MetaTrader 5 based on Malaysian SNR body levels, Smart Money reaction logic, liquidity sweep, MISS, engulfing confirmation, trendline confluence, QML, CRT and DOL target projection.\r\nThe EA is designed for XAUUSD and works best on the M5 timeframe. It scans higher timeframes such as W1, D1, H4 and H1 to build important support and resistance zones, then waits for price action confirmation on the execution timeframe.\r\nMain features:\r\n- Malaysian SNR body-level detection.\r\n- Higher-timeframe support and resistance scan.\r\n- Liquidity sweep, MISS and engulfing confirmation.\r\n- Trendline, QML, breakout-retest and CRT logic.\r\n- Confluence cluster system.\r\n- Session filter for Asia, Europe and US trading hours.\r\n- Risk management by account percentage.\r\n- Partial close at selected R multiple.\r\n- Break-even and safety guard options.\r\nRecommended settings:\r\nSymbol: XAUUSD\r\nTimeframe: M5.",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.mql5.com/en/code/73680"
+     },
+     "name": "MSNR v5.31Plus AEU EA",
+     "interactionCount": "UserDownloads:2315",
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://c.mql5.com/i/code/expert.png",
+      "width": 60,
+      "height": 60
+     },
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.6,
+      "ratingCount": 5
+     },
+     "offers": {
+      "price": 0,
+      "priceCurrency": "USD"
+     },
+     "datePublished": "2026-06-05T06:58:52",
+     "dateModified": "2026-09-15T12:58:26",
+     "author": {
+      "@type": "Person",
+      "name": "Thi Kieu Trang Do",
+      "url": "https://www.mql5.com/en/users/trangkieudo"
+     },
+     "publisher": {
+      "@type": "Organization",
+      "name": "MQL5 Community",
+      "url": "https://www.mql5.com",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "https://c.mql5.com/i/community/logo_mql5-2.png"
+      }
+     }
+    },
+    [
+     {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+       {
+        "@type": "SiteNavigationElement",
+        "position": 1,
+        "name": "Forum",
+        "description": "Discussions of trading strategies and algorithmic trading. MQL5.community  the largest forex forum",
+        "url": "https://www.mql5.com/en/forum",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 2,
+        "name": "Market",
+        "description": "MetaTrader Market - a Market of trading robots, indicators, trading books and magazines",
+        "url": "https://www.mql5.com/en/market",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 3,
+        "name": "Signals",
+        "description": "Social trading, copy trading and account monitoring with MetaTrader - Trading Signals on MQL5.com",
+        "url": "https://www.mql5.com/en/signals",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 4,
+        "name": "Freelance",
+        "description": "Order trading robots, technical indicators and algorithmic trading applications. Forex jobs. Freelance on MQL5.com. Hire MetaTrader experts and specialists",
+        "url": "https://www.mql5.com/en/job",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 5,
+        "name": "Quotes",
+        "description": "",
+        "url": "https://www.mql5.com/en/quotes/overview",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 6,
+        "name": "MetaTrader",
+        "description": "",
+        "url": "https://www.metatrader.com",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 7,
+        "name": "WebTerminal",
+        "description": "WebTerminal for the MetaTrader trading platform. Online forex trading.",
+        "url": "https://web.metatrader.app/terminal?mode=demo",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 8,
+        "name": "Calendar",
+        "description": "",
+        "url": "https://www.mql5.com/en/economic-calendar",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 9,
+        "name": "VPS",
+        "description": "",
+        "url": "https://www.mql5.com/en/vps",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 10,
+        "name": "Articles",
+        "description": "",
+        "url": "https://www.mql5.com/en/articles",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 11,
+        "name": "CodeBase",
+        "description": "Download trading robots, technical indicators and scripts with source code - MQL5 Code Base for MetaTrader 5",
+        "url": "https://www.mql5.com/en/code",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 12,
+        "name": "Algo Forge",
+        "description": "",
+        "url": "https://forge.mql5.io",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 13,
+        "name": "Documentation",
+        "description": "MetaQuotes Language 5 (MQL5) Reference - Documentation on MQL5.com",
+        "url": "https://www.mql5.com/en/docs",
+        "children": []
+       }
+      ]
+     },
+     {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "item": "https://www.mql5.com/en/code",
+        "name": "CodeBase"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "item": "https://www.mql5.com/en/code/mt5",
+        "name": "MetaTrader 5"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "item": "https://www.mql5.com/en/code/mt5/experts",
+        "name": "Experts"
+       }
+      ]
+     }
+    ]
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:21:48Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:22:40Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:28:44Z",
+   "endpoint": "https://web.archive.org/save/https://www.mql5.com/en/code/73680",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013182955/https://www.mql5.com/en/code/73680",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:29:55 GMT",
+   "body_head": " Free download of the 'MSNR v5.31Plus AEU EA' expert by 'TrangkieuDo' for MetaTrader 5 in the MQL5 Code Base, 2026.06.05 Forum Market Signals Freelance VPS Quotes MetaTrader Articles CodeBase Algo Forge Documentation AlgoBook NeuroBook Calendar WebTerminal Tools About Download MetaTrader 5 CodeBase ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:30:39Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013182955",
+    "last": "20261013182955",
+    "last_200": "20261013182955"
+   },
+   "final": true
+  }
+ },
+ "15-mql5-com-en-market-product-122784": {
+  "n": 15,
+  "url": "https://www.mql5.com/en/market/product/122784",
+  "source_md_line": 147,
+  "accessed_utc": "2026-10-13T16:55:09Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/15-mql5-com-en-market-product-122784/live.html",
+    "bytes": 265825,
+    "sha256": "8c40d245d541162c288f34f2bf1d4b83aa2a2ab8535b3e34434280ffc3ae4054"
+   },
+   {
+    "file": "snapshots/15-mql5-com-en-market-product-122784/live.txt",
+    "bytes": 57369,
+    "sha256": "f3efb28c6b05b316df5244a64ac262b93547cfee0750d8c80e544c3e4e7435fb"
+   },
+   {
+    "file": "snapshots/15-mql5-com-en-market-product-122784/wayback.html",
+    "bytes": 262807,
+    "sha256": "469a28c499a2401b0a60866c02cbd881744906680759a806ffa55b6cf5611358"
+   },
+   {
+    "file": "snapshots/15-mql5-com-en-market-product-122784/wayback.txt",
+    "bytes": 57135,
+    "sha256": "78af63e68398021f5ec0e00c2c1e3c3c9f2e798c42e143b416e8bae8b2fefb4c"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.mql5.com/en/market/product/122784",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 57087,
+  "page_meta": {
+   "title": "Malaysia SNR Levels and Storyline | Buy Trading Indicator for MetaTrader 5",
+   "description": "Malaysia SNR Levels and Storyline: In the context of trading, Malaysia SNR (Support and Resistance) refers to the technical analysis of support and resistance levels in financial - English",
+   "og:url": "https://www.mql5.com/en/market/product/122784",
+   "og:title": "Malaysia SNR Levels and Storyline | Buy Trading Indicator for MetaTrader 5",
+   "og:description": "In the context of trading, Malaysia SNR (Support and Resistance) refers to the technical analysis of support and resistance levels in financial",
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "url": "https://www.mql5.com/en/market/product/122784",
+     "name": "Malaysia SNR Levels and Storyline",
+     "sku": 122784,
+     "gtin": "n/a",
+     "description": "In the context of trading, Malaysia SNR (Support and Resistance) refers to the technical analysis of support and resistance levels in financial markets, particularly for stocks, indices, or other assets traded. This is single timeframe version. Multiple timeframe version is avaiable here . There are three type of Malaysia SNR level Classic , GAP and Flipped 1. Classic Support is the price level at which an asset tends to stop falling and may start to rebound. It acts as a \"floor\" where demand is strong enough to prevent the price from dropping further. Resistance is the price level at which an asset tends to stop rising and may start to reverse downwards. It acts as a \"ceiling\" where selling pressure is enough to prevent the price from climbing further. 2. GAP A gap happens when the price of an asset opens significantly higher or lower than the previous closing price, without trading at the prices in between. This often occurs due to major news, earnings announcements, or significant market events. Gap Support Gap support occurs when a price gap happens, and the lowest point of the gap acts as a support level. This is often seen when a stock jumps higher but leaves a gap between the previous day's closing price and the new opening price. Traders often look at this gap as a potential support level because, if the price retraces, it may not fall below the bottom of the gap. Gap Resistance Gap resistance works the opposite way. It occurs when a stock or asset gaps downward, and the highest point of the gap forms a resistance level . If the price rises, it may find it difficult to break above the gap's top. 3. Flipped Flipped support and resistance refers to the concept where a support level becomes a resistance level after being broken, or vice versa. This is a common phenomenon in technical analysis and is also known as role reversal . Flipped Support to Resistance When the price of an asset breaks below a support level (a price level where the asset previously found buyers), that same level often becomes a resistance level. Traders interpret this as the area where sellers might step in if the price attempts to rally back to that level. Essentially, what was once a \"floor\" (support) now acts as a \"ceiling\" (resistance). Example: If a stock listed on Bursa Malaysia had a support level at RM 5.00 but later breaks below it and falls to RM 4.50, RM 5.00 could now act as resistance. If the stock tries to rise back up, RM 5.00 may act as a barrier, where sellers push the price back down. Flipped Resistance to Support The opposite is true when the price breaks above a resistance level . The former resistance now becomes a support level. This flipped support level suggests that buyers are willing to step in at that level to prevent the price from falling further. This indicator support all 3 type of Malaysia SNR lever The indicator also provides features such as: + Extend active support and resistance levels to current time + Only display active support and resistance levels + Display text notification of the type and specific price of the support and resistance level + Custom style levels Strategy with SnR here ",
+     "logo": "https://c.mql5.com/31/1178/malaysia-snr-levels-and-storyline-logo-200x200-7483.png",
+     "category": "Market > MetaTrader 5 > Indicators",
+     "Brand": "Minh Truong Pham",
+     "offers": {
+      "price": "49.00",
+      "priceCurrency": "USD"
+     },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "@context": "https://schema.org",
+       "author": "Minh Truong Pham",
+       "contentURL": "https://c.mql5.com/31/1178/malaysia-snr-levels-and-storyline-screen-8917.png",
+       "thumbnail": "https://c.mql5.com/31/1178/malaysia-snr-levels-and-storyline-screen-8917-preview.jpg",
+       "description": ""
+      },
+      {
+       "@type": "ImageObject",
+       "@context": "https://schema.org",
+       "author": "Minh Truong Pham",
+       "contentURL": "https://c.mql5.com/31/1178/malaysia-snr-levels-and-storyline-screen-1901.png",
+       "thumbnail": "https://c.mql5.com/31/1178/malaysia-snr-levels-and-storyline-screen-1901-preview.jpg",
+       "description": ""
+      },
+      {
+       "@type": "ImageObject",
+       "@context": "https://schema.org",
+       "author": "Minh Truong Pham",
+       "contentURL": "https://c.mql5.com/31/1178/malaysia-snr-levels-and-storyline-screen-7928.png",
+       "thumbnail": "https://c.mql5.com/31/1178/malaysia-snr-levels-and-storyline-screen-7928-preview.jpg",
+       "description": ""
+      }
+     ]
+    },
+    [
+     {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+       {
+        "@type": "SiteNavigationElement",
+        "position": 1,
+        "name": "Forum",
+        "description": "Discussions of trading strategies and algorithmic trading. MQL5.community  the largest forex forum",
+        "url": "https://www.mql5.com/en/forum",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 2,
+        "name": "Market",
+        "description": "MetaTrader Market - a Market of trading robots, indicators, trading books and magazines",
+        "url": "https://www.mql5.com/en/market",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 3,
+        "name": "Signals",
+        "description": "Social trading, copy trading and account monitoring with MetaTrader - Trading Signals on MQL5.com",
+        "url": "https://www.mql5.com/en/signals",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 4,
+        "name": "Freelance",
+        "description": "Order trading robots, technical indicators and algorithmic trading applications. Forex jobs. Freelance on MQL5.com. Hire MetaTrader experts and specialists",
+        "url": "https://www.mql5.com/en/job",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 5,
+        "name": "Quotes",
+        "description": "",
+        "url": "https://www.mql5.com/en/quotes/overview",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 6,
+        "name": "MetaTrader",
+        "description": "",
+        "url": "https://www.metatrader.com",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 7,
+        "name": "WebTerminal",
+        "description": "WebTerminal for the MetaTrader trading platform. Online forex trading.",
+        "url": "https://web.metatrader.app/terminal?mode=demo",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 8,
+        "name": "Calendar",
+        "description": "",
+        "url": "https://www.mql5.com/en/economic-calendar",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 9,
+        "name": "VPS",
+        "description": "",
+        "url": "https://www.mql5.com/en/vps",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 10,
+        "name": "Articles",
+        "description": "",
+        "url": "https://www.mql5.com/en/articles",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 11,
+        "name": "CodeBase",
+        "description": "Download trading robots, technical indicators and scripts with source code - MQL5 Code Base for MetaTrader 5",
+        "url": "https://www.mql5.com/en/code",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 12,
+        "name": "Algo Forge",
+        "description": "",
+        "url": "https://forge.mql5.io",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 13,
+        "name": "Documentation",
+        "description": "MetaQuotes Language 5 (MQL5) Reference - Documentation on MQL5.com",
+        "url": "https://www.mql5.com/en/docs",
+        "children": []
+       }
+      ]
+     },
+     {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "item": "https://www.mql5.com/en/market",
+        "name": "Market"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "item": "https://www.mql5.com/en/market/mt5",
+        "name": "MetaTrader 5"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "item": "https://www.mql5.com/en/market/mt5/indicator",
+        "name": "Indicators"
+       }
+      ]
+     }
+    ]
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:23:00Z",
+   "status": 200,
+   "closest": {
+    "status": "200",
+    "available": true,
+    "url": "http://web.archive.org/web/20251124181242/https://www.mql5.com/en/market/product/122784",
+    "timestamp": "20251124181242"
+   }
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:24:10Z",
+   "status": 200,
+   "captures_days": 1,
+   "captures_200": 1,
+   "first": "20251124181242",
+   "last": "20251124181242",
+   "last_200": "20251124181242"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20251124181242/https://www.mql5.com/en/market/product/122784",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20251124181242id_/https://www.mql5.com/en/market/product/122784",
+   "status": 200,
+   "timestamp": "20251124181242",
+   "fetched_utc": "2026-10-13T17:24:28Z",
+   "text_chars": 56848,
+   "title": "Malaysia SNR Levels and Storyline | Buy Trading Indicator for MetaTrader 5"
+  },
+  "wayback_done": true
+ },
+ "16-mql5-com-en-market-product-115614": {
+  "n": 16,
+  "url": "https://www.mql5.com/en/market/product/115614",
+  "source_md_line": 148,
+  "accessed_utc": "2026-10-13T16:55:13Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/16-mql5-com-en-market-product-115614/live.html",
+    "bytes": 200105,
+    "sha256": "6990d2d882e558fa1937fc126fb6810a88a1ee205fa9e06c75cd45714093d91b"
+   },
+   {
+    "file": "snapshots/16-mql5-com-en-market-product-115614/live.txt",
+    "bytes": 39869,
+    "sha256": "538804ba277fedeec4cfa4958c7a129e327e621d23d6e824c503e18cea56452e"
+   },
+   {
+    "file": "snapshots/16-mql5-com-en-market-product-115614/wayback.html",
+    "bytes": 202591,
+    "sha256": "5e138731181b30a9c15e5f389582e7752e229d72e04b4b34fa9fdb7a6a38be48"
+   },
+   {
+    "file": "snapshots/16-mql5-com-en-market-product-115614/wayback.txt",
+    "bytes": 39887,
+    "sha256": "a34d4253c792844aeea2c373745ec22217ec638750668e23906633cfe9aa3571"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.mql5.com/en/market/product/115614",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 39608,
+  "page_meta": {
+   "title": "Malaysian SNR Levels | Buy Trading Indicator for MetaTrader 5",
+   "description": "Malaysian SNR Levels: This indicator can be used to display Support and Resistance levels according to the Malaysian SNR concept , in which Support and Resistance are - English",
+   "og:url": "https://www.mql5.com/en/market/product/115614",
+   "og:title": "Malaysian SNR Levels | Buy Trading Indicator for MetaTrader 5",
+   "og:description": "This indicator can be used to display Support and Resistance levels according to the Malaysian SNR concept , in which Support and Resistance are",
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Product",
+     "url": "https://www.mql5.com/en/market/product/115614",
+     "name": "Malaysian SNR Levels",
+     "sku": 115614,
+     "gtin": "n/a",
+     "description": "This indicator can be used to display Support and Resistance levels according to  the  Malaysian SNR concept , in which Support and Resistance are exact levels of a line chart. Malaysian SNR There are 3 different horizontal levels in Malaysian SNR: A-Level : This level is located at the peak of this line chart. (shape looks like the letter A) V-Level : Level at the valley of a line chart, (shape looks like the letter V) Gap-Leve l: This level is located at the Close/Open gap between two candles of the same color.  Levels can be of state fresh (Untested) or unfresh (Tested). A level is designated as fresh if it has not been touched by a wick, it can become fresh again if it is crossed by the body of a candle. If it is then touched by a wick again afterwards, it is considered unfresh again. If a level is fresh, the theory of Malaysian SnR assumes that there is a greater probability that the price will react at that level and move in the opposite direction because this fresh Support / Resistance level is more significant than an unfresh level. The indicator is calculating this state and displays the levels then in a different way: Fresh levels are displayed as solid lines, unfresh levels are displayed as dashed lines. It is also possible to hide unfresh levels, so that only the fresh levels are visible in the chart. Parameters of the indicator Level Color (color): Line color of the levels Display fresh levels only (bool): Should unfresh levels be hidden in the chart Number of Bars Lookback (integer): Number of bars lookback period at which levels will be added to the chart Levels Above Price (interger): Number of levels that should be displayed above the price. It will be the closest levels to the price that can be found. Levels Below Price (integer): Number of levels that should be displayed below the price. It will be the closest levels to the price that can be found. Timeframe: Timeframe for which the levels will be calculated. How to trade with SNR Levels With the indicator it is possible to display SNR levels of a HTF (higher timeframe) on a LTF (lower timeframe) chart. A common strategy is to trade HTF levels on a LTF chart. This means that you can wait (or set an alert) that price reaches a HTF level (for example a Daily or Weekly SNR level) and then enter the trade on a LTF (for example 5 min) when a bullish or bearish structure has established on this timeframe. ",
+     "logo": "https://c.mql5.com/31/1091/malaysian-snr-levels-logo-200x200-5755.png",
+     "category": "Market > MetaTrader 5 > Indicators",
+     "Brand": "Matthias Horst Pieroth",
+     "offers": {
+      "price": "149.00",
+      "priceCurrency": "USD"
+     },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "@context": "https://schema.org",
+       "author": "Matthias Horst Pieroth",
+       "contentURL": "https://c.mql5.com/31/1091/malaysian-snr-levels-screen-7225.png",
+       "thumbnail": "https://c.mql5.com/31/1091/malaysian-snr-levels-screen-7225-preview.jpg",
+       "description": ""
+      },
+      {
+       "@type": "ImageObject",
+       "@context": "https://schema.org",
+       "author": "Matthias Horst Pieroth",
+       "contentURL": "https://c.mql5.com/31/1091/malaysian-snr-levels-screen-8777.png",
+       "thumbnail": "https://c.mql5.com/31/1091/malaysian-snr-levels-screen-8777-preview.jpg",
+       "description": ""
+      },
+      {
+       "@type": "ImageObject",
+       "@context": "https://schema.org",
+       "author": "Matthias Horst Pieroth",
+       "contentURL": "https://c.mql5.com/31/1091/malaysian-snr-levels-screen-2305.png",
+       "thumbnail": "https://c.mql5.com/31/1091/malaysian-snr-levels-screen-2305-preview.jpg",
+       "description": ""
+      },
+      {
+       "@type": "ImageObject",
+       "@context": "https://schema.org",
+       "author": "Matthias Horst Pieroth",
+       "contentURL": "https://c.mql5.com/31/1105/malaysian-snr-levels-screen-6109.jpg",
+       "thumbnail": "https://c.mql5.com/31/1105/malaysian-snr-levels-screen-6109-preview.jpg",
+       "description": ""
+      }
+     ]
+    },
+    [
+     {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+       {
+        "@type": "SiteNavigationElement",
+        "position": 1,
+        "name": "Forum",
+        "description": "Discussions of trading strategies and algorithmic trading. MQL5.community  the largest forex forum",
+        "url": "https://www.mql5.com/en/forum",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 2,
+        "name": "Market",
+        "description": "MetaTrader Market - a Market of trading robots, indicators, trading books and magazines",
+        "url": "https://www.mql5.com/en/market",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 3,
+        "name": "Signals",
+        "description": "Social trading, copy trading and account monitoring with MetaTrader - Trading Signals on MQL5.com",
+        "url": "https://www.mql5.com/en/signals",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 4,
+        "name": "Freelance",
+        "description": "Order trading robots, technical indicators and algorithmic trading applications. Forex jobs. Freelance on MQL5.com. Hire MetaTrader experts and specialists",
+        "url": "https://www.mql5.com/en/job",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 5,
+        "name": "Quotes",
+        "description": "",
+        "url": "https://www.mql5.com/en/quotes/overview",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 6,
+        "name": "MetaTrader",
+        "description": "",
+        "url": "https://www.metatrader.com",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 7,
+        "name": "WebTerminal",
+        "description": "WebTerminal for the MetaTrader trading platform. Online forex trading.",
+        "url": "https://web.metatrader.app/terminal?mode=demo",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 8,
+        "name": "Calendar",
+        "description": "",
+        "url": "https://www.mql5.com/en/economic-calendar",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 9,
+        "name": "VPS",
+        "description": "",
+        "url": "https://www.mql5.com/en/vps",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 10,
+        "name": "Articles",
+        "description": "",
+        "url": "https://www.mql5.com/en/articles",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 11,
+        "name": "CodeBase",
+        "description": "Download trading robots, technical indicators and scripts with source code - MQL5 Code Base for MetaTrader 5",
+        "url": "https://www.mql5.com/en/code",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 12,
+        "name": "Algo Forge",
+        "description": "",
+        "url": "https://forge.mql5.io",
+        "children": []
+       },
+       {
+        "@type": "SiteNavigationElement",
+        "position": 13,
+        "name": "Documentation",
+        "description": "MetaQuotes Language 5 (MQL5) Reference - Documentation on MQL5.com",
+        "url": "https://www.mql5.com/en/docs",
+        "children": []
+       }
+      ]
+     },
+     {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "item": "https://www.mql5.com/en/market",
+        "name": "Market"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "item": "https://www.mql5.com/en/market/mt5",
+        "name": "MetaTrader 5"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "item": "https://www.mql5.com/en/market/mt5/indicator",
+        "name": "Indicators"
+       }
+      ]
+     }
+    ]
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:24:48Z",
+   "status": 200,
+   "closest": {
+    "status": "200",
+    "available": true,
+    "url": "http://web.archive.org/web/20240503233019/https://www.mql5.com/en/market/product/115614",
+    "timestamp": "20240503233019"
+   }
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:25:24Z",
+   "status": 200,
+   "captures_days": 1,
+   "captures_200": 1,
+   "first": "20240503233019",
+   "last": "20240503233019",
+   "last_200": "20240503233019"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20240503233019/https://www.mql5.com/en/market/product/115614",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20240503233019id_/https://www.mql5.com/en/market/product/115614",
+   "status": 200,
+   "timestamp": "20240503233019",
+   "fetched_utc": "2026-10-13T17:25:43Z",
+   "text_chars": 39338,
+   "title": "Buy the 'Malaysian SNR Levels' Technical Indicator for MetaTrader 5 in  MetaTrader Market"
+  },
+  "wayback_done": true
+ },
+ "17-github-com-Tauqirahmad604-msnr": {
+  "n": 17,
+  "url": "https://github.com/Tauqirahmad604/msnr",
+  "source_md_line": 149,
+  "accessed_utc": "2026-10-13T16:55:16Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/17-github-com-Tauqirahmad604-msnr/live.html",
+    "bytes": 268039,
+    "sha256": "c3438c0d9e3b18587c9bf4ddf19cd74db3004dfb7a73e17d7668b7fea81e1c29"
+   },
+   {
+    "file": "snapshots/17-github-com-Tauqirahmad604-msnr/live.txt",
+    "bytes": 5183,
+    "sha256": "f7d3ca504615e421162894ebacb5679964ed53a20ddddea4987583b15a8cc377"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://github.com/Tauqirahmad604/msnr",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 5176,
+  "page_meta": {
+   "title": "GitHub - Tauqirahmad604/msnr · GitHub",
+   "description": "Contribute to Tauqirahmad604/msnr development by creating an account on GitHub.",
+   "og:site_name": "GitHub",
+   "og:title": "GitHub - Tauqirahmad604/msnr",
+   "og:url": "https://github.com/Tauqirahmad604/msnr",
+   "og:description": "Contribute to Tauqirahmad604/msnr development by creating an account on GitHub."
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:26:04Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:27:18Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:31:09Z",
+   "endpoint": "https://web.archive.org/save/https://github.com/Tauqirahmad604/msnr",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013183222/https://github.com/Tauqirahmad604/msnr",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:32:22 GMT",
+   "body_head": " ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:33:04Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013183222",
+    "last": "20261013183222",
+    "last_200": "20261013183222"
+   },
+   "final": true
+  }
+ },
+ "18-github-com-khoychivorn-pinescript-layer1-malaysian-snr": {
+  "n": 18,
+  "url": "https://github.com/khoychivorn/pinescript-layer1-malaysian-snr",
+  "source_md_line": 150,
+  "accessed_utc": "2026-10-13T16:55:20Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/18-github-com-khoychivorn-pinescript-layer1-malaysian-snr/live.html",
+    "bytes": 233796,
+    "sha256": "72e26dd2bd26442044799cea2373606c775d427def131c040ab94b74a07fcef8"
+   },
+   {
+    "file": "snapshots/18-github-com-khoychivorn-pinescript-layer1-malaysian-snr/live.txt",
+    "bytes": 3735,
+    "sha256": "ec42d28ada9faffbd8bc0aa168ac2b8a3c9490191ff631dca86f73d555a687c0"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://github.com/khoychivorn/pinescript-layer1-malaysian-snr",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 3730,
+  "page_meta": {
+   "title": "GitHub - khoychivorn/pinescript-layer1-malaysian-snr: Pine Script v5 Layer 1 indicator - Malaysian SNR framework for XAUUSD with Support/Resistance, Fresh/Unfresh/Flip detection, and Major Structural Levels · GitHub",
+   "description": "Pine Script v5 Layer 1 indicator - Malaysian SNR framework for XAUUSD with Support/Resistance, Fresh/Unfresh/Flip detection, and Major Structural Levels - khoychivorn/pinescript-layer1-malaysian-snr",
+   "og:site_name": "GitHub",
+   "og:title": "GitHub - khoychivorn/pinescript-layer1-malaysian-snr: Pine Script v5 Layer 1 indicator - Malaysian SNR framework for XAUUSD with Support/Resistance, Fresh/Unfresh/Flip detection, and Major Structural Levels",
+   "og:url": "https://github.com/khoychivorn/pinescript-layer1-malaysian-snr",
+   "og:description": "Pine Script v5 Layer 1 indicator - Malaysian SNR framework for XAUUSD with Support/Resistance, Fresh/Unfresh/Flip detection, and Major Structural Levels - khoychivorn/pinescript-layer1-malaysian-snr"
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:27:44Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:28:09Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:33:34Z",
+   "endpoint": "https://web.archive.org/save/https://github.com/khoychivorn/pinescript-layer1-malaysian-snr",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013183442/https://github.com/khoychivorn/pinescript-layer1-malaysian-snr",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:34:42 GMT",
+   "body_head": " ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:35:31Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013183442",
+    "last": "20261013183442",
+    "last_200": "20261013183442"
+   },
+   "final": true
+  }
+ },
+ "19-crowinvesting-com-guides-msnr-trading-explained": {
+  "n": 19,
+  "url": "https://crowinvesting.com/guides/msnr-trading-explained/",
+  "source_md_line": 153,
+  "accessed_utc": "2026-10-13T16:55:23Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/19-crowinvesting-com-guides-msnr-trading-explained/live.html",
+    "bytes": 183876,
+    "sha256": "6f35ceac3ee817aeedb681fab154ccaa5145a4af40289289f81a6030b237d04d"
+   },
+   {
+    "file": "snapshots/19-crowinvesting-com-guides-msnr-trading-explained/live.txt",
+    "bytes": 14859,
+    "sha256": "620a00ea736567b3dde75becdf65758a9c00c5047ed77f04c4a19ad500770a5d"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://crowinvesting.com/guides/msnr-trading-explained/",
+  "content_type": "text/html; charset=UTF-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 14704,
+  "page_meta": {
+   "title": "MSNR Trading Explained: How to Read the Markets Like a Professional (2026 Guide) - Crow Investing • Forex, Crypto, Invest, How to Make Money Online",
+   "description": "Learn MSNR Trading step by step with this complete beginner’s guide. Discover how to analyze market structure, identify trading opportunities, and improve your decision-making.",
+   "og:title": "MSNR Trading Explained: How to Read the Markets Like a Professional (2026 Guide) - Crow Investing • Forex, Crypto, Invest, How to Make Money Online",
+   "og:description": "Learn MSNR Trading step by step with this complete beginner’s guide. Discover how to analyze market structure, identify trading opportunities, and improve your decision-making.",
+   "og:url": "https://crowinvesting.com/guides/msnr-trading-explained/",
+   "og:site_name": "Crow Investing • Forex, Crypto, Invest, How to Make Money Online",
+   "article:published_time": "2026-06-09T11:37:50+00:00",
+   "article:modified_time": "2026-10-09T09:24:17+00:00",
+   "author": "Alex Crow",
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@graph": [
+      {
+       "@type": "Article",
+       "@id": "https://crowinvesting.com/guides/msnr-trading-explained/#article",
+       "isPartOf": {
+        "@id": "https://crowinvesting.com/guides/msnr-trading-explained/"
+       },
+       "author": {
+        "name": "Alex Crow",
+        "@id": "https://crowinvesting.com/#/schema/person/63b56624c848a47a3db390de21d0682d"
+       },
+       "headline": "MSNR Trading Explained: How to Read the Markets Like a Professional (2026 Guide)",
+       "datePublished": "2026-06-09T11:37:50+00:00",
+       "dateModified": "2026-10-09T09:24:17+00:00",
+       "mainEntityOfPage": {
+        "@id": "https://crowinvesting.com/guides/msnr-trading-explained/"
+       },
+       "wordCount": 2029,
+       "commentCount": 0,
+       "publisher": {
+        "@id": "https://crowinvesting.com/#organization"
+       },
+       "image": {
+        "@id": "https://crowinvesting.com/guides/msnr-trading-explained/#primaryimage"
+       },
+       "thumbnailUrl": "https://crowinvesting.com/wp-content/uploads/2026/06/msnr-trading-strategy.png",
+       "articleSection": [
+        "Guides"
+       ],
+       "inLanguage": "en-US",
+       "potentialAction": [
+        {
+         "@type": "CommentAction",
+         "name": "Comment",
+         "target": [
+          "https://crowinvesting.com/guides/msnr-trading-explained/#respond"
+         ]
+        }
+       ]
+      },
+      {
+       "@type": "WebPage",
+       "@id": "https://crowinvesting.com/guides/msnr-trading-explained/",
+       "url": "https://crowinvesting.com/guides/msnr-trading-explained/",
+       "name": "MSNR Trading Explained: How to Read the Markets Like a Professional (2026 Guide) - Crow Investing • Forex, Crypto, Invest, How to Make Money Online",
+       "isPartOf": {
+        "@id": "https://crowinvesting.com/#website"
+       },
+       "primaryImageOfPage": {
+        "@id": "https://crowinvesting.com/guides/msnr-trading-explained/#primaryimage"
+       },
+       "image": {
+        "@id": "https://crowinvesting.com/guides/msnr-trading-explained/#primaryimage"
+       },
+       "thumbnailUrl": "https://crowinvesting.com/wp-content/uploads/2026/06/msnr-trading-strategy.png",
+       "datePublished": "2026-06-09T11:37:50+00:00",
+       "dateModified": "2026-10-09T09:24:17+00:00",
+       "description": "Learn MSNR Trading step by step with this complete beginner’s guide. Discover how to analyze market structure, identify trading opportunities, and improve your decision-making.",
+       "breadcrumb": {
+        "@id": "https://crowinvesting.com/guides/msnr-trading-explained/#breadcrumb"
+       },
+       "inLanguage": "en-US",
+       "potentialAction": [
+        {
+         "@type": "ReadAction",
+         "target": [
+          "https://crowinvesting.com/guides/msnr-trading-explained/"
+         ]
+        }
+       ]
+      },
+      {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://crowinvesting.com/guides/msnr-trading-explained/#primaryimage",
+       "url": "https://crowinvesting.com/wp-content/uploads/2026/06/msnr-trading-strategy.png",
+       "contentUrl": "https://crowinvesting.com/wp-content/uploads/2026/06/msnr-trading-strategy.png",
+       "width": 1024,
+       "height": 585,
+       "caption": "MSNR Trading strategy with market structure analysis and trading chart example"
+      },
+      {
+       "@type": "BreadcrumbList",
+       "@id": "https://crowinvesting.com/guides/msnr-trading-explained/#breadcrumb",
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "name": "Home",
+         "item": "https://crowinvesting.com/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "name": "MSNR Trading Explained: How to Read the Markets Like a Professional (2026 Guide)"
+        }
+       ]
+      },
+      {
+       "@type": "WebSite",
+       "@id": "https://crowinvesting.com/#website",
+       "url": "https://crowinvesting.com/",
+       "name": "Crow Investing • Forex, Crypto, Invest, How to Make Money Online",
+       "description": "",
+       "publisher": {
+        "@id": "https://crowinvesting.com/#organization"
+       },
+       "potentialAction": [
+        {
+         "@type": "SearchAction",
+         "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://crowinvesting.com/?s={search_term_string}"
+         },
+         "query-input": {
+          "@type": "PropertyValueSpecification",
+          "valueRequired": true,
+          "valueName": "search_term_string"
+         }
+        }
+       ],
+       "inLanguage": "en-US"
+      },
+      {
+       "@type": "Organization",
+       "@id": "https://crowinvesting.com/#organization",
+       "name": "Crow Investing • Forex, Crypto, Invest, How to Make Money Online",
+       "url": "https://crowinvesting.com/",
+       "logo": {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://crowinvesting.com/#/schema/logo/image/",
+        "url": "https://crowinvesting.com/wp-content/uploads/2026/04/gemini-2.5-flash-image_A_sleek_modern_logo_of_a_raven_symbolizing_intelligence_wealth_and_strategy._The-0.jpg",
+        "contentUrl": "https://crowinvesting.com/wp-content/uploads/2026/04/gemini-2.5-flash-image_A_sleek_modern_logo_of_a_raven_symbolizing_intelligence_wealth_and_strategy._The-0.jpg",
+        "width": 1024,
+        "height": 1024,
+        "caption": "Crow Investing • Forex, Crypto, Invest, How to Make Money Online"
+       },
+       "image": {
+        "@id": "https://crowinvesting.com/#/schema/logo/image/"
+       }
+      },
+      {
+       "@type": "Person",
+       "@id": "https://crowinvesting.com/#/schema/person/63b56624c848a47a3db390de21d0682d",
+       "name": "Alex Crow",
+       "image": {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://secure.gravatar.com/avatar/8921428f9283f4d4d3a793d2c34a7df31f10aea4b75142f8ca83d7fe384299cd?s=96&d=mm&r=g",
+        "url": "https://secure.gravatar.com/avatar/8921428f9283f4d4d3a793d2c34a7df31f10aea4b75142f8ca83d7fe384299cd?s=96&d=mm&r=g",
+        "contentUrl": "https://secure.gravatar.com/avatar/8921428f9283f4d4d3a793d2c34a7df31f10aea4b75142f8ca83d7fe384299cd?s=96&d=mm&r=g",
+        "caption": "Alex Crow"
+       },
+       "sameAs": [
+        "http://crowinvesting.com"
+       ],
+       "url": "https://crowinvesting.com/author/k0799843319/"
+      }
+     ]
+    }
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:32:05Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:32:38Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:36:01Z",
+   "endpoint": "https://web.archive.org/save/https://crowinvesting.com/guides/msnr-trading-explained/",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013183716/https://crowinvesting.com/guides/msnr-trading-explained/",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:37:16 GMT",
+   "body_head": " MSNR Trading Explained: How to Read the Markets Like a Professional (2026 Guide) - Crow Investing • Forex, Crypto, Invest, How to Make Money Online ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:38:03Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013183716",
+    "last": "20261013183716",
+    "last_200": "20261013183716"
+   },
+   "final": true
+  }
+ },
+ "20-hoclamtrader-com-en-msnr-trading-strategy": {
+  "n": 20,
+  "url": "https://hoclamtrader.com/en/msnr-trading-strategy/",
+  "source_md_line": 154,
+  "accessed_utc": "2026-10-13T16:55:27Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/20-hoclamtrader-com-en-msnr-trading-strategy/live.html",
+    "bytes": 161530,
+    "sha256": "ccad17fa666fbd82b7dc7d95ae66432a6c26934182345d77be01e27295c45b38"
+   },
+   {
+    "file": "snapshots/20-hoclamtrader-com-en-msnr-trading-strategy/live.txt",
+    "bytes": 24447,
+    "sha256": "ecb22c4cd8f03bb8acad3c21f30d75efcbd6282d3c8fa032e2daff0780d4e6dd"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://hoclamtrader.com/en/msnr-trading-strategy/",
+  "content_type": "text/html; charset=UTF-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 24386,
+  "page_meta": {
+   "title": "MSNR Trading Strategy: Rules, Workflow And Risk",
+   "description": "Learn the complete MSNR workflow for zones, context, rejection, entry, invalidation and review while keeping each supporting concept distinct.",
+   "og:title": "MSNR Trading Strategy: Rules, Workflow And Risk",
+   "og:description": "Learn the complete MSNR workflow for zones, context, rejection, entry, invalidation and review while keeping each supporting concept distinct.",
+   "og:url": "https://hoclamtrader.com/en/msnr-trading-strategy/",
+   "og:site_name": "Học Làm Trader",
+   "article:published_time": "2026-07-01T22:30:00+00:00",
+   "article:modified_time": "2026-10-11T00:57:23+00:00",
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@graph": [
+      {
+       "@type": "Organization",
+       "@id": "https://hoclamtrader.com/#organization",
+       "name": "Học Làm Trader",
+       "logo": {
+        "@type": "ImageObject",
+        "@id": "https://hoclamtrader.com/#logo",
+        "url": "https://hoclamtrader.com/wp-content/uploads/2025/03/cropped-LOGO-HOCLAMTRADER-logo-doc.png",
+        "contentUrl": "https://hoclamtrader.com/wp-content/uploads/2025/03/cropped-LOGO-HOCLAMTRADER-logo-doc.png",
+        "caption": "Học Làm Trader",
+        "inLanguage": "en-US",
+        "width": "512",
+        "height": "512"
+       },
+       "alternateName": "HocLamTrader",
+       "sameAs": [
+        "https://www.facebook.com/hoclamtraderne/",
+        "https://www.youtube.com/@hoclamtraderne",
+        "https://www.pinterest.com/hoclamtrader/",
+        "https://x.com/hoclamtrader"
+       ]
+      },
+      {
+       "@type": "WebSite",
+       "@id": "https://hoclamtrader.com/#website",
+       "url": "https://hoclamtrader.com/en",
+       "name": "Học Làm Trader",
+       "alternateName": "HocLamTrader",
+       "publisher": {
+        "@id": "https://hoclamtrader.com/#organization"
+       },
+       "inLanguage": "en-US"
+      },
+      {
+       "@type": "ImageObject",
+       "@id": "https://hoclamtrader.com/wp-content/uploads/2026/05/msnr-trading-strategy.webp",
+       "url": "https://hoclamtrader.com/wp-content/uploads/2026/05/msnr-trading-strategy.webp",
+       "width": "1200",
+       "height": "630",
+       "caption": "Illustration of an MSNR trading strategy chart with support and resistance zones and risk planning",
+       "inLanguage": "en-US"
+      },
+      {
+       "@type": "BreadcrumbList",
+       "@id": "https://hoclamtrader.com/en/msnr-trading-strategy/#breadcrumb",
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": "1",
+         "item": {
+          "@id": "https://hoclamtrader.com/en/",
+          "name": "Home"
+         }
+        },
+        {
+         "@type": "ListItem",
+         "position": "2",
+         "item": {
+          "@id": "https://hoclamtrader.com/en/theories/msnr/",
+          "name": "Msnr"
+         }
+        },
+        {
+         "@type": "ListItem",
+         "position": "3",
+         "item": {
+          "@id": "https://hoclamtrader.com/en/msnr-trading-strategy/",
+          "name": "MSNR Trading Strategy: Rules, Workflow and Risk"
+         }
+        }
+       ]
+      },
+      {
+       "@type": "WebPage",
+       "@id": "https://hoclamtrader.com/en/msnr-trading-strategy/#webpage",
+       "url": "https://hoclamtrader.com/en/msnr-trading-strategy/",
+       "name": "MSNR Trading Strategy: Rules, Workflow And Risk",
+       "datePublished": "2026-07-01T22:30:00+00:00",
+       "dateModified": "2026-10-11T00:57:23+00:00",
+       "isPartOf": {
+        "@id": "https://hoclamtrader.com/#website"
+       },
+       "primaryImageOfPage": {
+        "@id": "https://hoclamtrader.com/wp-content/uploads/2026/05/msnr-trading-strategy.webp"
+       },
+       "inLanguage": "en-US",
+       "breadcrumb": {
+        "@id": "https://hoclamtrader.com/en/msnr-trading-strategy/#breadcrumb"
+       }
+      },
+      {
+       "@type": "BlogPosting",
+       "headline": "MSNR Trading Strategy: Rules, Workflow And Risk",
+       "keywords": "MSNR trading strategy",
+       "datePublished": "2026-07-01T22:30:00+00:00",
+       "dateModified": "2026-10-11T00:57:23+00:00",
+       "articleSection": "Msnr, Technical Analysis Trading Guides",
+       "author": {
+        "@type": "Person",
+        "@id": "https://hoclamtrader.com/en/author/#person",
+        "name": "Michael A. Wilson",
+        "url": "https://hoclamtrader.com/en/author/"
+       },
+       "publisher": {
+        "@type": "Organization",
+        "@id": "https://hoclamtrader.com/#organization",
+        "name": "Học Làm Trader",
+        "sameAs": [
+         "https://www.facebook.com/hoclamtraderne/",
+         "https://www.youtube.com/@hoclamtraderne",
+         "https://www.pinterest.com/hoclamtrader/",
+         "https://x.com/hoclamtrader"
+        ]
+       },
+       "description": "Learn the complete MSNR workflow for zones, context, rejection, entry, invalidation and review while keeping each supporting concept distinct.",
+       "name": "MSNR Trading Strategy: Rules, Workflow And Risk",
+       "@id": "https://hoclamtrader.com/en/msnr-trading-strategy/#richSnippet",
+       "isPartOf": {
+        "@id": "https://hoclamtrader.com/en/msnr-trading-strategy/#webpage"
+       },
+       "image": {
+        "@id": "https://hoclamtrader.com/wp-content/uploads/2026/05/msnr-trading-strategy.webp"
+       },
+       "inLanguage": "en-US",
+       "mainEntityOfPage": {
+        "@id": "https://hoclamtrader.com/en/msnr-trading-strategy/#webpage"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:33:02Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:34:18Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:38:33Z",
+   "endpoint": "https://web.archive.org/save/https://hoclamtrader.com/en/msnr-trading-strategy/",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013183945/https://hoclamtrader.com/en/msnr-trading-strategy/",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:39:45 GMT",
+   "body_head": " MSNR Trading Strategy: Rules, Workflow And Risk ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:41:31Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013183945",
+    "last": "20261013183945",
+    "last_200": "20261013183945"
+   },
+   "final": true
+  }
+ },
+ "21-foreximf-com-blog-trading-malaysian-snr-trading-benarkah-strategi-ini": {
+  "n": 21,
+  "url": "https://www.foreximf.com/blog/trading/malaysian-snr-trading-benarkah-strategi-ini-bisa-bikin-cuan-gila-gilaan-kupas-tuntas-fakta-mitosnya",
+  "source_md_line": 155,
+  "accessed_utc": "2026-10-13T16:55:30Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/21-foreximf-com-blog-trading-malaysian-snr-trading-benarkah-strategi-ini/live.html",
+    "bytes": 74443,
+    "sha256": "60127c11f661ed434a9d47b1f4003496991bcdaa005c05217ab754a3c0a0bb0a"
+   },
+   {
+    "file": "snapshots/21-foreximf-com-blog-trading-malaysian-snr-trading-benarkah-strategi-ini/live.txt",
+    "bytes": 16788,
+    "sha256": "1ae1a8142e3960c66dbcc4d53894574fd6d01da9970ca451d84ab3d8da6b8a7d"
+   },
+   {
+    "file": "snapshots/21-foreximf-com-blog-trading-malaysian-snr-trading-benarkah-strategi-ini/wayback.html",
+    "bytes": 77581,
+    "sha256": "dc263b6a932720e4cfa22f1430088d28b5d81ad4ccc220c7194aee74c0684da9"
+   },
+   {
+    "file": "snapshots/21-foreximf-com-blog-trading-malaysian-snr-trading-benarkah-strategi-ini/wayback.txt",
+    "bytes": 16791,
+    "sha256": "4717ca9df2370481b68b78fdfa9e704cc032e279229d0ed151d7c7ac5b4b0fdc"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.foreximf.com/blog/trading/malaysian-snr-trading-benarkah-strategi-ini-bisa-bikin-cuan-gila-gilaan-kupas-tuntas-fakta-mitosnya",
+  "content_type": "text/html; charset=UTF-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 16773,
+  "page_meta": {
+   "title": "Malaysian SNR Trading: Benarkah Strategi Ini Bisa Bikin Cuan Gila-Gilaan? Kupas Tuntas Fakta & Mitosnya!",
+   "description": "Malaysian SNR trading klaim win-rate 80–90%. Benarkah sehebat itu? Kupas strategi, risiko, dan tips aman memakainya di sini!",
+   "og:url": "https://www.foreximf.com/blog/trading/malaysian-snr-trading-benarkah-strategi-ini-bisa-bikin-cuan-gila-gilaan-kupas-tuntas-fakta-mitosnya",
+   "og:title": "Malaysian SNR Trading: Benarkah Strategi Ini Bisa Bikin Cuan Gila-Gilaan? Kupas Tuntas Fakta & Mitosnya!",
+   "og:description": "Malaysian SNR trading klaim win-rate 80–90%. Benarkah sehebat itu? Kupas strategi, risiko, dan tips aman memakainya di sini!",
+   "og:site_name": "Broker Forex Resmi Indonesia | FOREXimf",
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "FOREXimf.com",
+     "url": "https://www.foreximf.com",
+     "sameAs": [
+      "https://www.facebook.com/forex.imf/",
+      "https://twitter.com/FOREXimf",
+      "https://www.instagram.com/foreximf.official/",
+      "https://www.linkedin.com/company/pt-im-futures",
+      "https://www.tiktok.com/@foreximf.official",
+      "https://plus.google.com/+Foreximf-ID",
+      "https://www.youtube.com/@Foreximf.official"
+     ]
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "Article",
+     "headline": "Malaysian SNR Trading: Benarkah Strategi Ini Bisa Bikin Cuan Gila-Gilaan? Kupas Tuntas Fakta & Mitosnya!",
+     "keywords": "SNR trading",
+     "image": "https://www.foreximf.com/upload/image/blog/malaysian_snr_trading_benarkah_strategi_ini_bisa_bikin_cuan_gila-gilaan_kupas_tuntas_fakta__mitosnya/malaysian_snr_trading_benarkah_strategi_ini_bisa_bikin_cuan_gila-gilaan_kupas_tuntas_fakta_amp_mitosnya.png",
+     "author": {
+      "@type": "Person",
+      "name": "Admin"
+     },
+     "publisher": {
+      "@type": "Organization",
+      "name": "PT. International Mitra Futures",
+      "url": "https://www.foreximf.com/",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "https://www.foreximf.com/theme/default/assets/images/repository/forex-imf-logo-png.png"
+      }
+     },
+     "articleBody": "Malaysian SNR trading klaim win-rate 80–90%. Benarkah sehebat itu? Kupas strategi, risiko, dan tips aman memakainya di sini!",
+     "datePublished": "2025-07-31 14:38:10",
+     "dateModified": "2025-07-31 14:38:10",
+     "mainEntityOfPage": true
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "Website",
+     "name": "FOREXimf - Broker Forex Indonesia",
+     "url": "https://www.foreximf.com/",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.foreximf.com//search?search={search_term_string}",
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "Corporation",
+     "name": "PT. International Mitra Futures",
+     "url": "https://www.foreximf.com/",
+     "logo": "https://www.foreximf.com/theme/default/assets/images/repository/forex-imf-logo-png.png",
+     "sameAs": [
+      "https://www.linkedin.com/company/pt-im-futures",
+      "https://www.facebook.com/quickpro.officiall",
+      "https://www.x.com/@myquickpro",
+      "https://www.instagram.com/quickpro_official",
+      "https://www.youtube.com/@quickpro_official"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "022 - 426 6000",
+      "contactType": "customer support"
+     }
+    }
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:34:34Z",
+   "status": 200,
+   "closest": {
+    "status": "200",
+    "available": true,
+    "url": "http://web.archive.org/web/20260422171219/https://www.foreximf.com/blog/trading/malaysian-snr-trading-benarkah-strategi-ini-bisa-bikin-cuan-gila-gilaan-kupas-tuntas-fakta-mitosnya",
+    "timestamp": "20260422171219"
+   }
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:35:02Z",
+   "status": 200,
+   "captures_days": 2,
+   "captures_200": 2,
+   "first": "20250809145803",
+   "last": "20260422171219",
+   "last_200": "20260422171219"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20260422171219/https://www.foreximf.com/blog/trading/malaysian-snr-trading-benarkah-strategi-ini-bisa-bikin-cuan-gila-gilaan-kupas-tuntas-fakta-mitosnya",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20260422171219id_/https://www.foreximf.com/blog/trading/malaysian-snr-trading-benarkah-strategi-ini-bisa-bikin-cuan-gila-gilaan-kupas-tuntas-fakta-mitosnya",
+   "status": 200,
+   "timestamp": "20260422171219",
+   "fetched_utc": "2026-10-13T17:35:19Z",
+   "text_chars": 16772,
+   "title": "Malaysian SNR Trading: Benarkah Strategi Ini Bisa Bikin Cuan Gila-Gilaan? Kupas Tuntas Fakta & Mitosnya!"
+  },
+  "wayback_done": true
+ },
+ "22-slideshare-net-slideshow-8041707456492093639302-malaysian-snr-pdf-2797": {
+  "n": 22,
+  "url": "https://www.slideshare.net/slideshow/8041707456492093639302-malaysian-snr-pdf/279734960",
+  "source_md_line": 156,
+  "accessed_utc": "2026-10-13T16:55:33Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/22-slideshare-net-slideshow-8041707456492093639302-malaysian-snr-pdf-2797/live.html",
+    "bytes": 1066738,
+    "sha256": "1302b1577d563a1523ab7980b28726a26712f09783071a97cea85ff7d2469553"
+   },
+   {
+    "file": "snapshots/22-slideshare-net-slideshow-8041707456492093639302-malaysian-snr-pdf-2797/live.txt",
+    "bytes": 16191,
+    "sha256": "2653a117765ecb8b7c36de9f9890a09aa05100d40b0aeeaf9c80950a188ea3a7"
+   },
+   {
+    "file": "snapshots/22-slideshare-net-slideshow-8041707456492093639302-malaysian-snr-pdf-2797/wayback.html",
+    "bytes": 1270855,
+    "sha256": "42ee4b2fee8e2ab7bcf631d338041a1360b845b6a22357f80f2194e72c255410"
+   },
+   {
+    "file": "snapshots/22-slideshare-net-slideshow-8041707456492093639302-malaysian-snr-pdf-2797/wayback.txt",
+    "bytes": 18436,
+    "sha256": "3b4dfc9cf18b53e1ac261cb1b398eece87643524711a0e9af8f07815aabee858"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.slideshare.net/slideshow/8041707456492093639302-malaysian-snr-pdf/279734960",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 16128,
+  "page_meta": {
+   "title": "8041707456492093639302-Malaysian-SNR.pdf",
+   "description": "Trading notes - Download as a PDF, PPTX or view online for free",
+   "og:site_name": "Slideshare",
+   "og:url": "https://www.slideshare.net/slideshow/8041707456492093639302-malaysian-snr-pdf/279734960",
+   "og:title": "8041707456492093639302-Malaysian-SNR.pdf",
+   "og:description": "Trading notes - Download as a PDF, PPTX or view online for free",
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "CreativeWork",
+     "name": "8041707456492093639302-Malaysian-SNR.pdf",
+     "description": "Trading notes",
+     "url": "https://www.slideshare.net/slideshow/8041707456492093639302-malaysian-snr-pdf/279734960",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Slideshare",
+      "url": "https://www.slideshare.net/"
+     },
+     "author": {
+      "@type": "Person",
+      "name": "adamchiu4",
+      "url": "https://www.slideshare.net/adamchiu4"
+     },
+     "encodingFormat": "application/pdf",
+     "fileFormat": "application/pdf",
+     "inLanguage": "en",
+     "datePublished": "2025-05-27 04:34:33 UTC",
+     "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.slideshare.net/slideshow/8041707456492093639302-malaysian-snr-pdf/279734960"
+     },
+     "thumbnailUrl": "https://cdn.slidesharecdn.com/ss_thumbnails/804170745-malaysian-snr-250527043433-97e59c47-thumbnail.jpg?width=640&height=640&fit=bounds",
+     "isAccessibleForFree": true,
+     "dateModified": "2026-08-02 20:43:43 UTC",
+     "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "interactionType": "https://schema.org/ReadAction",
+      "userInteractionCount": 17941
+     }
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://www.slideshare.net"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Business",
+       "item": "https://www.slideshare.net/category/business"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "8041707456492093639302-Malaysian-SNR.pdf",
+       "item": "https://www.slideshare.net/slideshow/8041707456492093639302-malaysian-snr-pdf/279734960"
+      }
+     ]
+    }
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:35:37Z",
+   "status": 200,
+   "closest": {
+    "status": "200",
+    "available": true,
+    "url": "http://web.archive.org/web/20260707155901/https://www.slideshare.net/slideshow/8041707456492093639302-malaysian-snr-pdf/279734960",
+    "timestamp": "20260707155901"
+   }
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:37:28Z",
+   "status": 200,
+   "captures_days": 24,
+   "captures_200": 24,
+   "first": "20250905145908",
+   "last": "20260707155901",
+   "last_200": "20260707155901"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20260707155901/https://www.slideshare.net/slideshow/8041707456492093639302-malaysian-snr-pdf/279734960",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20260707155901id_/https://www.slideshare.net/slideshow/8041707456492093639302-malaysian-snr-pdf/279734960",
+   "status": 200,
+   "timestamp": "20260707155901",
+   "fetched_utc": "2026-10-13T17:37:46Z",
+   "text_chars": 18293,
+   "title": "8041707456492093639302-Malaysian-SNR.pdf"
+  },
+  "wayback_done": true
+ },
+ "23-scribd-com-document-714980577-Malaysian-SnR-Daytrading": {
+  "n": 23,
+  "url": "https://www.scribd.com/document/714980577/Malaysian-SnR-Daytrading",
+  "source_md_line": 157,
+  "accessed_utc": "2026-10-13T16:55:37Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/23-scribd-com-document-714980577-Malaysian-SnR-Daytrading/live.html",
+    "bytes": 1114619,
+    "sha256": "5b2cb2ff6babb084a6481a4d6cfb672e5f2bb8d65fbbd8e3bdd126fe957a2da4"
+   },
+   {
+    "file": "snapshots/23-scribd-com-document-714980577-Malaysian-SnR-Daytrading/live.txt",
+    "bytes": 2386,
+    "sha256": "30dd909d99c334713e02959e6477495d954274734c074ee9f8e60bb778bdcd67"
+   },
+   {
+    "file": "snapshots/23-scribd-com-document-714980577-Malaysian-SnR-Daytrading/wayback.html",
+    "bytes": 1149763,
+    "sha256": "bedb9cec683f022db4cfa30c272759173aef5aeecc8c166f0594ea58469a368b"
+   },
+   {
+    "file": "snapshots/23-scribd-com-document-714980577-Malaysian-SnR-Daytrading/wayback.txt",
+    "bytes": 11682,
+    "sha256": "531be3b149ea797b8267f3d377063262e3100c68718584e018ab48a55ff959b0"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.scribd.com/document/714980577/Malaysian-SnR-Daytrading",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 2382,
+  "page_meta": {
+   "title": "Malaysian SnR Day Trading Strategy | PDF",
+   "og:site_name": "Scribd",
+   "og:title": "Malaysian SnR Day Trading Strategy | PDF",
+   "description": "Malaysian SnR Daytrading - Free download as PDF File (.pdf), Text File (.txt) or read online for free. The document describes a day trading strategy based on Malaysian SnR (Support and Resistance) levels on higher timeframes. Malaysian SnR levels are horizontal lines located at peaks and valleys in a line chart. There are three main types of levels - A-levels at peaks, V-levels at valleys, and Gap levels between candles of the same color. Levels can be either \"fresh\" or \"unfresh\" depending on whether the price has recently interacted with the level, with fresh levels more likely to provide resistance or support. The strategy will be to trade based on reactions to these identified Malaysian SnR levels on higher timeframes.",
+   "og:url": "https://www.scribd.com/document/714980577/Malaysian-SnR-Daytrading",
+   "og:description": "The document describes a day trading strategy based on Malaysian SnR (Support and Resistance) levels on higher timeframes. Malaysian SnR levels are horizontal lines located at peaks and valleys in a line chart. There are three main types of levels - A-levels at peaks, V-levels at valleys, and Gap levels between candles of the same color. Levels can be either \"fresh\" or \"unfresh\" depending on whether the price has recently interacted with the level, with fresh levels more likely to provide resistance or support. The strategy will be to trade based on reactions to these identified Malaysian SnR levels on higher timeframes.",
+   "json_ld": [
+    {
+     "@context": "http://schema.org",
+     "@type": "MediaObject",
+     "additionalType": "Product",
+     "name": "Malaysian SnR Daytrading",
+     "image": [
+      "https://imgv2-2-f.scribdassets.com/img/document/714980577/149x198/ebcc4e0c84/1760789614?v=1",
+      "https://imgv2-1-f.scribdassets.com/img/document/714980577/298x396/1fb97469d7/1760789614?v=1"
+     ],
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 3.3,
+      "ratingCount": 12
+     },
+     "author": {
+      "@type": "Person",
+      "name": "Remison Yoko"
+     },
+     "description": "The document describes a day trading strategy based on Malaysian SnR (Support and Resistance) levels on higher timeframes. Malaysian SnR levels are horizontal lines located at peaks and valleys in a line chart. There are three main types of levels - A-levels at peaks, V-levels at valleys, and Gap levels between candles of the same color. Levels can be either \"fresh\" or \"unfresh\" depending on whether the price has recently interacted with the level, with fresh levels more likely to provide resistance or support. The strategy will be to trade based on reactions to these identified Malaysian SnR levels on higher timeframes.",
+     "url": "https://www.scribd.com/document/714980577/Malaysian-SnR-Daytrading",
+     "inLanguage": "en",
+     "isAccessibleForFree": true
+    }
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:38:07Z",
+   "status": 200,
+   "closest": {
+    "status": "200",
+    "available": true,
+    "url": "http://web.archive.org/web/20260222104717/https://www.scribd.com/document/714980577/Malaysian-SnR-Daytrading",
+    "timestamp": "20260222104717"
+   }
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:38:34Z",
+   "status": 200,
+   "captures_days": 4,
+   "captures_200": 4,
+   "first": "20250627231301",
+   "last": "20260222104717",
+   "last_200": "20260222104717"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20260222104717/https://www.scribd.com/document/714980577/Malaysian-SnR-Daytrading",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20260222104717id_/https://www.scribd.com/document/714980577/Malaysian-SnR-Daytrading",
+   "status": 200,
+   "timestamp": "20260222104717",
+   "fetched_utc": "2026-10-13T17:38:52Z",
+   "text_chars": 11668,
+   "title": "Malaysian SnR Day Trading Strategy | PDF"
+  },
+  "wayback_done": true
+ },
+ "24-scribd-com-presentation-890088095-Malaysian-Snr-Strategy": {
+  "n": 24,
+  "url": "https://www.scribd.com/presentation/890088095/Malaysian-Snr-Strategy",
+  "source_md_line": 158,
+  "accessed_utc": "2026-10-13T16:55:41Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/24-scribd-com-presentation-890088095-Malaysian-Snr-Strategy/live.html",
+    "bytes": 1187862,
+    "sha256": "58ad32676ec30bffd1390de02f3dfe708dfd24f9a00dcb4e8a68c98fdc09b27e"
+   },
+   {
+    "file": "snapshots/24-scribd-com-presentation-890088095-Malaysian-Snr-Strategy/live.txt",
+    "bytes": 2230,
+    "sha256": "985c884012b02bb8a0c448d09cba5917f468082e3e397151d351c6373f4fb45d"
+   },
+   {
+    "file": "snapshots/24-scribd-com-presentation-890088095-Malaysian-Snr-Strategy/wayback.html",
+    "bytes": 1404912,
+    "sha256": "95014f7f87a22b9bbf2071126588d010134a150a3fce4c6da7249a520630609c"
+   },
+   {
+    "file": "snapshots/24-scribd-com-presentation-890088095-Malaysian-Snr-Strategy/wayback.txt",
+    "bytes": 21405,
+    "sha256": "852dc2de5a54d59a638329b5cdbe30c7a9620c72e341642881ae98d0077e4c92"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.scribd.com/presentation/890088095/Malaysian-Snr-Strategy",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 2226,
+  "page_meta": {
+   "title": "Malaysian SNR Trading Strategy Guide | PDF | Market Trend | Market (Economics)",
+   "og:site_name": "Scribd",
+   "og:title": "Malaysian SNR Trading Strategy Guide | PDF | Market Trend | Market (Economics)",
+   "description": "Malaysian Snr Strategy - Free download as Powerpoint Presentation (.ppt / .pptx), PDF File (.pdf), Text File (.txt) or view presentation slides online. The Malaysian SNR strategy utilizes support and resistance levels, trend lines, and storylines to analyze and respond to price movements, particularly effective for trading Gold (XAUUSD). It emphasizes the importance of higher timeframe rejections, identifying roadblocks, and using specific entry models for executing trades. Traders are advised to manage risk carefully and remain flexible while adhering to established storylines for successful trading outcomes.",
+   "og:url": "https://www.scribd.com/presentation/890088095/Malaysian-Snr-Strategy",
+   "og:description": "The Malaysian SNR strategy utilizes support and resistance levels, trend lines, and storylines to analyze and respond to price movements, particularly effective for trading Gold (XAUUSD). It emphasizes the importance of higher timeframe rejections, identifying roadblocks, and using specific entry models for executing trades. Traders are advised to manage risk carefully and remain flexible while adhering to established storylines for successful trading outcomes.",
+   "json_ld": [
+    {
+     "@context": "http://schema.org",
+     "@type": "MediaObject",
+     "additionalType": "Product",
+     "name": "Malaysian Snr Strategy",
+     "image": [
+      "https://imgv2-1-f.scribdassets.com/img/document/890088095/149x198/91ff007b29/1791046584?v=1",
+      "https://imgv2-1-f.scribdassets.com/img/document/890088095/298x396/b153b1f3b0/1791046584?v=1"
+     ],
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.8,
+      "ratingCount": 25
+     },
+     "author": {
+      "@type": "Person",
+      "name": "ericoforiamanfo5"
+     },
+     "description": "The Malaysian SNR strategy utilizes support and resistance levels, trend lines, and storylines to analyze and respond to price movements, particularly effective for trading Gold (XAUUSD). It emphasizes the importance of higher timeframe rejections, identifying roadblocks, and using specific entry models for executing trades. Traders are advised to manage risk carefully and remain flexible while adhering to established storylines for successful trading outcomes.",
+     "url": "https://www.scribd.com/presentation/890088095/Malaysian-Snr-Strategy",
+     "inLanguage": "en",
+     "isAccessibleForFree": true
+    }
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:39:10Z",
+   "status": 200,
+   "closest": {
+    "status": "200",
+    "available": true,
+    "url": "http://web.archive.org/web/20260906130954/https://www.scribd.com/presentation/890088095/Malaysian-Snr-Strategy",
+    "timestamp": "20260906130954"
+   }
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:39:51Z",
+   "status": 200,
+   "captures_days": 8,
+   "captures_200": 8,
+   "first": "20250814070841",
+   "last": "20260906130954",
+   "last_200": "20260906130954"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20260906130954/https://www.scribd.com/presentation/890088095/Malaysian-Snr-Strategy",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20260906130954id_/https://www.scribd.com/presentation/890088095/Malaysian-Snr-Strategy",
+   "status": 200,
+   "timestamp": "20260906130954",
+   "fetched_utc": "2026-10-13T17:40:12Z",
+   "text_chars": 21345,
+   "title": "Malaysian SNR Trading Strategy Guide | PDF | Market Trend | Market (Economics)"
+  },
+  "wayback_done": true
+ },
+ "25-scribd-com-document-826847580-malaysian-snr-full-document-by-KororFX": {
+  "n": 25,
+  "url": "https://www.scribd.com/document/826847580/malaysian-snr-full-document-by-KororFX",
+  "source_md_line": 159,
+  "accessed_utc": "2026-10-13T16:55:45Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/25-scribd-com-document-826847580-malaysian-snr-full-document-by-KororFX/live.html",
+    "bytes": 1152443,
+    "sha256": "c9ec08dad81eff1b36389baebe04795b03e18272c2491ae0877f2439abfe3d7c"
+   },
+   {
+    "file": "snapshots/25-scribd-com-document-826847580-malaysian-snr-full-document-by-KororFX/live.txt",
+    "bytes": 2249,
+    "sha256": "e72a8feeca1c83cc2db6a0e54da57065f33db6efc00be17fe4db7cf0533a48cf"
+   },
+   {
+    "file": "snapshots/25-scribd-com-document-826847580-malaysian-snr-full-document-by-KororFX/wayback.html",
+    "bytes": 1247370,
+    "sha256": "9f632a8d342612e4d1ca04d6e1f3e0eeb9c4a658bc29ad655e89824a87533a9a"
+   },
+   {
+    "file": "snapshots/25-scribd-com-document-826847580-malaysian-snr-full-document-by-KororFX/wayback.txt",
+    "bytes": 19432,
+    "sha256": "28ecfb05d8b955b7ea6ebf552cbc68fa9e71ff34f8cf6167cb72bc4b7fff0a88"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://www.scribd.com/document/826847580/malaysian-snr-full-document-by-KororFX",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 2245,
+  "page_meta": {
+   "title": "Malaysian SNR Trading Strategies Guide | PDF | Financial Markets | Market (Economics)",
+   "og:site_name": "Scribd",
+   "og:title": "Malaysian SNR Trading Strategies Guide | PDF | Financial Markets | Market (Economics)",
+   "description": "malaysian snr full document by KororFX - Free download as PDF File (.pdf), Text File (.txt) or read online for free. The document outlines a mentorship program by Abdiwahab H. Abdalle, focusing on trading strategies including price action, support and resistance levels, engulfing patterns, and trendlines. It provides detailed methodologies for marking significant levels, identifying entry points, and understanding market dynamics across different timeframes. The mentorship fee is set at $250, and additional resources are offered as bonus packages.",
+   "og:url": "https://www.scribd.com/document/826847580/malaysian-snr-full-document-by-KororFX",
+   "og:description": "The document outlines a mentorship program by Abdiwahab H. Abdalle, focusing on trading strategies including price action, support and resistance levels, engulfing patterns, and trendlines. It provides detailed methodologies for marking significant levels, identifying entry points, and understanding market dynamics across different timeframes. The mentorship fee is set at $250, and additional resources are offered as bonus packages.",
+   "json_ld": [
+    {
+     "@context": "http://schema.org",
+     "@type": "MediaObject",
+     "additionalType": "Product",
+     "name": "malaysian snr full document by KororFX",
+     "image": [
+      "https://imgv2-2-f.scribdassets.com/img/document/826847580/149x198/7cdaba8a0e/1788060153?v=1",
+      "https://imgv2-1-f.scribdassets.com/img/document/826847580/298x396/a4cc7c1d37/1788060153?v=1"
+     ],
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.4,
+      "ratingCount": 14
+     },
+     "author": {
+      "@type": "Person",
+      "name": "malik kondo"
+     },
+     "description": "The document outlines a mentorship program by Abdiwahab H. Abdalle, focusing on trading strategies including price action, support and resistance levels, engulfing patterns, and trendlines. It provides detailed methodologies for marking significant levels, identifying entry points, and understanding market dynamics across different timeframes. The mentorship fee is set at $250, and additional resources are offered as bonus packages.",
+     "url": "https://www.scribd.com/document/826847580/malaysian-snr-full-document-by-KororFX",
+     "inLanguage": "en",
+     "isAccessibleForFree": true
+    }
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:40:32Z",
+   "status": 200,
+   "closest": {
+    "status": "200",
+    "available": true,
+    "url": "http://web.archive.org/web/20260329161600/https://www.scribd.com/document/826847580/malaysian-snr-full-document-by-KororFX",
+    "timestamp": "20260329161600"
+   }
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:41:46Z",
+   "status": 200,
+   "captures_days": 4,
+   "captures_200": 4,
+   "first": "20250627231335",
+   "last": "20260329161600",
+   "last_200": "20260329161600"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20260329161600/https://www.scribd.com/document/826847580/malaysian-snr-full-document-by-KororFX",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20260329161600id_/https://www.scribd.com/document/826847580/malaysian-snr-full-document-by-KororFX",
+   "status": 200,
+   "timestamp": "20260329161600",
+   "fetched_utc": "2026-10-13T17:42:04Z",
+   "text_chars": 19330,
+   "title": "Malaysian SNR Trading Strategies Guide | PDF | Financial Markets | Market (Economics)"
+  },
+  "wayback_done": true
+ },
+ "26-tradingnut-com-mr-t": {
+  "n": 26,
+  "url": "https://tradingnut.com/mr-t/",
+  "source_md_line": 160,
+  "accessed_utc": "2026-10-13T16:55:49Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/26-tradingnut-com-mr-t/live.html",
+    "bytes": 33233,
+    "sha256": "3f83d83545b39811bc6d90bf36d7b49237fb96689da8c40c148e538c08a6c930"
+   },
+   {
+    "file": "snapshots/26-tradingnut-com-mr-t/live.txt",
+    "bytes": 3748,
+    "sha256": "079cd5fccc5117755f37179f11cea0561d600771ce1c2af17ed7977e0b5478f2"
+   },
+   {
+    "file": "snapshots/26-tradingnut-com-mr-t/wayback.html",
+    "bytes": 275520,
+    "sha256": "9ea0600ab4f3e9a69c86537b7e44d6bbc735c3a80a4879f22e2a25ac02e3f10a"
+   },
+   {
+    "file": "snapshots/26-tradingnut-com-mr-t/wayback.txt",
+    "bytes": 4017,
+    "sha256": "93e2a1b3822568a2b5a389e9f2be1ec4b14f093a8b4e8222d49ad0e62dad6a79"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://tradingnut.com/mr-t/",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 3724,
+  "page_meta": {
+   "title": "221: Learn How \"Mystery Trader\" Flipped £1,000 to £1 Million in Just 17 Months Using Malaysian SnR | Trading Nut",
+   "description": "Step into the world of Forex trading and witness the rise of a revolutionary trading style that has taken the trading community by storm - Malaysian SnR.",
+   "og:site_name": "Trading Nut",
+   "og:title": "221: Learn How \"Mystery Trader\" Flipped £1,000 to £1 Million in Just 17 Months Using Malaysian SnR | Trading Nut",
+   "og:description": "Step into the world of Forex trading and witness the rise of a revolutionary trading style that has taken the trading community by storm - Malaysian SnR.",
+   "og:url": "https://tradingnut.com/mr-t/",
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "Trading Nut",
+     "url": "https://tradingnut.com",
+     "logo": "https://media.tradingnut.com/wp-content/uploads/52tsecure/20210823023159/tn-logo-aug-sm.png",
+     "sameAs": [
+      "https://www.youtube.com/tradingnut",
+      "https://open.spotify.com/show/2kbC6FEWOVNNawssaJeK9b",
+      "https://www.instagram.com/tradingnut/",
+      "https://x.com/MetatraderCam"
+     ]
+    },
+    {
+     "@context": "https://schema.org",
+     "@type": "PodcastEpisode",
+     "name": "221: Learn How \"Mystery Trader\" Flipped £1,000 to £1 Million in Just 17 Months Using Malaysian SnR",
+     "description": "Step into the world of Forex trading and witness the rise of a revolutionary trading style that has taken the trading community by storm - Malaysian SnR.",
+     "url": "https://tradingnut.com/mr-t/",
+     "datePublished": "2023-04-06",
+     "timeRequired": "PT58M",
+     "image": "https://i.ytimg.com/vi/YphbyoYz2yc/hqdefault.jpg",
+     "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://media.tradingnut.com/podcast/legacy/ep221-mrt.mp3"
+     },
+     "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Trading Nut",
+      "url": "https://tradingnut.com/"
+     },
+     "publisher": {
+      "@type": "Organization",
+      "name": "Trading Nut",
+      "logo": {
+       "@type": "ImageObject",
+       "url": "https://media.tradingnut.com/wp-content/uploads/52tsecure/20210823023159/tn-logo-aug-sm.png"
+      }
+     }
+    }
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:42:25Z",
+   "status": 200,
+   "closest": {
+    "status": "200",
+    "available": true,
+    "url": "http://web.archive.org/web/20260610220306/https://tradingnut.com/mr-t/",
+    "timestamp": "20260610220306"
+   }
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:44:55Z",
+   "status": 200,
+   "captures_days": 11,
+   "captures_200": 11,
+   "first": "20230405193847",
+   "last": "20260610220306",
+   "last_200": "20260610220306"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20260610220306/https://tradingnut.com/mr-t/",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20260610220306id_/https://tradingnut.com/mr-t/",
+   "status": 200,
+   "timestamp": "20260610220306",
+   "fetched_utc": "2026-10-13T17:45:13Z",
+   "text_chars": 3974,
+   "title": "221: Learn How “Mystery Trader” Flipped £1,000 to £1 Million in Just 17 Months Using Malaysian SnR | Trading Nut | Podcasts & Free Courses on Forex, Futures & Stocks"
+  },
+  "wayback_done": true
+ },
+ "27-tiktok-com-toby-fx1-video-7608116772859890962": {
+  "n": 27,
+  "url": "https://www.tiktok.com/@toby.fx1/video/7608116772859890962",
+  "source_md_line": 161,
+  "accessed_utc": "2026-10-13T16:55:52Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [],
+  "http_status": null,
+  "live_status": "FETCH ERROR",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='www.tiktok.com', port=443): Max retries exceeded with url: /@toby.fx1/video/7608116772859890962 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tiktok.com', port=443) at 0x22a76586f60>, 'Connection to www.tiktok.com timed out. (connect timeout=60)'))",
+  "oembed": {
+   "endpoint": "https://www.tiktok.com/oembed?url=https%3A%2F%2Fwww.tiktok.com%2F%40toby.fx1%2Fvideo%2F7608116772859890962",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.tiktok.com', port=443): Max retries exceeded with url: /oembed?url=https%3A%2F%2Fwww.tiktok.com%2F%40toby.fx1%2Fvideo%2F7608116772859890962 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tiktok.com', port=443) at 0x22a76661820>, 'Connection to www.tiktok.com timed out. (connect timeout=40)'))"
+  },
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:45:33Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:46:51Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:42:01Z",
+   "endpoint": "https://web.archive.org/save/https://www.tiktok.com/@toby.fx1/video/7608116772859890962",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013184314/https://www.tiktok.com/@toby.fx1/video/7608116772859890962",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:43:15 GMT",
+   "body_head": " TikTok - Make Your Day ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:44:22Z",
+    "status": 200,
+    "captures_days": 1,
+    "captures_200": 1,
+    "first": "20261013184314",
+    "last": "20261013184314",
+    "last_200": "20261013184314"
+   },
+   "final": true
+  }
+ },
+ "28-youtube-com-watch": {
+  "n": 28,
+  "url": "https://www.youtube.com/watch?v=jGdcR1--dXQ",
+  "source_md_line": 164,
+  "accessed_utc": "2026-10-13T16:56:36Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/28-youtube-com-watch/live.html",
+    "bytes": 324179,
+    "sha256": "b572aed84167a0c6903b1f06e58703eb474062286bb6f62310973554aa800d71"
+   },
+   {
+    "file": "snapshots/28-youtube-com-watch/live.txt",
+    "bytes": 7,
+    "sha256": "fb7accfff8c6f8ea9b03c91ee5576d0d08080e9ba35918d801aaeb6020dbc88c"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://m.youtube.com/watch?v=jGdcR1--dXQ",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [
+   302
+  ],
+  "kind": "html",
+  "text_chars": 7,
+  "page_meta": {
+   "title": "YouTube",
+   "description": "Share your videos with friends, family, and the world",
+   "keywords": "video, sharing, camera phone, video phone, free, upload",
+   "og:url": "https://www.youtube.com/watch?v=jGdcR1--dXQ"
+  },
+  "youtube": {
+   "title": null,
+   "channel": null,
+   "channel_id": null,
+   "length_seconds": null,
+   "view_count": null,
+   "description": null,
+   "publish_date": null,
+   "upload_date": null,
+   "category": null,
+   "playability": "ERROR",
+   "playability_reason": "Video unavailable",
+   "caption_tracks_listed": [],
+   "transcript": "no caption track listed in the public page data"
+  },
+  "live_status": "OK (HTTP 200)",
+  "oembed": {
+   "endpoint": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DjGdcR1--dXQ",
+   "status": 404,
+   "data": "Not Found"
+  },
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:51:44Z",
+   "status": 429,
+   "error": "non-JSON reply: '<html><body><h1>429 Too Many Requests</h1>\\nYou have sent too many requests in a given amount of time.\\n</body></html>\\n'"
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:52:12Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:44:52Z",
+   "endpoint": "https://web.archive.org/save/https://www.youtube.com/watch?v=jGdcR1--dXQ",
+   "status": 523,
+   "final_url": "https://web.archive.org/save/https://www.youtube.com/watch?v=jGdcR1--dXQ",
+   "content_location": null,
+   "x_archive": null,
+   "body_head": " Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:46:42Z",
+    "status": 200,
+    "captures_days": 0,
+    "captures_200": 0,
+    "first": null,
+    "last": null,
+    "last_200": null
+   },
+   "final": true
+  }
+ },
+ "29-youtube-com-watch": {
+  "n": 29,
+  "url": "https://www.youtube.com/watch?v=DKWHkqkF9Pk",
+  "source_md_line": 165,
+  "accessed_utc": "2026-10-13T16:56:41Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/29-youtube-com-watch/live.html",
+    "bytes": 632986,
+    "sha256": "6c73694a2f5a76e134cf8c190b94a2a2b9abbce95253f20cbcac283c882e9998"
+   },
+   {
+    "file": "snapshots/29-youtube-com-watch/live.txt",
+    "bytes": 64,
+    "sha256": "4e6dffd4cc202544ddffe00a42ab5375e8fdeda1d3b60d4f3f22c2185a75155b"
+   },
+   {
+    "file": "snapshots/29-youtube-com-watch/wayback.html",
+    "bytes": 1439723,
+    "sha256": "0db030dfb5d721549434eaea312be647d1d73d9a9f2d401fb4a1bbb65b13138c"
+   },
+   {
+    "file": "snapshots/29-youtube-com-watch/wayback.txt",
+    "bytes": 222,
+    "sha256": "f3c7143c36aa510063a0f3008322604b89dc30c89a12a097b8e89ce490374da5"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://m.youtube.com/watch?v=DKWHkqkF9Pk",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [
+   302
+  ],
+  "kind": "html",
+  "text_chars": 64,
+  "page_meta": {
+   "title": "YouTube",
+   "description": "Share your videos with friends, family, and the world",
+   "keywords": "video, sharing, camera phone, video phone, free, upload",
+   "og:url": "https://www.youtube.com/watch?v=DKWHkqkF9Pk",
+   "og:site_name": "YouTube",
+   "og:title": "Malaysian SNR - The Holy Grail for Day Trading",
+   "og:description": "In this video about Malaysian SNR I show my approach to use HTF SNR levels as support or resistance and to enter at these levels on LTF like 15 min, 5 min or even 1min.\n\n👉 Find coins to SHORT before the crowd: https://shitcoinfinder.com\n\nOur tradingview Indicators Malaysian SNR & Gann swing Chart are now available on https://indivisionx.com our new webpage.\n\n📘 My Malaysian SNR Daytrading book is now available\n\nClean HTF Support & Resistance.\nNo signals. No nonsense.\n\n👉 Get it here:\nUS: https://www.amazon.com/dp/B0GFG88F2P\n\nDE: https://www.amazon.de/dp/B0GFG88F2P\n\nUK: https://www.amazon.co.uk/dp/B0GFG88F2P\n\nProduction Music courtesy of Epidemic Sound: http://www.epidemicsound.com",
+   "og:video:tag": "malaysian snr trading",
+   "datepublished": "2024-04-22T12:07:48-07:00",
+   "uploaddate": "2024-04-22T12:07:48-07:00"
+  },
+  "youtube": {
+   "title": "Malaysian SNR - The Holy Grail for Day Trading",
+   "channel": "The Trading Guide",
+   "channel_id": "UCt1Gq1mUok8n9zOOJbzb9VA",
+   "length_seconds": "312",
+   "view_count": "20453",
+   "description": "In this video about Malaysian SNR I show my approach to use HTF SNR levels as support or resistance and to enter at these levels on LTF like 15 min, 5 min or even 1min.\n\n👉 Find coins to SHORT before the crowd: https://shitcoinfinder.com\n\nOur tradingview Indicators Malaysian SNR & Gann swing Chart are now available on https://indivisionx.com our new webpage.\n\n📘 My Malaysian SNR Daytrading book is now available\n\nClean HTF Support & Resistance.\nNo signals. No nonsense.\n\n👉 Get it here:\nUS: https://www.amazon.com/dp/B0GFG88F2P\n\nDE: https://www.amazon.de/dp/B0GFG88F2P\n\nUK: https://www.amazon.co.uk/dp/B0GFG88F2P\n\nProduction Music courtesy of Epidemic Sound: http://www.epidemicsound.com",
+   "publish_date": "2024-04-22T12:07:48-07:00",
+   "upload_date": "2024-04-22T12:07:48-07:00",
+   "category": "Education",
+   "playability": "OK",
+   "playability_reason": null,
+   "caption_tracks_listed": [
+    {
+     "lang": "en",
+     "kind": "asr",
+     "name": null
+    }
+   ],
+   "transcript": "NOT available without login: public caption URL returned HTTP 404 with 1929 bytes",
+   "transcript_http_status_retry": 404,
+   "transcript_retry_utc": "2026-10-16T20:56:51Z"
+  },
+  "live_status": "OK (HTTP 200)",
+  "oembed": {
+   "endpoint": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DDKWHkqkF9Pk",
+   "status": 200,
+   "data": {
+    "title": "Malaysian SNR - The Holy Grail for Day Trading",
+    "author_name": "The Trading Guide",
+    "author_url": "https://www.youtube.com/@TheTradingGuide",
+    "type": "video",
+    "height": 113,
+    "width": 200,
+    "version": "1.0",
+    "provider_name": "YouTube",
+    "provider_url": "https://www.youtube.com/",
+    "thumbnail_height": 360,
+    "thumbnail_width": 480,
+    "thumbnail_url": "https://i.ytimg.com/vi/DKWHkqkF9Pk/hqdefault.jpg",
+    "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/DKWHkqkF9Pk?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Malaysian SNR - The Holy Grail for Day Trading\"></iframe>"
+   }
+  },
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:53:24Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:53:47Z",
+   "status": 200,
+   "captures_days": 3,
+   "captures_200": 3,
+   "first": "20240523222418",
+   "last": "20240528183715",
+   "last_200": "20240528183715"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20240528183715/https://www.youtube.com/watch?v=DKWHkqkF9Pk",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20240528183715id_/https://www.youtube.com/watch?v=DKWHkqkF9Pk",
+   "status": 200,
+   "timestamp": "20240528183715",
+   "fetched_utc": "2026-10-13T17:54:09Z",
+   "text_chars": 221,
+   "title": "Malaysian SNR - The Holy Grail for Day Trading - YouTube"
+  },
+  "wayback_done": true
+ },
+ "30-youtube-com-malaysiansnr": {
+  "n": 30,
+  "url": "https://www.youtube.com/@malaysiansnr",
+  "source_md_line": 166,
+  "accessed_utc": "2026-10-13T16:56:46Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/30-youtube-com-malaysiansnr/live.html",
+    "bytes": 550738,
+    "sha256": "4cef77f9d529e3a5cc073980925ad3832762f7e687d0b02ad2c025dfe751955f"
+   },
+   {
+    "file": "snapshots/30-youtube-com-malaysiansnr/live.txt",
+    "bytes": 31,
+    "sha256": "6962502b9ef52123247c2aa3c78d03cde57ac61737d15efcc118453f15ec3b9b"
+   },
+   {
+    "file": "snapshots/30-youtube-com-malaysiansnr/wayback.html",
+    "bytes": 657371,
+    "sha256": "ec909c0ad36b800b1b430e4d47f07a281efff2cc346a723d0dfcd961c248a426"
+   },
+   {
+    "file": "snapshots/30-youtube-com-malaysiansnr/wayback.txt",
+    "bytes": 189,
+    "sha256": "f85bb1be1d6bb6aa44708fe1493d097686cef39a4b9e4c02d8974bf9d1fdddde"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://m.youtube.com/@malaysiansnr",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [
+   302
+  ],
+  "kind": "html",
+  "text_chars": 31,
+  "page_meta": {
+   "title": "YouTube",
+   "description": "Share your videos with friends, family, and the world",
+   "keywords": "video, sharing, camera phone, video phone, free, upload",
+   "og:url": "https://www.youtube.com/@malaysiansnr",
+   "og:title": "Malaysian SNR",
+   "og:site_name": "YouTube",
+   "og:description": "The best of Msnr and engulfing courses",
+   "json_ld": [
+    {
+     "@context": "https://schema.org",
+     "@type": "ProfilePage",
+     "url": "https://www.youtube.com/channel/UCLKzQcfUQfEPbArtRt1Y7_A",
+     "name": "Malaysian SNR - YouTube",
+     "description": "The best of Msnr and engulfing courses ",
+     "mainEntity": {
+      "@type": "Person",
+      "name": "Malaysian SNR",
+      "url": "https://www.youtube.com/channel/UCLKzQcfUQfEPbArtRt1Y7_A",
+      "alternateName": "@malaysiansnr",
+      "image": "https://yt3.googleusercontent.com/j9vhd7floXk_MEhfEBvN49GkTEinFSPzcf3yM05R0EUyLfkA--c4bSPErqTJ2Tsy6ivzEkxkQQ=s88-c-k-c0x00ffffff-no-rj",
+      "description": "The best of Msnr and engulfing courses ",
+      "sameAs": [
+       "https://shorturl.at/Hlh4D",
+       "https://t.me/freeforexupdate"
+      ],
+      "interactionStatistic": [
+       {
+        "@type": "InteractionCounter",
+        "interactionType": {
+         "@type": "FollowAction"
+        },
+        "userInteractionCount": "9030"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "live_status": "OK (HTTP 200)",
+  "oembed": {
+   "endpoint": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2F%40malaysiansnr",
+   "status": 404,
+   "data": "Not Found"
+  },
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:54:30Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:55:00Z",
+   "status": 200,
+   "captures_days": 1,
+   "captures_200": 1,
+   "first": "20240722025822",
+   "last": "20240722025822",
+   "last_200": "20240722025822"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20240722025822/https://www.youtube.com/@malaysiansnr",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20240722025822id_/https://www.youtube.com/@malaysiansnr",
+   "status": 200,
+   "timestamp": "20240722025822",
+   "fetched_utc": "2026-10-13T17:55:18Z",
+   "text_chars": 188,
+   "title": "Malaysian SNR - YouTube"
+  },
+  "wayback_done": true
+ },
+ "31-youtube-com-playlist": {
+  "n": 31,
+  "url": "https://www.youtube.com/playlist?list=PLHURu1OerAuB3L2RkCGFOY-uxTES8yGuF",
+  "source_md_line": 167,
+  "accessed_utc": "2026-10-13T16:56:52Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/31-youtube-com-playlist/live.html",
+    "bytes": 404223,
+    "sha256": "ed8939d9495b3ebbdeef2f33cf494c10a39d9e5ceecf74fcec4e66209a74200d"
+   },
+   {
+    "file": "snapshots/31-youtube-com-playlist/live.txt",
+    "bytes": 50,
+    "sha256": "4d9a4790f8c031286be1445c6f5303f13818e93cdc968d4b4b180ab580f65bbe"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://m.youtube.com/playlist?list=PLHURu1OerAuB3L2RkCGFOY-uxTES8yGuF",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [
+   302
+  ],
+  "kind": "html",
+  "text_chars": 50,
+  "page_meta": {
+   "title": "YouTube",
+   "description": "Share your videos with friends, family, and the world",
+   "keywords": "video, sharing, camera phone, video phone, free, upload",
+   "og:url": "https://www.youtube.com/playlist",
+   "og:site_name": "YouTube",
+   "og:title": "Malaysian SnR Concepts - YouTube",
+   "og:description": "This playlist is a like a mini course that covers pretty much my trading strategy and plan. You need to watch all the videos here to be able to understand th..."
+  },
+  "live_status": "OK (HTTP 200)",
+  "oembed": {
+   "endpoint": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPLHURu1OerAuB3L2RkCGFOY-uxTES8yGuF",
+   "status": 200,
+   "data": {
+    "title": "Malaysian SnR Concepts",
+    "author_name": "TRADEMATE - AMT",
+    "author_url": "/@trademate10",
+    "type": "video",
+    "height": 113,
+    "width": 200,
+    "version": "1.0",
+    "provider_name": "YouTube",
+    "provider_url": "https://www.youtube.com/",
+    "thumbnail_height": 360,
+    "thumbnail_width": 480,
+    "thumbnail_url": "https://i.ytimg.com/vi/ByXFhGQiF38/hqdefault.jpg",
+    "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/videoseries?list=PLHURu1OerAuB3L2RkCGFOY-uxTES8yGuF\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+   }
+  },
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:55:35Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:56:03Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:47:12Z",
+   "endpoint": "https://web.archive.org/save/https://www.youtube.com/playlist?list=PLHURu1OerAuB3L2RkCGFOY-uxTES8yGuF",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20261013184838/https://www.youtube.com/playlist?app=desktop&list=PLHURu1OerAuB3L2RkCGFOY-uxTES8yGuF",
+   "content_location": null,
+   "x_archive": "Tue, 13 Oct 2026 18:48:39 GMT",
+   "body_head": " ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:50:36Z",
+    "status": 200,
+    "captures_days": 0,
+    "captures_200": 0,
+    "first": null,
+    "last": null,
+    "last_200": null
+   },
+   "final": true
+  }
+ },
+ "32-youtube-com-watch": {
+  "n": 32,
+  "url": "https://www.youtube.com/watch?v=Oi4JHwd7VlE",
+  "source_md_line": 168,
+  "accessed_utc": "2026-10-13T16:56:56Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/32-youtube-com-watch/live.html",
+    "bytes": 587414,
+    "sha256": "a39c96ab37d1bade08d1faf2f84146543ac08fd89e7816fcc0c2c4f6a8ec57b1"
+   },
+   {
+    "file": "snapshots/32-youtube-com-watch/live.txt",
+    "bytes": 78,
+    "sha256": "823586b28fa3476ce61e0a4e5b31669545e6c419d0bbba13cb637a9cd1223d58"
+   },
+   {
+    "file": "snapshots/32-youtube-com-watch/wayback.html",
+    "bytes": 989708,
+    "sha256": "4a5ace4ae327e9cf740241fd67d338b7ab2ccbc76a4558fcb1806b0b0879d7bc"
+   },
+   {
+    "file": "snapshots/32-youtube-com-watch/wayback.txt",
+    "bytes": 186,
+    "sha256": "40317014df95394b5c793713c3568727977f3ca84f320aecf0d0e60ed0be694f"
+   }
+  ],
+  "http_status": 200,
+  "final_url": "https://m.youtube.com/watch?v=Oi4JHwd7VlE",
+  "content_type": "text/html; charset=utf-8",
+  "redirects": [
+   302
+  ],
+  "kind": "html",
+  "text_chars": 78,
+  "page_meta": {
+   "title": "YouTube",
+   "description": "Share your videos with friends, family, and the world",
+   "keywords": "video, sharing, camera phone, video phone, free, upload",
+   "og:url": "https://www.youtube.com/watch?v=Oi4JHwd7VlE",
+   "og:site_name": "YouTube",
+   "og:title": "82% Winrate Malaysian SNR Scalping Strategy Changes the Game",
+   "og:description": "In this video I show my Malaysian SNR scalping strategy for the 30 second chart, that can be used for symbols with low spreads like Crypto Futures ort indices. \n\n👉 Find coins to SHORT before the crowd: https://shitcoinfinder.com\n\nOur tradingview Indicators Malaysian SNR & Gann swing Chart are now available on https://indivisionx.com our new webpage.\n\nAn extended video  can be found on my webpage in which I explain refinement of SNR levels and trade entries : https://the-trading-guide.com/products/ the winrate according the the backtest is around 82% for 1:2RR.\n\n📘 My Malaysian SNR Daytrading book is now available\n\nClean HTF Support & Resistance.\nNo signals. No nonsense.\n\n👉 Get it here:\nUS: https://www.amazon.com/dp/B0GFG88F2P\n\nDE: https://www.amazon.de/dp/B0GFG88F2P\n\nUK: https://www.amazon.co.uk/dp/B0GFG88F2P\n\nProduction Music courtesy of Epidemic Sound: http://www.epidemicsound.",
+   "og:video:tag": "snr",
+   "datepublished": "2024-08-31T10:57:56-07:00",
+   "uploaddate": "2024-08-31T10:57:56-07:00"
+  },
+  "youtube": {
+   "title": "82% Winrate Malaysian SNR Scalping Strategy Changes the Game",
+   "channel": "The Trading Guide",
+   "channel_id": "UCt1Gq1mUok8n9zOOJbzb9VA",
+   "length_seconds": "213",
+   "view_count": "11401",
+   "description": "In this video I show my Malaysian SNR scalping strategy for the 30 second chart, that can be used for symbols with low spreads like Crypto Futures ort indices. \n\n👉 Find coins to SHORT before the crowd: https://shitcoinfinder.com\n\nOur tradingview Indicators Malaysian SNR & Gann swing Chart are now available on https://indivisionx.com our new webpage.\n\nAn extended video  can be found on my webpage in which I explain refinement of SNR levels and trade entries : https://the-trading-guide.com/products/ the winrate according the the backtest is around 82% for 1:2RR.\n\n📘 My Malaysian SNR Daytrading book is now available\n\nClean HTF Support & Resistance.\nNo signals. No nonsense.\n\n👉 Get it here:\nUS: https://www.amazon.com/dp/B0GFG88F2P\n\nDE: https://www.amazon.de/dp/B0GFG88F2P\n\nUK: https://www.amazon.co.uk/dp/B0GFG88F2P\n\nProduction Music courtesy of Epidemic Sound: http://www.epidemicsound.",
+   "publish_date": "2024-08-31T10:57:56-07:00",
+   "upload_date": "2024-08-31T10:57:56-07:00",
+   "category": "Education",
+   "playability": "OK",
+   "playability_reason": null,
+   "caption_tracks_listed": [
+    {
+     "lang": "en",
+     "kind": "asr",
+     "name": null
+    }
+   ],
+   "transcript": "NOT available without login: public caption URL returned HTTP 404 with 1929 bytes",
+   "transcript_http_status_retry": 404,
+   "transcript_retry_utc": "2026-10-16T20:56:56Z"
+  },
+  "live_status": "OK (HTTP 200)",
+  "oembed": {
+   "endpoint": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DOi4JHwd7VlE",
+   "status": 200,
+   "data": {
+    "title": "82% Winrate Malaysian SNR Scalping Strategy Changes the Game",
+    "author_name": "The Trading Guide",
+    "author_url": "https://www.youtube.com/@TheTradingGuide",
+    "type": "video",
+    "height": 113,
+    "width": 200,
+    "version": "1.0",
+    "provider_name": "YouTube",
+    "provider_url": "https://www.youtube.com/",
+    "thumbnail_height": 360,
+    "thumbnail_width": 480,
+    "thumbnail_url": "https://i.ytimg.com/vi/Oi4JHwd7VlE/hqdefault.jpg",
+    "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/Oi4JHwd7VlE?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"82% Winrate Malaysian SNR Scalping Strategy Changes the Game\"></iframe>"
+   }
+  },
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:56:20Z",
+   "status": 200,
+   "closest": {
+    "status": "200",
+    "available": true,
+    "url": "http://web.archive.org/web/20250724115805/https://www.youtube.com/watch?v=Oi4JHwd7VlE",
+    "timestamp": "20250724115805"
+   }
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T17:56:49Z",
+   "status": 200,
+   "captures_days": 2,
+   "captures_200": 2,
+   "first": "20240925221744",
+   "last": "20250724115805",
+   "last_200": "20250724115805"
+  },
+  "wayback_existing_capture": "https://web.archive.org/web/20250724115805/https://www.youtube.com/watch?v=Oi4JHwd7VlE",
+  "wayback_copy": {
+   "url": "https://web.archive.org/web/20250724115805id_/https://www.youtube.com/watch?v=Oi4JHwd7VlE",
+   "status": 200,
+   "timestamp": "20250724115805",
+   "fetched_utc": "2026-10-13T17:57:07Z",
+   "text_chars": 185,
+   "title": "- YouTube"
+  },
+  "wayback_done": true
+ },
+ "33-forexfactory-com-thread-1254177-no-indicator-trading-system": {
+  "n": 33,
+  "url": "https://www.forexfactory.com/thread/1254177-no-indicator-trading-system?page=10",
+  "source_md_line": 171,
+  "accessed_utc": "2026-10-13T16:57:01Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/33-forexfactory-com-thread-1254177-no-indicator-trading-system/live.html",
+    "bytes": 5885,
+    "sha256": "ef87563f58a249c87134d13059680e8ea0e8b7dde4dc5696e87fb069edcc4e0c"
+   },
+   {
+    "file": "snapshots/33-forexfactory-com-thread-1254177-no-indicator-trading-system/live.txt",
+    "bytes": 16,
+    "sha256": "301dc171e5fa8c5fdeb69592a92a5c378f5f758f68d2338200235d60eb04b9ad"
+   }
+  ],
+  "http_status": 403,
+  "final_url": "https://www.forexfactory.com/thread/1254177-no-indicator-trading-system?page=10",
+  "content_type": "text/html; charset=UTF-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 16,
+  "page_meta": {
+   "title": "Just a moment..."
+  },
+  "live_status": "BLOCKED (HTTP 403)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T17:59:42Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T18:00:12Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:51:06Z",
+   "endpoint": "https://web.archive.org/save/https://www.forexfactory.com/thread/1254177-no-indicator-trading-system?page=10",
+   "status": 520,
+   "final_url": "https://web.archive.org/save/https://www.forexfactory.com/thread/1254177-no-indicator-trading-system?page=10",
+   "content_location": null,
+   "x_archive": null,
+   "body_head": " Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:53:53Z",
+    "status": 200,
+    "captures_days": 0,
+    "captures_200": 0,
+    "first": null,
+    "last": null,
+    "last_200": null
+   },
+   "final": true
+  }
+ },
+ "34-forexfactory-com-thread-51248-malaysia": {
+  "n": 34,
+  "url": "https://www.forexfactory.com/thread/51248-malaysia?page=1119",
+  "source_md_line": 172,
+  "accessed_utc": "2026-10-13T16:57:04Z",
+  "user_agent": "Mozilla/5.0 (compatible; MSNR-source-archiver/1.0; one-off academic citation archiving; python-requests)",
+  "files": [
+   {
+    "file": "snapshots/34-forexfactory-com-thread-51248-malaysia/live.html",
+    "bytes": 5785,
+    "sha256": "78bcb3cf090c38e7a3dc9a452e0adb42cf1642b83313ec020a8e6daca5a10f58"
+   },
+   {
+    "file": "snapshots/34-forexfactory-com-thread-51248-malaysia/live.txt",
+    "bytes": 16,
+    "sha256": "301dc171e5fa8c5fdeb69592a92a5c378f5f758f68d2338200235d60eb04b9ad"
+   }
+  ],
+  "http_status": 403,
+  "final_url": "https://www.forexfactory.com/thread/51248-malaysia?page=1119",
+  "content_type": "text/html; charset=UTF-8",
+  "redirects": [],
+  "kind": "html",
+  "text_chars": 16,
+  "page_meta": {
+   "title": "Just a moment..."
+  },
+  "live_status": "BLOCKED (HTTP 403)",
+  "done": true,
+  "wayback_available": {
+   "checked": "2026-10-13T18:00:31Z",
+   "status": 200,
+   "closest": null
+  },
+  "wayback_cdx": {
+   "checked": "2026-10-13T18:01:17Z",
+   "status": 200,
+   "captures_days": 0,
+   "captures_200": 0,
+   "first": null,
+   "last": null,
+   "last_200": null
+  },
+  "wayback_existing_capture": null,
+  "wayback_done": true,
+  "spn": {
+   "requested_utc": "2026-10-13T18:54:23Z",
+   "endpoint": "https://web.archive.org/save/https://www.forexfactory.com/thread/51248-malaysia?page=1119",
+   "status": 520,
+   "final_url": "https://web.archive.org/save/https://www.forexfactory.com/thread/51248-malaysia?page=1119",
+   "content_location": null,
+   "x_archive": null,
+   "body_head": " Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . ",
+   "recheck_cdx": {
+    "checked": "2026-10-13T18:57:31Z",
+    "status": 200,
+    "captures_days": 0,
+    "captures_200": 0,
+    "first": null,
+    "last": null,
+    "last_200": null
+   },
+   "final": true
+  }
+ }
+}

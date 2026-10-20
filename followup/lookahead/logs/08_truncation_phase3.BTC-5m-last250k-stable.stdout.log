@@ -1,0 +1,41 @@
+BTCUSDT 4H-1H-15m-5m full cell built 18.8 s; T4 bars 250000 ; setups d3 31867
+BTCUSDT 4H-1H-15m-5m done 41.7 s
+                          checks  bar_comparisons  mismatches  after_warmup
+series                                                                     
+T3_close_at_T4                 3           449997           0             0
+T3_high_at_T4                  3           449997           0             0
+T3_low_at_T4                   3           449997           0             0
+atr_T3_at_T4                   3           449997           0             0
+atr_T4                         3           449997           0             0
+roadblock_res                  3           449997           0             0
+roadblock_sup                  3           449997           0             0
+session_flag                   3           449997           0             0
+story_simple                   3           449997           0             0
+story_target                   3           449997           0             0
+story_topdown                  3           449997           0             0
+xfilter_atrpct_hi_long         3           449997           0             0
+xfilter_atrpct_hi_short        3           449997           0             0
+xfilter_ema200_long            3           449997           0             0
+xfilter_ema200_short           3           449997           0             0
+xfilter_macd_turn_long         3           449997           0             0
+xfilter_macd_turn_short        3           449997           0             0
+xfilter_sweep_long             3           449997           0             0
+xfilter_sweep_short            3           449997           0             0
+xfilter_vwap_trend_long        3           449997           0             0
+xfilter_vwap_trend_short       3           449997           0             0
+SERIES: checks 63 ; bar comparisons 9449937 ; mismatching bars 0
+Empty DataFrame
+Columns: [asset, ladder, cut_frac, series, bars_compared, mismatches, first_bad, last_bad, mismatches_after_warmup]
+Index: []
+SETUPS: checks 30 ; setup rows compared 704230 ; differing 0
+Empty DataFrame
+Columns: [asset, ladder, cut_frac, pivot_depth, setups_compared, setups_differing, feature]
+Index: []
+TRADES: checks 30 ; closed trades compared 19274 ; differing 0
+TRADES of the cut run that are absent from (or different in) the full run: 0
+Empty DataFrame
+Columns: [asset, ladder, cut_frac, config, closed_trades_compared, trades_differing, trades_not_in_full_run]
+Index: []
+sort used for simultaneous setups: stable (follow-up variant)
+base rows used: 250000
+total seconds 42.0

@@ -1,0 +1,10 @@
+BTCUSDT 4H-1H-15m-5m cell built 54.4 s; T4 bars 852744
+story_simple differs (shipped vs causal) on 26160 of 852744 entry bars
+  configs done 200 78 s
+  configs done 400 84 s
+  configs done 600 92 s
+  configs done 800 120 s
+  configs done 1000 135 s
+  configs done 1200 149 s
+validation vs stored results (no change applied): 1340 of 1340 configs identical
+seconds 159.5

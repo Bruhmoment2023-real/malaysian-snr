@@ -1,0 +1,35 @@
+﻿oa_id,year,first_author,title,source,doi,sublit,local_citations,global_citations
+W2155526589,1988,Richard J. Sweeney,Some New Filter Rule Tests: Methods and Results,Journal of Financial and Quantitative Analysis,10.2307/2331068,a_technical_analysis,86,240
+W2101544483,1992,William Brock,Simple Technical Trading Rules and the Stochastic Properties of Stock Returns,The Journal of Finance,10.1111/j.1540-6261.1992.tb04681.x,a_technical_analysis,535,2292
+W1966179084,1994,Lawrence E. Blume,Market Statistics and Technical Analysis: The Role of Volume,The Journal of Finance,10.1111/j.1540-6261.1994.tb04424.x,a_technical_analysis,111,1105
+W2085603281,1994,Stephen J. Taylor,Trading futures using a channel rule: A study of the predictive power of technical analysis with currency examples,Journal of Futures Markets,10.1002/fut.3990140207,a_technical_analysis,26,98
+W2041573997,1996,Bong‐Chan Kho,"Time-varying risk premia, volatility, and technical trading rule profits: Evidence from foreign currency futures markets",Journal of Financial Economics,10.1016/0304-405x(95)00861-8,a_technical_analysis,57,156
+W2016028951,1996,Chun I. Lee,Trading rule profits in european currency spot cross-rates,Journal of Banking & Finance,10.1016/0378-4266(95)00037-2,a_technical_analysis,36,76
+W2062672445,1997,Andrew C. Szakmary,Central bank intervention and trading rule profits in foreign exchange markets,Journal of International Money and Finance,10.1016/s0261-5606(97)00017-x,a_technical_analysis,50,151
+W2104955455,1997,Christopher J. Neely,Is Technical Analysis in the Foreign Exchange Market Profitable? A Genetic Programming Approach,Journal of Financial and Quantitative Analysis,10.2307/2331231,a_technical_analysis,145,640
+W2145080968,1997,Christopher J. Neely,Technical Analysis in the Foreign Exchange Market: A Layman's Guide,,10.20955/r.79.23-38,a_technical_analysis,31,154
+W1488631316,1998,Christopher J. Neely,Technical Analysis and the Profitability of U.S. Foreign Exchange Intervention,,10.20955/r.80.3-18,a_technical_analysis,13,92
+W1587788400,1998,Mark J. Ready,Profits from Technical Trading Rules,SSRN Electronic Journal,10.2139/ssrn.64168,a_technical_analysis,10,23
+W2143152597,1999,Ryan Sullivan,"Data‐Snooping, Technical Trading Rule Performance, and the Bootstrap",The Journal of Finance,10.1111/0022-1082.00163,a_technical_analysis,254,1015
+W1571079390,2000,Christopher J. Neely,"The Temporal Pattern of Trading Rule Returns and Central Bank Intervention: Intervention Does Not Generate Technical Trading Rule Profits,",,10.20955/wp.2000.018,a_technical_analysis,10,41
+W3124858191,2001,Christopher J. Neely,Technical analysis and central bank intervention,Journal of International Money and Finance,10.1016/s0261-5606(01)00033-x,a_technical_analysis,31,94
+W2165742022,2002,Christopher J. Neely,The temporal pattern of trading rule returns and exchange rate intervention: intervention does not generate technical trading profits,Journal of International Economics,10.1016/s0022-1996(01)00163-5,a_technical_analysis,38,109
+W2080887613,2003,Carol L. Osler,Currency Orders and Exchange Rate Dynamics: An Explanation for the Predictive Success of Technical Analysis,The Journal of Finance,10.1111/1540-6261.00588,a_technical_analysis,55,225
+W2152370727,2004,Cheol‐Ho Park,The Profitability of Technical Analysis: A Review,"AgEcon Search (University of Minnesota, USA)",10.22004/ag.econ.37487,a_technical_analysis,7,22
+W3124405065,2004,Kenneth A. Kavajecz,Technical Analysis and Liquidity Provision,Review of Financial Studies,10.1093/rfs/hhg057,a_technical_analysis,42,139
+W3121903704,2006,Stephan Schulmeister,The interaction between technical currency trading and exchange rate fluctuations,Finance research letters,10.1016/j.frl.2006.03.005,a_technical_analysis,16,63
+W2130180922,2006,Lukas Menkhoff,The obstinate passion of Foreign Exchange Professionals: \ntechnical analysis,Warwick Research Archive Portal (University of Warwick),,a_technical_analysis,88,446
+W1588551349,2007,Lukas Menkhoff,The Obstinate Passion of Foreign Exchange Professionals: Technical Analysis,Journal of Economic Literature,10.1257/jel.45.4.936,a_technical_analysis,17,78
+W1572405379,2010,Stephan Schulmeister,The Interaction between the Aggregate Behaviour of Technical Trading Systems and Stock Price Dynamics,SSRN Electronic Journal,10.2139/ssrn.1714978,a_technical_analysis,5,8
+W2130029527,2010,Stephan Schulmeister,The Profitability of Technical Stock Trading has Moved from Daily to Intraday Data,SSRN Electronic Journal,10.2139/ssrn.1714980,a_technical_analysis,10,33
+W2034857594,2010,Stephan Schulmeister,Components of the Profitability of Technical Currency Trading,SSRN Electronic Journal,10.2139/ssrn.1714394,a_technical_analysis,6,18
+W2021111620,2010,Stephan Schulmeister,Aggregate Trading Behaviour of Technical Models and the Yen/Dollar Exchange Rate 1976-2007,SSRN Electronic Journal,10.2139/ssrn.1714341,a_technical_analysis,2,15
+W2121380288,2011,Christopher J. Neely,Technical Analysis in the Foreign Exchange Market,SSRN Electronic Journal,10.2139/ssrn.1734836,a_technical_analysis,9,36
+W3123129421,2012,Lukas Menkhoff,Currency momentum strategies,Journal of Financial Economics,10.1016/j.jfineco.2012.06.009,a_technical_analysis,18,518
+W2300424107,2016,Jerry Coakley,How profitable are FX technical trading rules?,International Review of Financial Analysis,10.1016/j.irfa.2016.03.010,a_technical_analysis,12,27
+W2571351540,2017,Nima Zarrabi,FX technical trading rules can be profitable sometimes!,International Review of Financial Analysis,10.1016/j.irfa.2016.12.010,a_technical_analysis,14,32
+W2733011763,2017,Jonathan A. Batten,Does intraday technical trading have predictive power in precious metal markets?,Journal of International Financial Markets Institutions and Money,10.1016/j.intfin.2017.06.005,a_technical_analysis,9,25
+W2994013515,2019,Klaus Grobys,Technical trading rules in the cryptocurrency market,Finance research letters,10.1016/j.frl.2019.101396,a_technical_analysis,15,97
+W2947760525,2019,Shaen Corbet,The Effectiveness of Technical Trading Rules in Cryptocurrency Markets,Finance research letters,10.1016/j.frl.2019.04.027,a_technical_analysis,21,118
+W3012172673,2020,Shaker Ahmed,Profitability of technical trading rules among cryptocurrencies with privacy function,Finance research letters,10.1016/j.frl.2020.101495,a_technical_analysis,5,29
+W4387849633,2023,Min-Yuh Day,Visualizing profitability: A heatmap approach to evaluate Bitcoin futures trading using VMA trading rules,Heliyon,10.1016/j.heliyon.2023.e21376,a_technical_analysis,0,4

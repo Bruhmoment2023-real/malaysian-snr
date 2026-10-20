@@ -1,0 +1,71 @@
+﻿qid,db,sublit,query,total_in_db,retrieved,status,date
+crossref_a_technical_analysis_01,crossref,a_technical_analysis,technical analysis trading rule profitability,7023272.0,250,ok,2026-10-13
+crossref_a_technical_analysis_02,crossref,a_technical_analysis,simple technical trading rules stochastic properties of returns,3283711.0,250,ok,2026-10-13
+crossref_a_technical_analysis_03,crossref,a_technical_analysis,profitability of technical analysis foreign exchange,7465754.0,250,ok,2026-10-13
+crossref_a_technical_analysis_04,crossref,a_technical_analysis,technical trading rules out-of-sample profitability transaction costs,1488720.0,250,ok,2026-10-13
+crossref_a_technical_analysis_05,crossref,a_technical_analysis,do technical trading rules work cryptocurrency,3252362.0,250,ok,2026-10-13
+crossref_a_technical_analysis_06,crossref,a_technical_analysis,trend following trading rules gold,1025217.0,250,ok,2026-10-13
+crossref_a_technical_analysis_07,crossref,a_technical_analysis,candlestick patterns profitability,531082.0,250,ok,2026-10-13
+crossref_a_technical_analysis_08,crossref,a_technical_analysis,retail traders technical analysis use performance,10397085.0,250,ok,2026-10-13
+crossref_a_technical_analysis_09,crossref,a_technical_analysis,moving average rules predictability stock returns,527196.0,250,ok,2026-10-13
+crossref_a_technical_analysis_10,crossref,a_technical_analysis,technical analysis survey profitability evidence,8458342.0,250,ok,2026-10-13
+crossref_a_technical_analysis_11,crossref,a_technical_analysis,trading range break rules returns,529878.0,250,ok,2026-10-13
+s2_a_technical_analysis_01,s2,a_technical_analysis,"""technical analysis"" | ""technical trading"" | ""trading rules"" + (profitability | profitable | predictive | returns)",4287.0,800,ok,2026-10-13
+s2_a_technical_analysis_02,s2,a_technical_analysis,"(""technical trading rules"" | ""technical indicators"") + (cryptocurrency | bitcoin | gold | ""foreign exchange"" | commodities)",713.0,713,ok,2026-10-13
+s2_a_technical_analysis_03,s2,a_technical_analysis,"(""candlestick"" | ""chart patterns"" | ""moving average"") + (profitability | ""trading strategy"" | ""trading rule"")",1476.0,800,ok,2026-10-13
+arxiv_a_technical_analysis_01,arxiv,a_technical_analysis,"all:""technical analysis"" AND cat:q-fin.*",76.0,76,ok,2026-10-13
+arxiv_a_technical_analysis_02,arxiv,a_technical_analysis,"all:""trading rules"" AND (cat:q-fin.TR OR cat:q-fin.ST)",37.0,37,ok,2026-10-13
+arxiv_a_technical_analysis_03,arxiv,a_technical_analysis,"all:""technical trading"" AND cat:q-fin.*",17.0,17,ok,2026-10-13
+crossref_b_support_resistance_01,crossref,b_support_resistance,support and resistance levels technical analysis,8602029.0,250,ok,2026-10-13
+crossref_b_support_resistance_02,crossref,b_support_resistance,support for resistance technical analysis intraday exchange rates,8651533.0,250,ok,2026-10-13
+crossref_b_support_resistance_03,crossref,b_support_resistance,price barriers round numbers,589017.0,250,ok,2026-10-13
+crossref_b_support_resistance_04,crossref,b_support_resistance,support resistance levels empirical test stocks,2794350.0,250,ok,2026-10-13
+crossref_b_support_resistance_05,crossref,b_support_resistance,stop-loss orders price cascades currency markets,1000881.0,250,ok,2026-10-13
+crossref_b_support_resistance_06,crossref,b_support_resistance,technical analysis liquidity provision limit order book support resistance,9538500.0,250,ok,2026-10-13
+crossref_b_support_resistance_07,crossref,b_support_resistance,memory effects stock price dynamics technical trading bounces,5380230.0,250,ok,2026-10-13
+crossref_b_support_resistance_08,crossref,b_support_resistance,support and resistance prediction accuracy intraday,2260355.0,250,ok,2026-10-13
+crossref_b_support_resistance_09,crossref,b_support_resistance,smart money concepts trading rules evaluation,3039454.0,250,ok,2026-10-13
+crossref_b_support_resistance_10,crossref,b_support_resistance,order clustering at round numbers foreign exchange,1438809.0,250,ok,2026-10-13
+crossref_b_support_resistance_11,crossref,b_support_resistance,price clustering and support resistance levels,2317714.0,250,ok,2026-10-13
+s2_b_support_resistance_01,s2,b_support_resistance,"(""support and resistance"" | ""support resistance"" | ""resistance level"" | ""support level"") + (price | trading | stock | currency | market)",878.0,800,ok,2026-10-13
+s2_b_support_resistance_02,s2,b_support_resistance,"(""round numbers"" | ""price barriers"" | ""price clustering"" | ""order clustering"") + (stock | currency | exchange | trading | futures)",361.0,361,ok,2026-10-13
+s2_b_support_resistance_03,s2,b_support_resistance,"(""smart money concepts"" | ""order block"" | ""fair value gap"" | ""inner circle trader"" | ""ICT"") + (trading | forex | strategy)",27903.0,800,ok,2026-10-13
+arxiv_b_support_resistance_01,arxiv,b_support_resistance,"all:""support and resistance"" AND cat:q-fin.*",9.0,9,ok,2026-10-13
+arxiv_b_support_resistance_02,arxiv,b_support_resistance,"all:""support and resistance""",25.0,25,ok,2026-10-13
+arxiv_b_support_resistance_03,arxiv,b_support_resistance,"all:""smart money"" AND all:trading",1.0,1,ok,2026-10-13
+arxiv_b_support_resistance_04,arxiv,b_support_resistance,"all:""price levels"" AND all:""technical analysis""",0.0,0,ok,2026-10-13
+crossref_c_multiple_testing_01,crossref,c_multiple_testing,data snooping technical trading rule performance bootstrap,5478779.0,250,ok,2026-10-13
+crossref_c_multiple_testing_02,crossref,c_multiple_testing,a reality check for data snooping,2752323.0,250,ok,2026-10-13
+crossref_c_multiple_testing_03,crossref,c_multiple_testing,test for superior predictive ability,1128469.0,250,ok,2026-10-13
+crossref_c_multiple_testing_04,crossref,c_multiple_testing,false discoveries technical trading rules transaction costs,1095798.0,250,ok,2026-10-13
+crossref_c_multiple_testing_05,crossref,c_multiple_testing,backtesting multiple testing Sharpe ratio haircut,1611234.0,250,ok,2026-10-13
+crossref_c_multiple_testing_06,crossref,c_multiple_testing,deflated Sharpe ratio selection bias backtest overfitting,806274.0,250,ok,2026-10-13
+crossref_c_multiple_testing_07,crossref,c_multiple_testing,probability of backtest overfitting,174369.0,250,ok,2026-10-13
+crossref_c_multiple_testing_08,crossref,c_multiple_testing,cross-section of expected returns multiple testing t-statistic hurdle,2732207.0,250,ok,2026-10-13
+crossref_c_multiple_testing_09,crossref,c_multiple_testing,stepwise multiple testing data snooping,3813794.0,250,ok,2026-10-13
+crossref_c_multiple_testing_10,crossref,c_multiple_testing,false discovery rate mutual fund performance,3208432.0,250,ok,2026-10-13
+crossref_c_multiple_testing_11,crossref,c_multiple_testing,pseudo-mathematics financial charlatanism,1645752.0,250,ok,2026-10-13
+crossref_c_multiple_testing_12,crossref,c_multiple_testing,evaluation of alternative multiple testing methods finance,5494006.0,250,ok,2026-10-13
+crossref_c_multiple_testing_13,crossref,c_multiple_testing,does academic research destroy stock return predictability,10327708.0,250,ok,2026-10-13
+s2_c_multiple_testing_01,s2,c_multiple_testing,"(""data snooping"" | ""data-snooping"" | ""reality check"" | ""superior predictive ability"") + (trading | technical | strategy | rules)",982.0,800,ok,2026-10-13
+s2_c_multiple_testing_02,s2,c_multiple_testing,"(""backtest overfitting"" | ""backtest"" | ""deflated Sharpe"" | ""multiple testing"" | ""false discovery"") + (finance | trading | strategy | factors | ""asset pricing"" | Sharpe)",14418.0,800,ok,2026-10-13
+s2_c_multiple_testing_03,s2,c_multiple_testing,"(""p-hacking"" | ""data mining"") + (finance | ""asset pricing"" | anomalies | ""trading strategies"")",5490.0,800,ok,2026-10-13
+arxiv_c_multiple_testing_01,arxiv,c_multiple_testing,"all:""backtest overfitting""",13.0,13,ok,2026-10-13
+arxiv_c_multiple_testing_02,arxiv,c_multiple_testing,"all:""multiple testing"" AND cat:q-fin.*",11.0,11,ok,2026-10-13
+arxiv_c_multiple_testing_03,arxiv,c_multiple_testing,"all:""deflated Sharpe""",6.0,6,ok,2026-10-13
+arxiv_c_multiple_testing_04,arxiv,c_multiple_testing,"all:""data snooping"" AND cat:q-fin.*",9.0,9,ok,2026-10-13
+arxiv_c_multiple_testing_05,arxiv,c_multiple_testing,"all:""false discovery"" AND cat:q-fin.*",13.0,13,ok,2026-10-13
+seed_title,seed,,Support for Resistance: Technical Analysis and Intraday Exchange Rates,,0,NOT MATCHED in Crossref,2026-10-13
+seed_title,seed,,Evidence and behaviour of support and resistance levels in financial time series,,0,NOT MATCHED in Crossref,2026-10-13
+seed_title,seed,,Retail Trader's Ruin: An Anatomy of Popular Signal Failure,,0,NOT MATCHED in Crossref,2026-10-13
+seed_title,seed,,"Data-Snooping, Technical Trading Rule Performance, and the Bootstrap",,1,matched 10.1111/0022-1082.00163,2026-10-13
+seed_title,seed,,A Reality Check for Data Snooping,,1,matched 10.1111/1468-0262.00152,2026-10-13
+seed_title,seed,,Simple Technical Trading Rules and the Stochastic Properties of Stock Returns,,1,matched 10.1111/j.1540-6261.1992.tb04681.x,2026-10-13
+seed_title,seed,,Currency Orders and Exchange Rate Dynamics: An Explanation for the Predictive Success of Technical Analysis,,1,matched 10.1111/1540-6261.00588,2026-10-13
+seed_title,seed,,Technical Analysis and Liquidity Provision,,1,matched 10.1093/rfs/hhg057,2026-10-13
+seed_title,seed,,Memory effects in stock price dynamics: evidences of technical trading,,1,matched 10.1038/srep04487,2026-10-13
+seed_title,seed,,"Technical trading revisited: false discoveries, persistence tests, and transaction costs",,1,matched 10.2139/ssrn.1095202,2026-10-13
+seed_title,seed,,Technical trading: is it still beating the foreign exchange market?,,1,matched 10.1016/j.jinteco.2016.03.012,2026-10-13
+seed_title,seed,,"The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting and Non-Normality",,1,matched 10.3905/jpm.2014.40.5.094,2026-10-13
+seed_title,seed,,The Probability of Backtest Overfitting,,1,matched 10.21314/jcf.2016.322,2026-10-13
+seed_title,seed,,Smart Money or Costly Folklore? A Systematic Evaluation of ICT/Smart-Money-Concepts Trading Rules in G10 FX,,1,matched 10.2139/ssrn.7430998,2026-10-13

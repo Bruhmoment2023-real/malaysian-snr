@@ -1,0 +1,32 @@
+--- topdown.py
++++ topdown_lag.py
+@@ -118,0 +119 @@
++    sadd = np.zeros(ns + 1, np.int64); skill = np.full(ns + 1, n + 5, np.int64)   # LAG VARIANT: bar a swing became known / was swept
+@@ -124 +125 @@
+-            spx[sm] = sw_px[se]; sty[sm] = sw_ty[se]; salive[sm] = True; sm += 1; se += 1
++            spx[sm] = sw_px[se]; sty[sm] = sw_ty[se]; salive[sm] = True; sadd[sm] = j; skill[sm] = n + 5; sm += 1; se += 1
+@@ -129 +130 @@
+-                    salive[k] = False
++                    salive[k] = False; skill[k] = j
+@@ -131 +132 @@
+-                    salive[k] = False
++                    salive[k] = False; skill[k] = j
+@@ -132,0 +134 @@
++        a3p = atr3_at[j - 1] if j > 0 else np.nan     # LAG VARIANT: ATR as of the previous bar
+@@ -172 +174 @@
+-            out[r, 0] = d; out[r, 1] = L; out[r, 2] = j; out[r, 9] = a3; out[r, 11] = miss[k]; out[r, 12] = j - born[k]
++            out[r, 0] = d; out[r, 1] = L; out[r, 2] = j; out[r, 9] = a3p; out[r, 11] = miss[k]; out[r, 12] = j - born[k]
+@@ -181 +183 @@
+-            if not np.isnan(a3):
++            if not np.isnan(a3p):
+@@ -183,2 +185,2 @@
+-                    if salive[q] and sty[q] == -d:
+-                        if d == 1 and spx[q] >= L - a3 and spx[q] <= L + 0.25 * a3:
++                    if sadd[q] < j and skill[q] >= j and sty[q] == -d:
++                        if d == 1 and spx[q] >= L - a3p and spx[q] <= L + 0.25 * a3p:
+@@ -186 +188 @@
+-                        if d == -1 and spx[q] <= L + a3 and spx[q] >= L - 0.25 * a3:
++                        if d == -1 and spx[q] <= L + a3p and spx[q] >= L - 0.25 * a3p:
+@@ -231 +233 @@
+-                        spx[w] = spx[k]; sty[w] = sty[k]; salive[w] = True; w += 1
++                        spx[w] = spx[k]; sty[w] = sty[k]; salive[w] = True; sadd[w] = sadd[k]; skill[w] = skill[k]; w += 1

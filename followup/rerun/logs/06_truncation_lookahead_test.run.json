@@ -1,0 +1,9 @@
+﻿{
+    "script":  "06_truncation_lookahead_test",
+    "started":  "2026-10-13T22:18:51",
+    "status":  "completed",
+    "exit_code":  0,
+    "wall_seconds":  56.1,
+    "cpu_seconds":  55.1,
+    "peak_working_set_MB":  261
+}

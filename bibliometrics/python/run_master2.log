@@ -1,0 +1,10 @@
+=== 02-malaysian-snr :: master
+  crossref-check 500/1244 (1s)
+  crossref-check 1000/1244 (1s)
+master: corpus=1360 edges=10090 refs_labelled=9024 manual_removed=337
+sublit
+a_technical_analysis    1044
+b_support_resistance     191
+c_multiple_testing       121
+seed                       4
+=== master done in 40s

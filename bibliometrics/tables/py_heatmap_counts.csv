@@ -1,0 +1,11 @@
+﻿,Stocks / equity indices,Foreign exchange,Futures / commodities,Gold / precious metals,Cryptocurrency,Funds / factors / cross-section,Intraday / high-frequency data,(any row term)
+"Support / resistance, price levels",63,19,19,3,7,18,18,126
+Moving averages / trend following,235,54,58,6,31,47,17,415
+Candlestick / chart patterns,55,14,14,1,6,10,12,97
+Smart money / ICT / order blocks,4,3,3,0,0,3,1,25
+Stop-loss / order clustering,60,12,15,0,10,12,12,100
+Data snooping / reality check / SPA,43,12,18,1,4,18,3,96
+Multiple testing / false discovery,7,4,3,0,0,23,0,39
+Backtest overfitting / deflated Sharpe,25,8,5,2,7,6,9,52
+Retail traders,19,4,6,0,3,7,6,34
+(any column term),627,210,146,20,93,166,90,1360

@@ -1,0 +1,98 @@
+[
+ {
+  "file": "py_01_prisma_flow.png",
+  "title": "PRISMA-style flow diagram",
+  "what": "How many records each step of the search, de-duplication, screening and snowballing kept or removed.",
+  "how": "Counts logged by python/pipeline.py (tables/prisma_counts.csv); blue = kept, red = removed.",
+  "caution": "Screening was rule-based (regular expressions on title and abstract) plus one hand pass by an AI agent over titles; it is not a double-blind human screen, so treat the corpus as a map, not a systematic review.",
+  "tool": "Python"
+ },
+ {
+  "file": "py_02_year_by_subliterature.png",
+  "title": "Publications by year and sub-literature",
+  "what": "Top: stacked count of corpus documents per year by sub-literature. Bottom: each sub-literature's share of that year's documents.",
+  "how": "master.csv; sub-literature = first inclusion rule matched. matplotlib.",
+  "caution": "The mix depends on how many queries each sub-literature had and on the per-query caps; the latest year is incomplete.",
+  "tool": "Python"
+ },
+ {
+  "file": "py_03_timeline_key_papers.png",
+  "title": "Timeline of key papers",
+  "what": "The 28 corpus documents most cited by other corpus documents, in order of publication, coloured by sub-literature.",
+  "how": "Local citations from exact OpenAlex reference matching (citation_edges.csv); ties broken by global citations.",
+  "caution": "Recent papers have had little time to be cited, so the list under-represents work from the last two or three years - which for fast-moving topics is where the key papers are.",
+  "tool": "Python"
+ },
+ {
+  "file": "py_10_database_overlap.png",
+  "title": "Database overlap",
+  "what": "Left: how many final-corpus records each discovery source retrieved. Right: the most common combinations of sources per record.",
+  "how": "'found_in' field of master.csv (which searches returned the record before OpenAlex enrichment).",
+  "caution": "Low overlap is expected: each database was queried with different syntax and per-query caps, so this is not a measure of database quality.",
+  "tool": "Python"
+ },
+ {
+  "file": "py_08_author_country_map.html",
+  "title": "Author-country map (interactive)",
+  "what": "Choropleth of the number of corpus documents with at least one author affiliated in each country.",
+  "how": "OpenAlex authorship country codes; plotly choropleth, self-contained HTML.",
+  "caution": "Shows where authors are employed, not which countries are studied; records without affiliations (many Indian-journal and legal records) are not on the map.",
+  "tool": "Python"
+ },
+ {
+  "file": "py_09_places_named_in_text.png",
+  "title": "Geography of study settings",
+  "what": "How many corpus documents name each country in the title or abstract - a rough proxy for where the evidence comes from.",
+  "how": "Case-insensitive name matching (with a few aliases such as 'American', 'British') on title + abstract in master.csv.",
+  "caution": "A name in an abstract is not the same as a study setting (it can be a comparison or an author address), and India is partly a search term here, so its bar is inflated by design.",
+  "tool": "Python"
+ },
+ {
+  "file": "py_heatmap_methods_by_data.png",
+  "title": "Methods against markets: how the technical-analysis and snooping literature is spread (coded from title + abstract)",
+  "what": "Number of corpus documents whose title or abstract mentions both the row term (method/topic) and the column term (market/data).",
+  "how": "Corpus: 1360 records (OpenAlex metadata). Paper 02-malaysian-snr. Coding by the regular expressions in config.json -> heatmap (title + abstract; 899 of 1360 documents have an abstract; the rest are coded on the title only). Cells are not exclusive. Counts in tables/py_heatmap_counts.csv.",
+  "caution": "Mention is not design: a paper that names 'stock' once in its motivation counts the same as one that tests only stocks, and only title and abstract are read. Cells are not exclusive.",
+  "tool": "Python"
+ },
+ {
+  "file": "py_04_citation_network.png",
+  "title": "Direct citation network (static)",
+  "what": "Corpus documents (nodes) joined when one cites the other, coloured by sub-literature; shows whether the sub-literatures cite each other or sit apart.",
+  "how": "Exact matches between OpenAlex referenced_works and corpus ids; up to 350 most connected documents; networkx spring layout, seed 7.",
+  "caution": "Missing links are common for books, working papers and journals without deposited reference lists - an isolated node may be un-indexed rather than uncited.",
+  "tool": "Python"
+ },
+ {
+  "file": "py_04_citation_network.html",
+  "title": "Direct citation network (interactive)",
+  "what": "The same network as the PNG, interactive: hover a node for title, authors, source, citation counts and DOI.",
+  "how": "pyvis / vis.js, self-contained HTML (opens offline in any browser); Barnes-Hut physics layout.",
+  "caution": "The layout is a physics simulation and differs on every load; only the links are data.",
+  "tool": "Python"
+ },
+ {
+  "file": "py_05_citation_flows_between_subliteratures.png",
+  "title": "Citation flows between sub-literatures",
+  "what": "Number of within-corpus citation links from documents of one sub-literature (rows) to another (columns). A strong diagonal with weak off-diagonal cells means the sub-literatures are separate conversations.",
+  "how": "citation_edges.csv cross-tabulated by the sub-literature of citing and cited document.",
+  "caution": "Cell sizes also reflect how many documents each sub-literature has and how well its sources deposit reference lists; compare proportions, not raw counts.",
+  "tool": "Python"
+ },
+ {
+  "file": "py_06_main_path.png",
+  "title": "Main path / key-route view",
+  "what": "The chain of papers that the largest number of citation paths run through - a summary of the field's main line of development.",
+  "how": "Search path count (SPC) on the acyclic within-corpus citation network (links against time order removed); key-route search from the 8 highest-SPC links, extended greedily backward and forward (Liu & Lu key-route approach). networkx.",
+  "caution": "The main path follows the best-connected thread, which is the best-indexed sub-literature; a missing topic may only mean its papers do not cite each other in indexed sources.",
+  "tool": "Python"
+ },
+ {
+  "file": "py_07_cocitation_references.png",
+  "title": "Co-citation network of references (Python)",
+  "what": "Works that corpus documents cite together, grouped into Louvain clusters - the intellectual bases of the literature, with readable author-year labels.",
+  "how": "Co-citation counts over OpenAlex referenced_works of all corpus records; 150 most cited references clustered (networkx Louvain, seed 3), 70 drawn; spring layout, seed 11. Cluster membership: tables/py_cocitation_clusters.csv.",
+  "caution": "Cluster boundaries move with the resolution parameter and the 150-reference cut-off; read the clusters as rough schools, not fixed categories.",
+  "tool": "Python"
+ }
+]

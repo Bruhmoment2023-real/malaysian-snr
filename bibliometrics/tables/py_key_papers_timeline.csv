@@ -1,0 +1,29 @@
+﻿oa_id,doi,first_author,year,title,source,sublit,local_citations,cited_by_count
+W2155526589,10.2307/2331068,Richard J. Sweeney,1988,Some New Filter Rule Tests: Methods and Results,Journal of Financial and Quantitative Analysis,a_technical_analysis,86,240
+W2060975088,10.1093/rfs/2.4.527,David P. Brown,1989,On Technical Analysis,Review of Financial Studies,a_technical_analysis,86,499
+W3122118888,10.1093/rfs/3.3.431,Andrew W. Lo,1990,Data-Snooping Biases in Tests of Financial Asset Pricing Models,Review of Financial Studies,c_multiple_testing,68,1120
+W1968740499,10.1086/296551,Salih N. Neftçi,1991,"Naive Trading Rules in Financial Markets and Wiener-Kolmogorov Prediction Theory: A Study of ""Technical Analysis""",The Journal of Business,a_technical_analysis,93,270
+W2003569572,10.1093/rfs/4.3.389,LAWRENCE E. HARRIS,1991,Stock Price Clustering and Discreteness,Review of Financial Studies,b_support_resistance,94,575
+W2101544483,10.1111/j.1540-6261.1992.tb04681.x,William Brock,1992,Simple Technical Trading Rules and the Stochastic Properties of Stock Returns,The Journal of Finance,a_technical_analysis,535,2292
+W2041462006,10.1016/0261-5606(92)90048-3,Mark Taylor,1992,The use of technical analysis in the foreign exchange market,Journal of International Money and Finance,a_technical_analysis,180,1071
+W2890714735,10.1016/0261-5606(93)90034-9,Richard M. Levich,1993,The significance of technical trading-rule profits in the foreign exchange market: a bootstrap approach,Journal of International Money and Finance,a_technical_analysis,140,471
+W1966179084,10.1111/j.1540-6261.1994.tb04424.x,Lawrence E. Blume,1994,Market Statistics and Technical Analysis: The Role of Volume,The Journal of Finance,a_technical_analysis,111,1105
+W2012126808,10.1016/0927-538x(95)00002-3,Hendrik Bessembinder,1995,The profitability of technical trading rules in the Asian stock markets,Pacific-Basin Finance Journal,a_technical_analysis,156,324
+W1977673367,10.1016/0378-4266(95)00043-7,Robert S. Hudson,1996,A note on the weak form efficiency of capital markets: The application of simple technical trading rules to UK stock prices - 1935 to 1994,Journal of Banking & Finance,a_technical_analysis,123,296
+W2104955455,10.2307/2331231,Christopher J. Neely,1997,Is Technical Analysis in the Foreign Exchange Market Profitable? A Genetic Programming Approach,Journal of Financial and Quantitative Analysis,a_technical_analysis,145,640
+W2066431932,10.1016/s0927-5398(97)00022-4,Ramazan Gençay,1998,The predictability of security returns with simple technical trading rules,Journal of Empirical Finance,a_technical_analysis,88,264
+W2061137367,10.2307/3666289,Hendrik Bessembinder,1998,Market Efficiency and the Returns to Technical Analysis,Financial Management,a_technical_analysis,149,324
+W2036628376,10.1016/s0378-4266(99)00042-4,Mitchell Ratner,1999,Tests of technical trading strategies in the emerging equity markets of Latin America and Asia,Journal of Banking & Finance,a_technical_analysis,98,243
+W2143152597,10.1111/0022-1082.00163,Ryan Sullivan,1999,"Data‐Snooping, Technical Trading Rule Performance, and the Bootstrap",The Journal of Finance,a_technical_analysis,254,1015
+W2110374348,10.1016/s0022-1996(98)00017-8,Ramazan Gençay,1999,"Linear, non-linear and essential foreign exchange rate prediction with simple technical trading rules",Journal of International Economics,a_technical_analysis,65,305
+W3125011999,10.1016/s0022-1996(98)00061-0,Blake D. LeBaron,1999,Technical trading rule profitability and foreign exchange intervention,Journal of International Economics,a_technical_analysis,101,390
+W3022375498,10.1111/0022-1082.00265,Andrew W. Lo,2000,"Foundations of Technical Analysis: Computational Algorithms, Statistical Inference, and Empirical Implementation",The Journal of Finance,a_technical_analysis,213,1112
+W2135606128,10.1111/1468-0262.00152,Halbert White,2000,A Reality Check for Data Snooping,Econometrica,c_multiple_testing,169,1829
+W2045381740,10.1016/s0378-4266(02)00399-0,Dennis O. Olson,2003,Have trading rule profits in the currency markets declined over time?,Journal of Banking & Finance,a_technical_analysis,91,202
+W2100376816,10.1093/jjfinec/nbi026,Po‐Hsuan Hsu,2005,Reexamining the Profitability of Technical Analysis with Data Snooping Checks,Journal of Financial Econometrics,a_technical_analysis,66,187
+W2130180922,,Lukas Menkhoff,2006,The obstinate passion of Foreign Exchange Professionals: \ntechnical analysis,Warwick Research Archive Portal (University of Warwick),a_technical_analysis,88,446
+W2134658143,10.1111/j.1467-6419.2007.00519.x,Cheol‐Ho Park,2007,WHAT DO WE KNOW ABOUT THE PROFITABILITY OF TECHNICAL ANALYSIS?,Journal of Economic Surveys,a_technical_analysis,181,606
+W1993657680,10.1016/j.jfineco.2008.07.002,Yingzi Zhu,2009,Technical analysis: An asset allocation perspective on the use of moving averages☆,Journal of Financial Economics,a_technical_analysis,92,289
+W3122057860,10.1016/j.jempfin.2010.01.001,Po‐Hsuan Hsu,2010,Testing the predictive ability of technical analysis using a new stepwise test without data snooping bias,Journal of Empirical Finance,a_technical_analysis,78,185
+W2150843644,10.1017/s0022109013000586,Yufeng Han,2011,A New Anomaly: The Cross-Sectional Profitability of Technical Analysis,Journal of Financial and Quantitative Analysis,a_technical_analysis,74,230
+W3122236376,10.1016/j.jfineco.2012.06.001,Pierre Bajgrowicz,2012,"Technical trading revisited: False discoveries, persistence tests, and transaction costs",Journal of Financial Economics,a_technical_analysis,85,249

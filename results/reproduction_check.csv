@@ -1,0 +1,62 @@
+phase,item,reported,recomputed,source_file,note
+P1,trades in trades_default_full.csv,n/a,121916,trades_default_full.csv,
+P1,FULL-period cells: n cells,95,95,key_table_default_FULL.csv vs trades,cells compared
+P1,FULL-period cells: max |trade-count diff|,0,0.0,same,
+P1,FULL-period cells: max |net avg R diff|,0,5e-05,same,CSV rounded to 4 dp / 6 sig figs
+P1,FULL-period cells: max |gross avg R diff|,0,5e-05,same,
+P1,OOS cells total,95,95,key_table_default_OOS.csv,
+P1,OOS cells losing money (avg_R<0),84,84,same,zero-trade/NaN cells: 0; avg_R>0: 11
+P1,OOS cells with >=30 trades,73,73,same,
+P1,OOS cells >=30 trades and net positive,4,4,same,GC=F 4h V2_story +0.007 (n=69); SI=F 4h V1_plain +0.050 (n=129); GC=F_D2011 1d V1_plain +0.095 (n=130); GC=F_D2011 1d V2_story +0.083 (n=79)
+P1,OOS cells with a random baseline,89,89,same,
+P1,OOS cells gross beating random at p<0.05 (one-sided),3,3,same,expected by chance 4.45; BH min q = 0.294
+P1,OOS cells gross WORSE than random at p>0.95,n/a,6,same,"lower tail, same expectation"
+P1,"OOS win-rate range, cells >=30 trades",25-38%,0.181-0.405,same,median 0.306; share within 0.25-0.38: 0.88
+P1,pooled table: max |net R diff| vs stored,0,7e-05,pooled_by_tf_variant.csv,
+P1,pooled table: max |z diff| vs stored,0,0.0032,same,
+P1,OOS pooled 1h V0_raw net R / z,-0.68 / 2.6,-0.680 / 2.60,key_table_default_OOS.csv,n=19613
+P1,OOS pooled 1h V2_story net R / z,-0.582 / 0.06,-0.582 / 0.07,key_table_default_OOS.csv,n=6416
+P1,OOS pooled 4h V3_QM_story net R / z,-0.495 / -2.39,-0.495 / -2.39,key_table_default_OOS.csv,n=270
+P1,OOS pooled 1d V3_QM_story net R / z,-0.573 / -2.26,-0.573 / -2.26,key_table_default_OOS.csv,n=53
+P1,OOS pooled 1d V1_plain net R / z,-0.095 / 0.45,-0.095 / 0.45,key_table_default_OOS.csv,n=519
+P1,IS pooled 1h V0 z vs random,7.3,7.31,key_table_default_IS.csv,"gross edge +0.0612 R, cost 0.534 R"
+P1,OOS pooled 1h V0 gross edge vs random (R) and avg cost (R),+0.03..+0.06 / 0.4-0.7,+0.0261 / 0.626,key_table_default_OOS.csv,
+P1,Gold daily OOS V1: net R / trades / PF,+0.095 / 130 / 1.15,+0.095 / 130 / 1.15,key_table_default_OOS.csv,p_gross_vs_random=0.050
+P1,Gold daily IS V1: net R,-0.3,-0.3,key_table_default_IS.csv,n=167
+P1,ALL OOS trades pooled: n / net R / gross R / random gross R,n/a,50108 / -0.5468 / -0.0583 / -0.0598,key_table_default_OOS.csv,overall z vs random 0.26
+P1,share of LONG trades by variant (full period),not reported,"{""V0_raw"": 0.492, ""V1_plain"": 0.5145, ""V2_story"": 0.5277, ""V3_QM_story"": 0.5287, ""V4_HTFlvl_story"": 0.5355}",trades_default_full.csv,random benchmark uses 50/50 for V0/V1
+P1,V0/V1 per-cell long share min-max,not reported,0.447-0.639,trades_default_full.csv,
+P2,configs,22640,22640,all_configs_phaseA.csv,
+P2,configs with one-sided t-test p<0.05,138,138,same,expected under global null 1132
+P2,configs with stored q_BH<0.10,3,3,same,SOLUSDT_1d n=5; SOLUSDT_1d n=5; SOLUSDT_1d n=5
+P2,configs with recomputed global BH q<0.10,3,3,same,max |q diff| vs stored 0.0000
+P2,BH survivors that also have >=100 WF trades,0,0,same,
+P2,configs with DSR>0.95,0,0,same,max DSR 0.7397
+P2,min Reality-Check p / min SPA p over 20 cells,none significant,0.073 / 0.617,same,
+P2,configs meeting all six criteria (WIN),0,0,same,"criteria histogram {""0"": 6153, ""1"": 11740, ""2"": 4147, ""3"": 520, ""4"": 71, ""5"": 9}"
+P2,MSNR solo fixed V1 2R: WF trades / net R,"66,274 / -0.519",66274 / -0.519,same,
+P2,MSNR solo fixed V1 2R: holdout trades / net R,"13,079 / -0.599",13079 / -0.599,same,
+P2,MSNR solo fixed V1 2R: WF gross R / random gross R,not reported,-0.0348 / -0.0379,same,cells gross-beating random p<0.05: 2/20
+P3,MSNR configs,94068,94068,msnr_all_configs.csv,
+P3,criteria histogram,0:7720 1:77974 2:5990 3:2325 4:55 5:4,"{""0"": 7720, ""1"": 77974, ""2"": 5990, ""3"": 2325, ""4"": 55, ""5"": 4}",same,
+P3,configs passing all six,0,0,same,
+P3,configs with p<0.05 (one-sided t),not reported,90,same,expected under global null 4703
+P3,min BH q (stored / recomputed global),~1,1.0000 / 1.0000,same,"configs q<0.10 stored 0, recomputed 0"
+P3,BH survivors with >=100 WF trades,0,0,same,
+P3,max DSR (all) / max DSR (>=100 trades),~0,0.5367 / 0.0571,same,
+P3,min RC p / min SPA p over 18 cells,not reported,0.147 / 0.847,same,
+P3,excluding synthetic MCX proxy: configs / p<0.05 / BH q<0.10 / max DSR(>=100tr),n/a,67284 / 22 / 0 / 0.0385,same,
+P3,canonical pooled WF: trades / net R (trade-weighted),"9,155 / -0.496",9147 / -0.496,msnr_canonical_by_cell.csv,gross -0.0466; unweighted cell mean net -0.352
+P3,canonical pooled holdout: trades / net R,"1,262 / -0.325",1262 / -0.325,same,
+P3,canonical cells WF-positive / beating random p<0.05,2 / 1,2 / 1,same,
+P3,"canonical, 15 real-data cells only: WF trades / net / gross",n/a,8125 / -0.511 / -0.0330,same,holdout 1134 / -0.383; cells WF-pos 1
+P3,"canonical, excl. MCX proxy and silver: WF trades / net / gross",n/a,6268 / -0.336 / -0.0188,same,silver's cost per trade dominates the pooled figure
+P3,canonical trade arrays found (cells),18,18,B3/trades_*.npy,crc 6656813
+P3,"canonical from raw trades, exit before holdout: n / net R / gross R","9,155 / -0.496",9145 / -0.498 / -0.0484,B3/trades_*.npy,"continuous run split by exit time; phase A ran fold-by-fold, so counts differ slightly"
+P3,"canonical from raw trades, exit in holdout: n / net R","1,262 / -0.325",1264 / -0.326,same,
+P3,canonical WF win rate / break-even win rate at 3R,not reported,0.245 / 0.250,same,TP-hit share 0.245
+P3,canonical WF long share,not reported,0.531,same,
+P3,"canonical WF net R: mean, 95% CI (iid trades)",n/a,"-0.498 [-0.537, -0.459]",same,
+P3,"canonical WF GROSS R: mean, 95% CI (iid trades)",n/a,"-0.048 [-0.085, -0.012]",same,
+P3,"canonical WF GROSS R, 15 real cells: mean, 95% CI",n/a,"-0.034 [-0.071, 0.003] n=8126",same,
+P3,best ablation mean WF net R (>=18 cells),-0.22,-0.234,msnr_ablations.csv,"the -0.216 row covers only 3 cells (gap levels, MCX proxy)"

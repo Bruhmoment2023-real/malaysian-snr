@@ -1,0 +1,91 @@
+BTCUSDT W-D-4H-1H full cell built 27.0 s; T4 bars 79837 ; setups d3 7495
+BTCUSDT W-D-4H-1H done 54.8 s
+BTCUSDT D-4H-1H-15m full cell built 56.2 s; T4 bars 319294 ; setups d3 31583
+BTCUSDT D-4H-1H-15m done 138.1 s
+                          checks  bar_comparisons  mismatches  after_warmup
+series                                                                     
+T3_close_at_T4                 6           718449           0             0
+T3_high_at_T4                  6           718449           0             0
+T3_low_at_T4                   6           718449           0             0
+atr_T3_at_T4                   6           718449           0             0
+atr_T4                         6           718449           0             0
+roadblock_res                  6           718449           0             0
+roadblock_sup                  6           718449           0             0
+session_flag                   6           718449           0             0
+story_simple                   6           718449           0             0
+story_target                   6           718449           0             0
+story_topdown                  6           718449           0             0
+xfilter_atrpct_hi_long         6           718449           0             0
+xfilter_atrpct_hi_short        6           718449           0             0
+xfilter_ema200_long            6           718449           0             0
+xfilter_ema200_short           6           718449           0             0
+xfilter_macd_turn_long         6           718449           0             0
+xfilter_macd_turn_short        6           718449           0             0
+xfilter_sweep_long             6           718449           0             0
+xfilter_sweep_short            6           718449           0             0
+xfilter_vwap_trend_long        6           718449           0             0
+xfilter_vwap_trend_short       6           718449           0             0
+SERIES: checks 126 ; bar comparisons 15087429 ; mismatching bars 0
+Empty DataFrame
+Columns: [asset, ladder, cut_frac, series, bars_compared, mismatches, first_bad, last_bad, mismatches_after_warmup]
+Index: []
+SETUPS: checks 60 ; setup rows compared 871720 ; differing 0
+Empty DataFrame
+Columns: [asset, ladder, cut_frac, pivot_depth, setups_compared, setups_differing, feature]
+Index: []
+TRADES: checks 60 ; closed trades compared 28193 ; differing 17230
+TRADES of the cut run that are absent from (or different in) the full run: 1844
+  asset      ladder  cut_frac                                                                                     config  closed_trades_compared  trades_differing  trades_not_in_full_run
+BTCUSDT   W-D-4H-1H      0.35          depth=3|gaps=0|story=td|conf=either|stop=zone|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=                      50                 3                       3
+BTCUSDT   W-D-4H-1H      0.35            depth=3|gaps=0|story=td|conf=limit|stop=lvl|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=                     163               163                      23
+BTCUSDT   W-D-4H-1H      0.35 depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=roadblock|rb=1|liq=1|miss=1|sess=0|xf=                     151                 2                       2
+BTCUSDT   W-D-4H-1H      0.35      depth=3|gaps=0|story=td|conf=bos|stop=zone|tgt=roadblock|rb=1|liq=1|miss=0|sess=0|xf=                      15                 1                       1
+BTCUSDT   W-D-4H-1H      0.35        depth=3|gaps=0|story=td|conf=rej|stop=ltf|tgt=storyEnd|rb=1|liq=0|miss=0|sess=0|xf=                      68                 3                       3
+BTCUSDT   W-D-4H-1H      0.35         depth=3|gaps=0|story=simple|conf=eng|stop=zone|tgt=4R|rb=1|liq=0|miss=1|sess=1|xf=                      71                 2                       2
+BTCUSDT   W-D-4H-1H      0.35        depth=2|gaps=0|story=none|conf=either|stop=zone|tgt=2R|rb=0|liq=0|miss=0|sess=0|xf=                     477                31                      31
+BTCUSDT   W-D-4H-1H      0.35    depth=3|gaps=0|story=td|conf=either|stop=zone|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=ema200                      35                 1                       1
+BTCUSDT   W-D-4H-1H      0.35        depth=3|gaps=0|story=td|conf=bos|stop=zone|tgt=2R|rb=1|liq=0|miss=0|sess=0|xf=sweep                       3                 1                       1
+BTCUSDT   W-D-4H-1H      0.60          depth=3|gaps=0|story=td|conf=either|stop=zone|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=                      75                 5                       5
+BTCUSDT   W-D-4H-1H      0.60            depth=3|gaps=0|story=td|conf=limit|stop=lvl|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=                     231               231                      27
+BTCUSDT   W-D-4H-1H      0.60      depth=3|gaps=0|story=td|conf=limit|stop=lvl|tgt=storyEnd|rb=0|liq=1|miss=0|sess=1|xf=                      48                 1                       1
+BTCUSDT   W-D-4H-1H      0.60 depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=roadblock|rb=1|liq=1|miss=1|sess=0|xf=                     272                 2                       2
+BTCUSDT   W-D-4H-1H      0.60      depth=3|gaps=0|story=td|conf=bos|stop=zone|tgt=roadblock|rb=1|liq=1|miss=0|sess=0|xf=                      18                 1                       1
+BTCUSDT   W-D-4H-1H      0.60        depth=3|gaps=0|story=td|conf=rej|stop=ltf|tgt=storyEnd|rb=1|liq=0|miss=0|sess=0|xf=                      94                 3                       3
+BTCUSDT   W-D-4H-1H      0.60         depth=3|gaps=0|story=simple|conf=eng|stop=zone|tgt=4R|rb=1|liq=0|miss=1|sess=1|xf=                     130                 3                       3
+BTCUSDT   W-D-4H-1H      0.60        depth=2|gaps=0|story=none|conf=either|stop=zone|tgt=2R|rb=0|liq=0|miss=0|sess=0|xf=                     877               537                      72
+BTCUSDT   W-D-4H-1H      0.85          depth=3|gaps=0|story=td|conf=either|stop=zone|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=                     195                16                      16
+BTCUSDT   W-D-4H-1H      0.85            depth=3|gaps=0|story=td|conf=limit|stop=lvl|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=                     572               452                      49
+BTCUSDT   W-D-4H-1H      0.85 depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=roadblock|rb=1|liq=1|miss=1|sess=0|xf=                     400               156                       9
+BTCUSDT   W-D-4H-1H      0.85        depth=3|gaps=0|story=td|conf=rej|stop=ltf|tgt=storyEnd|rb=1|liq=0|miss=0|sess=0|xf=                     124                 6                       6
+BTCUSDT   W-D-4H-1H      0.85         depth=3|gaps=0|story=simple|conf=eng|stop=zone|tgt=4R|rb=1|liq=0|miss=1|sess=1|xf=                     183                 5                       5
+BTCUSDT   W-D-4H-1H      0.85        depth=2|gaps=0|story=none|conf=either|stop=zone|tgt=2R|rb=0|liq=0|miss=0|sess=0|xf=                    1319               450                     103
+BTCUSDT   W-D-4H-1H      0.85    depth=3|gaps=0|story=td|conf=either|stop=zone|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=ema200                     119                 8                       8
+BTCUSDT   W-D-4H-1H      0.85        depth=3|gaps=0|story=td|conf=bos|stop=zone|tgt=2R|rb=1|liq=0|miss=0|sess=0|xf=sweep                       4                 1                       1
+BTCUSDT D-4H-1H-15m      0.35          depth=3|gaps=0|story=td|conf=either|stop=zone|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=                     161                 6                       6
+BTCUSDT D-4H-1H-15m      0.35            depth=3|gaps=0|story=td|conf=limit|stop=lvl|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=                     515               332                      41
+BTCUSDT D-4H-1H-15m      0.35      depth=3|gaps=0|story=td|conf=limit|stop=lvl|tgt=storyEnd|rb=0|liq=1|miss=0|sess=1|xf=                      83                 1                       1
+BTCUSDT D-4H-1H-15m      0.35 depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=roadblock|rb=1|liq=1|miss=1|sess=0|xf=                     708               676                       8
+BTCUSDT D-4H-1H-15m      0.35        depth=3|gaps=0|story=td|conf=rej|stop=ltf|tgt=storyEnd|rb=1|liq=0|miss=0|sess=0|xf=                     208                 5                       5
+BTCUSDT D-4H-1H-15m      0.35         depth=3|gaps=0|story=simple|conf=eng|stop=zone|tgt=4R|rb=1|liq=0|miss=1|sess=1|xf=                     247                 8                       8
+BTCUSDT D-4H-1H-15m      0.35        depth=2|gaps=0|story=none|conf=either|stop=zone|tgt=2R|rb=0|liq=0|miss=0|sess=0|xf=                    1747              1565                     180
+BTCUSDT D-4H-1H-15m      0.35    depth=3|gaps=0|story=td|conf=either|stop=zone|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=ema200                      99                 4                       4
+BTCUSDT D-4H-1H-15m      0.60          depth=3|gaps=0|story=td|conf=either|stop=zone|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=                     444                25                      25
+BTCUSDT D-4H-1H-15m      0.60            depth=3|gaps=0|story=td|conf=limit|stop=lvl|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=                    1345               796                      80
+BTCUSDT D-4H-1H-15m      0.60      depth=3|gaps=0|story=td|conf=limit|stop=lvl|tgt=storyEnd|rb=0|liq=1|miss=0|sess=1|xf=                     160                 2                       2
+BTCUSDT D-4H-1H-15m      0.60 depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=roadblock|rb=1|liq=1|miss=1|sess=0|xf=                    1341              1309                      20
+BTCUSDT D-4H-1H-15m      0.60      depth=3|gaps=0|story=td|conf=bos|stop=zone|tgt=roadblock|rb=1|liq=1|miss=0|sess=0|xf=                      92                 2                       2
+BTCUSDT D-4H-1H-15m      0.60        depth=3|gaps=0|story=td|conf=rej|stop=ltf|tgt=storyEnd|rb=1|liq=0|miss=0|sess=0|xf=                     418                13                      13
+BTCUSDT D-4H-1H-15m      0.60         depth=3|gaps=0|story=simple|conf=eng|stop=zone|tgt=4R|rb=1|liq=0|miss=1|sess=1|xf=                     439                25                      25
+BTCUSDT D-4H-1H-15m      0.60        depth=2|gaps=0|story=none|conf=either|stop=zone|tgt=2R|rb=0|liq=0|miss=0|sess=0|xf=                    3207              3155                     304
+BTCUSDT D-4H-1H-15m      0.60    depth=3|gaps=0|story=td|conf=either|stop=zone|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=ema200                     268                18                      18
+BTCUSDT D-4H-1H-15m      0.85          depth=3|gaps=0|story=td|conf=either|stop=zone|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=                     578                30                      30
+BTCUSDT D-4H-1H-15m      0.85            depth=3|gaps=0|story=td|conf=limit|stop=lvl|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=                    1721              1537                     102
+BTCUSDT D-4H-1H-15m      0.85      depth=3|gaps=0|story=td|conf=limit|stop=lvl|tgt=storyEnd|rb=0|liq=1|miss=0|sess=1|xf=                     245                 6                       6
+BTCUSDT D-4H-1H-15m      0.85 depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=roadblock|rb=1|liq=1|miss=1|sess=0|xf=                    1895              1137                      29
+BTCUSDT D-4H-1H-15m      0.85      depth=3|gaps=0|story=td|conf=bos|stop=zone|tgt=roadblock|rb=1|liq=1|miss=0|sess=0|xf=                     120                 2                       2
+BTCUSDT D-4H-1H-15m      0.85        depth=3|gaps=0|story=td|conf=rej|stop=ltf|tgt=storyEnd|rb=1|liq=0|miss=0|sess=0|xf=                     594                20                      20
+BTCUSDT D-4H-1H-15m      0.85         depth=3|gaps=0|story=simple|conf=eng|stop=zone|tgt=4R|rb=1|liq=0|miss=1|sess=1|xf=                     656                33                      33
+BTCUSDT D-4H-1H-15m      0.85        depth=2|gaps=0|story=none|conf=either|stop=zone|tgt=2R|rb=0|liq=0|miss=0|sess=0|xf=                    4594              4417                     480
+BTCUSDT D-4H-1H-15m      0.85    depth=3|gaps=0|story=td|conf=either|stop=zone|tgt=3R|rb=1|liq=0|miss=0|sess=0|xf=ema200                     344                22                      22
+sort used for simultaneous setups: as in the original code (numpy argsort default, not stable)
+total seconds 193.0

@@ -1,0 +1,532 @@
+[
+ {
+  "oa_id": "W2136854181",
+  "study_type": "journal article, empirical",
+  "country": "foreign exchange (intraday)",
+  "data": "support and resistance levels supplied to customers by six FX firms",
+  "method": "tests whether the published levels predict intraday trend interruptions",
+  "finding": "Strong evidence that the levels help predict intraday trend interruptions, but predictive power varies across exchange rates and firms.",
+  "relation": "The classic 'levels carry information' result; its benchmark of real versus other levels parallels the random-entry design. Published (firm-supplied) levels, not close-line levels.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2080887613",
+  "study_type": "journal article, empirical",
+  "country": "foreign exchange",
+  "data": "individual currency stop-loss and take-profit orders (first such data)",
+  "method": "order clustering analysis",
+  "finding": "Take-profit orders cluster at round numbers and stop-loss orders just beyond them, offering an explanation for reversals at support/resistance and for fast moves after levels are crossed.",
+  "relation": "Mechanism for 'liquidity at levels' stories; says nothing about net profitability.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W3124405065",
+  "study_type": "journal article, empirical",
+  "country": "US equities",
+  "data": "limit order book depth",
+  "method": "relation of technical levels to book depth",
+  "finding": "Support and resistance levels coincide with peaks in depth on the limit order book, and moving-average forecasts reveal where depth sits; technical rules locate depth already in place.",
+  "relation": "Supports 'levels reflect resting liquidity'; no profit test.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W3122388722",
+  "study_type": "working paper (arXiv), empirical",
+  "country": "intraday financial series",
+  "data": "intraday price series",
+  "method": "heuristic discovery algorithm for support and resistance levels",
+  "finding": "Discovered levels reverse price trends at a statistically significant rate; levels with more previous bounces are more likely to bounce again, and bounce probability decays as a level ages.",
+  "relation": "Direct evidence on 'fresh versus tested' levels: more past bounces raise bounce probability, which cuts against 'fresh is best'.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2108762681",
+  "study_type": "journal article, empirical",
+  "country": "stocks",
+  "data": "price time series",
+  "method": "criterion to detect supports and resistances; memory-effect test",
+  "finding": "Memory effects in price dynamics are associated with the detected support/resistance values: prices more likely re-bounce than cross them.",
+  "relation": "Same direction as Chung and Bellotti on repeated bounces.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W1986675767",
+  "study_type": "journal article, empirical",
+  "country": "US stocks (NASDAQ, NYSE)",
+  "data": "daily closes, last two decades, adjusted for dividends and splits",
+  "method": "rule-based identification of horizontal support/resistance levels, tested as trend-reversal predictors and for abnormal returns",
+  "finding": "Results are described as aligned with the efficient market hypothesis (abstract truncated in this read).",
+  "relation": "Shows how a codified level definition is validated on stocks.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2123305298",
+  "study_type": "journal article, empirical",
+  "country": "US (DJIA)",
+  "data": "Dow Jones Industrial Average",
+  "method": "tests with Monte Carlo and comparison indices",
+  "finding": "The index's rise and fall is restrained at support and resistance levels at multiples of 100, and after breaking a 100-level it moves more than otherwise warranted.",
+  "relation": "Round-number barrier evidence.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W1530852332",
+  "study_type": "working paper, empirical",
+  "country": "three exchange rates",
+  "data": "chartist-supplied support and resistance levels",
+  "method": "profitability of signals from breaking of levels, with transaction costs",
+  "finding": "Trading-range breaks generate profitable signals even after transaction costs, and signals built from chartists' inputs are more frequent and profitable.",
+  "relation": "Level-break rules in FX; era and data are old.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W1971669226",
+  "study_type": "journal article, empirical",
+  "country": "intraday foreign exchange",
+  "data": "filter rules supplied by technical analysts",
+  "method": "intraday simulation with transaction costs",
+  "finding": "Some profits are available in trending periods but not on average, and the result is strengthened after transaction costs.",
+  "relation": "Intraday FX rules lose after costs, as the paper expects.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2570892994",
+  "study_type": "journal article",
+  "country": "foreign exchange",
+  "data": "not stated in the record",
+  "method": "not stated in the record",
+  "finding": "No abstract in OpenAlex, Crossref or Semantic Scholar; findings not summarised.",
+  "relation": "Stop-loss orders and price cascades in currency markets (title): relevant to breaks of levels.",
+  "read_status": "metadata only (no abstract available)"
+ },
+ {
+  "oa_id": "W2003569572",
+  "study_type": "journal article, empirical",
+  "country": "US stocks",
+  "data": "transaction prices",
+  "method": "econometric model of price clustering",
+  "finding": "Stock prices cluster on round fractions; clustering rises with price level and volatility and falls with capitalisation and transaction frequency.",
+  "relation": "Round-number clustering background.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2736872974",
+  "study_type": "journal article",
+  "country": "Bitcoin",
+  "data": "not stated in the record",
+  "method": "not stated in the record",
+  "finding": "No abstract in OpenAlex, Crossref or Semantic Scholar; findings not summarised.",
+  "relation": "Price clustering in Bitcoin (title): the crypto market of the paper.",
+  "read_status": "metadata only (no abstract available)"
+ },
+ {
+  "oa_id": "W2101544483",
+  "study_type": "journal article, empirical",
+  "country": "US (DJIA 1897-1986)",
+  "data": "Dow Jones Index",
+  "method": "moving average and trading-range-break rules with bootstrap against four null models",
+  "finding": "Results provide strong support for the technical strategies: returns are not consistent with random walk, AR(1), GARCH-M or EGARCH nulls, and buy signals generate higher returns than sell signals.",
+  "relation": "The positive result that data-snooping papers stress-test; includes trading-range-break (support/resistance) rules.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2143152597",
+  "study_type": "journal article, empirical",
+  "country": "US (DJIA, 100 years)",
+  "data": "daily Dow Jones data",
+  "method": "White's Reality Check over the full universe of rules (expands Brock et al.'s 26 rules)",
+  "finding": "Evaluates all rules examined with the data-snooping bias fully adjusted for (full conclusions truncated in this read).",
+  "relation": "Template for 'count everything you tried'.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2171059853",
+  "study_type": "journal article, empirical",
+  "country": "foreign exchange",
+  "data": "2,127 technical trading rules",
+  "method": "Reality Check applied to FX rules",
+  "finding": "The best rules are significantly profitable by standard tests; data-snooping adjustment does not change the full-sample conclusion, but profitability is much weaker in the more recent period.",
+  "relation": "Decline of rule profits over time.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W1587271453",
+  "study_type": "journal article, empirical",
+  "country": "US futures (17 markets, 1985-2004)",
+  "data": "futures prices",
+  "method": "White's Reality Check and Hansen's SPA",
+  "finding": "The best rules generate significant economic profits in only two of 17 futures markets after correcting for data snooping.",
+  "relation": "Large-universe snooping-corrected test.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2100376816",
+  "study_type": "journal article, empirical",
+  "country": "four stock indices",
+  "data": "simple rules and complex strategies",
+  "method": "Reality Check and SPA",
+  "finding": "Significantly profitable rules and strategies exist in 'young' markets (NASDAQ Composite, Russell 2000) but not in 'mature' markets such as the Dow (abstract truncated).",
+  "relation": "Market-maturity dependence.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2337071880",
+  "study_type": "journal article, empirical",
+  "country": "30 currencies, 45 years",
+  "data": "daily data",
+  "method": "stepwise test over more than 21,000 rules, out-of-sample cross-validation",
+  "finding": "Finds substantial predictability and excess profitability in both developed and emerging currencies, with time-series and cross-sectional variation (abstract truncated).",
+  "relation": "Large-scale benchmark for a serious rule search; contrasts with 'decline over time' papers.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W3122236376",
+  "study_type": "journal article, empirical",
+  "country": "US (7,846 rules)",
+  "data": "not stated in the record",
+  "method": "not stated in the record",
+  "finding": "No abstract in OpenAlex, Crossref or Semantic Scholar; findings not summarised.",
+  "relation": "Bajgrowicz and Scaillet: false discoveries, persistence tests and transaction costs (title).",
+  "read_status": "metadata only (no abstract available)"
+ },
+ {
+  "oa_id": "W3122057860",
+  "study_type": "journal article",
+  "country": "US indices",
+  "data": "not stated in the record",
+  "method": "not stated in the record",
+  "finding": "No abstract in OpenAlex, Crossref or Semantic Scholar; findings not summarised.",
+  "relation": "Hsu, Hsu and Kuan: stepwise test without data-snooping bias (title).",
+  "read_status": "metadata only (no abstract available)"
+ },
+ {
+  "oa_id": "W2134658143",
+  "study_type": "journal article, review",
+  "country": "mostly US/FX/futures",
+  "data": "95 modern studies reviewed",
+  "method": "survey of the empirical literature",
+  "finding": "Early studies find technical strategies profitable in FX and futures but not stocks; of 95 modern studies, 56 find positive results (abstract truncated).",
+  "relation": "Opening-paragraph survey.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2130180922",
+  "study_type": "journal article, survey review",
+  "country": "foreign exchange",
+  "data": "literature and surveys",
+  "method": "stylised facts and four explanations",
+  "finding": "Technical analysis is widely used in FX and applying certain rules over a sustained period may give significant positive excess returns; the paper analyses four arguments explaining this.",
+  "relation": "Why practitioners keep using it.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2077894872",
+  "study_type": "journal article, survey",
+  "country": "FX dealers and fund managers",
+  "data": "survey responses",
+  "method": "extension of earlier survey studies",
+  "finding": "Technical analysis is the most equally spread kind of analysis, by far the most important in FX dealing and second in fund management; charts dominate for shorter horizons.",
+  "relation": "Use of chart analysis among professionals.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W1980988541",
+  "study_type": "journal article, empirical",
+  "country": "foreign exchange",
+  "data": "head-and-shoulder rule definitions",
+  "method": "variants of the pattern definition",
+  "finding": "For various combinations of definitions the result is generally negative: returns to head-and-shoulder rules are not significantly positive.",
+  "relation": "Codifying a visual pattern into rules.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2890714735",
+  "study_type": "journal article, empirical",
+  "country": "currency futures 1976-1990",
+  "data": "currency futures",
+  "method": "bootstrap",
+  "finding": "Simple technical trading rules have often led to profits that are highly unusual; profitability of some rules declined in the latest sub-period.",
+  "relation": "Early bootstrap evidence for FX rules.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2104955455",
+  "study_type": "journal article, empirical",
+  "country": "foreign exchange",
+  "data": "FX series",
+  "method": "genetic programming",
+  "finding": "Only the citation is given in the abstract field; no finding available.",
+  "relation": "Data-snooping-free rule generation.",
+  "read_status": "metadata only (no abstract available)"
+ },
+ {
+  "oa_id": "W2947760525",
+  "study_type": "journal article, empirical",
+  "country": "Bitcoin (high frequency)",
+  "data": "high-frequency Bitcoin returns",
+  "method": "moving-average oscillator and trading-range breakout (support/resistance) strategies",
+  "finding": "Significant support for moving-average strategies, with the variable-length moving-average rule performing best and buy signals earning more than sell signals.",
+  "relation": "Crypto rules including level breakouts.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W3036304463",
+  "study_type": "journal article, empirical",
+  "country": "cryptocurrencies",
+  "data": "crypto prices, several frequencies",
+  "method": "reality check for machine-learning and technical rules",
+  "finding": "After controlling for data snooping and frictions, significant positive excess returns are rarely achieved; trading rules mostly capture market risk premiums.",
+  "relation": "Closest crypto analogue of the paper's multiple-testing design.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2970972678",
+  "study_type": "journal article, empirical",
+  "country": "Bitcoin and three other cryptocurrencies",
+  "data": "almost 15,000 rules from five classes",
+  "method": "multiple hypothesis procedures against data snooping",
+  "finding": "Finds significant predictability and profitability for each class of rule in each cryptocurrency, with breakeven transaction costs well above typical crypto costs.",
+  "relation": "Contradicts Anghel et al.; shows result depends on the rule universe and period.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2967069906",
+  "study_type": "journal article, empirical",
+  "country": "Bitcoin 2010-2019",
+  "data": "daily prices",
+  "method": "seven trend-following indicators, bootstrapped Sharpe",
+  "finding": "Specific rules, mainly trading-range breakout, have significant forecasting power and outperform buy-and-hold on Sharpe ratio.",
+  "relation": "Range-breakout evidence in crypto.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2902273645",
+  "study_type": "journal article, empirical",
+  "country": "WTI crude oil futures",
+  "data": "daily prices",
+  "method": "the 7,846-rule Sullivan-Timmermann-White universe in five families including support and resistance",
+  "finding": "Applies the full universe (filter, moving average, support and resistance, channel breakout, on-balance volume) to crude oil; findings truncated in this read.",
+  "relation": "Includes a support/resistance family on a commodity.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W3215706775",
+  "study_type": "journal article, empirical",
+  "country": "spreads, 1990-2016",
+  "data": "daily data",
+  "method": "18,410 rules with a false-discovery control",
+  "finding": "Evidence of predictability is stronger for commodity spreads than for equity and currency spreads, and out-of-sample portfolios of significant rules exceed cost estimates (Sharpe 3.67 in 2016).",
+  "relation": "False-discovery-controlled rule search.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2885189127",
+  "study_type": "journal article, empirical",
+  "country": "asset allocation",
+  "data": "15,376 monthly rules",
+  "method": "RC, SPA, extensions and FDR",
+  "finding": "None of 15,376 technical trading rules at monthly frequency outperforms buy-and-hold in terms of a 1/N portfolio.",
+  "relation": "Another null result under snooping control.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W7170163211",
+  "study_type": "working paper (arXiv), multiple-testing study",
+  "country": "US equities",
+  "data": "index and cross-sectional panels",
+  "method": "predeclared gates, stationary bootstrap, Benjamini-Yekutieli, equivalence tests",
+  "finding": "Four of six candidate retail signal families are refuted, trend and a momentum benchmark are inconclusive, none supported.",
+  "relation": "Nearest competitor; no support/resistance rule. Method to borrow: three-way verdict.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W7212746204",
+  "study_type": "working paper (SSRN)",
+  "country": "G10 FX",
+  "data": "not stated in the record",
+  "method": "not stated in the record",
+  "finding": "No abstract in OpenAlex, Crossref or Semantic Scholar; findings not summarised.",
+  "relation": "Mahadzva (2026), ICT / smart-money-concepts rules in G10 FX (title). The pack read its abstract: closest relative.",
+  "read_status": "metadata only (no abstract available)"
+ },
+ {
+  "oa_id": "W7212621260",
+  "study_type": "working paper (SSRN)",
+  "country": "G10 FX",
+  "data": "not stated in the record",
+  "method": "not stated in the record",
+  "finding": "No abstract in OpenAlex, Crossref or Semantic Scholar; findings not summarised.",
+  "relation": "Mahadzva (2026), deflated-Sharpe reassessment of retail trading rules (title). Same toolkit as the paper.",
+  "read_status": "metadata only (no abstract available)"
+ },
+ {
+  "oa_id": "W2343368277",
+  "study_type": "journal article, empirical",
+  "country": "Malaysia (KLSE Composite 1977-1999)",
+  "data": "daily index returns",
+  "method": "variance ratio test and moving-average rules",
+  "finding": "Results indicate non-randomness of successive price changes and that the rules show technical attractiveness even with transaction costs.",
+  "relation": "Malaysian equity context; not the MSNR method.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W1984961676",
+  "study_type": "journal article, empirical",
+  "country": "16 European stock markets 1990-2006",
+  "data": "index data",
+  "method": "moving-average rules with White's Reality Check",
+  "finding": "Increasing moving-average rules have predictive power even after accounting for data-snooping bias.",
+  "relation": "Positive result under RC.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2137770255",
+  "study_type": "journal article, empirical",
+  "country": "China (SSCI, CSI 300)",
+  "data": "index data 1992-2013",
+  "method": "more than 7,000 rules with SPA",
+  "finding": "Tests whether an effective rule can be found using performance measures (findings truncated in this read).",
+  "relation": "Large rule universe outside the US.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2765547313",
+  "study_type": "journal article, empirical",
+  "country": "Chinese stock market",
+  "data": "19 years daily",
+  "method": "stepwise SPA over more than 28,000 signals",
+  "finding": "Substantial evidence of profitability of technical rules measured by market timing or Sharpe gain (abstract truncated).",
+  "relation": "Positive result under stepwise SPA.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2170117595",
+  "study_type": "journal article, empirical",
+  "country": "Taiwan stock market",
+  "data": "two broad rule sets",
+  "method": "White and Hansen bootstrap tests with institutional adjustments",
+  "finding": "Tests whether a superior rule exists in Brock et al. and Sullivan et al. rule sets (findings truncated in this read).",
+  "relation": "Snooping-corrected test in Asia.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2133621418",
+  "study_type": "journal article, empirical",
+  "country": "five Southeast Asian stock indices 2000-2013",
+  "data": "index data",
+  "method": "RSI, stochastic, MACD and others",
+  "finding": "Examines the profitability of technical rules in SET, FTSE Bursa Malaysia KLCI, STI, JCI and PSEi (findings truncated in this read).",
+  "relation": "Regional context for the 'Malaysian' label.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2527757929",
+  "study_type": "journal article, empirical",
+  "country": "Malaysia",
+  "data": "stocks",
+  "method": "variable moving-average rules and Elliott wave with Fibonacci numbers",
+  "finding": "Of 42 variable-moving-average rules tested, only 10 gave buy-signal mean returns significantly above the unconditional return (abstract truncated).",
+  "relation": "Malaysian-market TA; Fibonacci tools used by retail methods.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2135606128",
+  "study_type": "journal article, theory + method",
+  "country": "n/a",
+  "data": "none",
+  "method": "bootstrap Reality Check for the best of many models",
+  "finding": "Provides a straightforward procedure for testing the null that the best model among many has no superior predictive ability, accounting for data reuse (abstract truncated).",
+  "relation": "Defines the Reality Check used in the pack's phases 2-3.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W3123939061",
+  "study_type": "journal article, theory",
+  "country": "n/a",
+  "data": "none",
+  "method": "stepwise multiple testing controlling the familywise error rate",
+  "finding": "A stepwise procedure that asymptotically controls the familywise error rate, more powerful than single-step methods and capturing joint dependence; studentisation advocated.",
+  "relation": "Identifies which rules are significant, not only whether the best is.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2110065044",
+  "study_type": "journal article, theory",
+  "country": "n/a",
+  "data": "none",
+  "method": "false discovery rate control",
+  "finding": "Proposes controlling the expected proportion of falsely rejected hypotheses, equivalent to FWER when all hypotheses are true and smaller otherwise.",
+  "relation": "The BH procedure used in the pack; assumes independence or positive dependence.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W3124863268",
+  "study_type": "journal article, theory",
+  "country": "n/a",
+  "data": "none",
+  "method": "deflated Sharpe ratio",
+  "finding": "The DSR corrects for selection bias under multiple testing and for non-normal returns, to separate legitimate findings from statistical flukes.",
+  "relation": "Formula coded in the pack's phase 2; check against the paper.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2732395805",
+  "study_type": "journal article, method",
+  "country": "n/a",
+  "data": "none",
+  "method": "combinatorially symmetric cross-validation",
+  "finding": "Proposes estimating the probability of backtest overfitting (PBO) through CSCV and shows it gives accurate estimates; says hold-out tends to be unreliable for investment backtests.",
+  "relation": "Not computed in the pack; compute it or do not claim it.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W4211170237",
+  "study_type": "journal article, method + historical review",
+  "country": "US factor literature",
+  "data": "historical factor tests since 1967",
+  "method": "multiple-testing framework with historical cutoffs",
+  "finding": "A new factor needs a t-statistic above 3.0; most claimed research findings in financial economics are likely false.",
+  "relation": "Hurdle for new claims; here t-values are far below zero, not above.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W3004991387",
+  "study_type": "journal article, method",
+  "country": "finance",
+  "data": "simulations",
+  "method": "evaluation of multiple-testing methods",
+  "finding": "A guide to multiple-testing methods with simulation evidence on relative performance; a t-statistic of 2.0 is not enough when five variables are tried.",
+  "relation": "Single source for the methods section.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W2118989259",
+  "study_type": "journal article, empirical",
+  "country": "US mutual funds",
+  "data": "fund alphas",
+  "method": "false-discovery technique separating unskilled, zero-alpha and skilled funds",
+  "finding": "75% of funds have zero alpha net of expenses; a significant share of skilled funds before 1996 but almost none by 2006.",
+  "relation": "FDR applied in finance; analogous to 'luck among many'.",
+  "read_status": "abstract read"
+ },
+ {
+  "oa_id": "W3125595766",
+  "study_type": "magazine/notice article (AMS Notices)",
+  "country": "n/a",
+  "data": "none",
+  "method": "backtest overfitting argument",
+  "finding": "The abstract field holds only a quotation about vague theories and indefinite computation; no finding is available.",
+  "relation": "Readable general introduction to overfitting.",
+  "read_status": "metadata only (no abstract available)"
+ },
+ {
+  "oa_id": "W2100697778",
+  "study_type": "journal article, method",
+  "country": "n/a",
+  "data": "simulations",
+  "method": "SPA test using a covariance decomposition and a GLR test",
+  "finding": "Proposes a new test for superior predictive ability of technical rules without data-snooping bias; the GLR test is reported to dominate (abstract truncated).",
+  "relation": "Alternative SPA variant; low priority.",
+  "read_status": "abstract read"
+ }
+]

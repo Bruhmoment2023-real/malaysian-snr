@@ -1,0 +1,37 @@
+phase2
+  asset tf                             name  wf_n  wf_netR          DSR  DSR_null_Ncell  DSR_null_Nall  hold_n  hold_netR
+SOLUSDT 1d        lim|V1|-|TP3R|eps0.05_sl1   101 0.499413 9.111736e-04        0.225532       0.055804    27.0  -0.095133
+SOLUSDT 1d      lim|V1|-|BE1R_TP2R|eps0_sl1   165 0.262274 1.464685e-06        0.217591       0.055506     NaN        NaN
+ETHUSDT 1d                  mkt|V0|fvg|TP2R   184 0.272745 2.339209e-06        0.198578       0.049979     NaN        NaN
+SOLUSDT 1d           lim|V1|-|TP2R|eps0_sl1   137 0.285837 9.866871e-06        0.143732       0.030936     NaN        NaN
+SOLUSDT 1d        lim|V1|-|TP2R|eps0.05_sl1   138 0.276509 6.550779e-06        0.129475       0.026637     NaN        NaN
+ETHUSDT 1d mkt|V0|macd_turn+vwap_trend|TP2R   101 0.326023 1.247385e-03        0.127913       0.026520     NaN        NaN
+ETHUSDT 1d       mkt|V0|donchian55+fvg|TP2R   134 0.282597 6.425466e-05        0.127087       0.026273     NaN        NaN
+ETHUSDT 1d      lim|V0|-|nextlvl1R|eps0_sl1   199 0.198571 1.058303e-07        0.124175       0.025212    34.0  -0.024417
+ETHUSDT 4h     mkt|V1|bos10+vwap_trend|TP2R   154 0.262418 1.916314e-03        0.120847       0.025416    25.0  -0.137794
+SOLUSDT 1d      lim|V0|-|BE1R_TP2R|eps0_sl1   253 0.177498 5.148992e-12        0.118498       0.023166     NaN        NaN
+SOLUSDT 1d      lim|V0|-|nextlvl1R|eps0_sl1   130 0.247008 1.092696e-05        0.117177       0.022816     NaN        NaN
+SOLUSDT 1d         lim|V0|-|TP3R|eps0_sl0.5   449 0.181985 0.000000e+00        0.108464       0.020078     NaN        NaN
+ETHUSDT 4h    mkt|V1|ema200+vwap_trend|TP2R   206 0.211874 6.341382e-05        0.094953       0.018144     NaN        NaN
+ETHUSDT 1d            alone|sweep|BE1R_TP2R   115 0.246577 1.551868e-04        0.092259       0.016228     NaN        NaN
+ETHUSDT 4h        mkt|V1|vol_spike+fvg|TP2R   107 0.288926 1.309946e-02        0.087916       0.016401    17.0  -0.061480
+phase3
+      asset       ladder                                                                                  name  wf_n  wf_netR      DSR  DSR_null_Ncell  DSR_null_Nall  hold_n  hold_netR
+     XAUUSD    W-D-4H-1H   depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=4R|rb=0|liq=1|miss=1|sess=1|xf=   509 0.225211 0.000000        0.073280       0.013532     NaN        NaN
+     XAUUSD    W-D-4H-1H   depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=3R|rb=0|liq=1|miss=1|sess=1|xf=   521 0.160759 0.000000        0.039396       0.006184     NaN        NaN
+    SOLUSDT  D-4H-1H-15m   depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=4R|rb=1|liq=1|miss=1|sess=1|xf=   529 0.191619 0.000000        0.037443       0.005669   132.0  -0.137372
+MCXGOLD_SYN    W-D-4H-1H   depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=2R|rb=1|liq=1|miss=1|sess=0|xf=   411 0.157137 0.000000        0.033148       0.008575     NaN        NaN
+     XAUUSD    W-D-4H-1H   depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=2R|rb=0|liq=1|miss=0|sess=1|xf=   833 0.094210 0.000000        0.032499       0.005035     NaN        NaN
+     XAUUSD    W-D-4H-1H   depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=3R|rb=0|liq=1|miss=1|sess=0|xf=   724 0.127540 0.000000        0.030965       0.004577     NaN        NaN
+MCXGOLD_SYN    W-D-4H-1H   depth=2|gaps=0|story=simple|conf=limit|stop=lvl|tgt=4R|rb=0|liq=1|miss=0|sess=1|xf=   661 0.190361 0.000000        0.030307       0.007459     NaN        NaN
+    BTCUSDT    W-D-4H-1H      depth=3|gaps=0|story=none|conf=bos|stop=zone|tgt=3R|rb=1|liq=1|miss=1|sess=0|xf=   138 0.307442 0.000000        0.029386       0.004080     NaN        NaN
+     XAUUSD    W-D-4H-1H   depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=2R|rb=1|liq=1|miss=0|sess=1|xf=   809 0.093138 0.000000        0.029210       0.004388     NaN        NaN
+     XAUUSD    W-D-4H-1H   depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=4R|rb=1|liq=1|miss=1|sess=1|xf=   470 0.187846 0.000000        0.028710       0.003980     NaN        NaN
+MCXGOLD_SYN    W-D-4H-1H   depth=2|gaps=0|story=simple|conf=limit|stop=lvl|tgt=4R|rb=1|liq=1|miss=0|sess=1|xf=   603 0.195030 0.000000        0.026715       0.006401     NaN        NaN
+MCXGOLD_SYN    W-D-4H-1H   depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=2R|rb=0|liq=1|miss=1|sess=0|xf=   418 0.147312 0.000000        0.025712       0.006297     NaN        NaN
+     XAUUSD    W-D-4H-1H   depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=2R|rb=0|liq=1|miss=1|sess=1|xf=   534 0.111117 0.000000        0.025281       0.003633     NaN        NaN
+    SOLUSDT 4H-1H-15m-5m depth=3|gaps=0|story=td|conf=bos|stop=zone|tgt=roadblock|rb=0|liq=1|miss=0|sess=0|xf=   101 0.488386 0.012119        0.025121       0.002729    35.0   0.019763
+    SOLUSDT 4H-1H-15m-5m depth=3|gaps=0|story=td|conf=bos|stop=zone|tgt=roadblock|rb=1|liq=1|miss=0|sess=0|xf=   101 0.488386 0.012119        0.025121       0.002729    35.0   0.019763
+ study  configs_total  configs_ge100_trades  stored_DSR_max  stored_DSR_gt_095  nullvar_Ncell_max  nullvar_Ncell_gt_095  nullvar_Nall_max  nullvar_Nall_gt_095
+phase2          22640                 13155          0.0196                  0             0.2255                     0            0.0558                    0
+phase3          94068                 81029          0.0571                  0             0.0733                     0            0.0164                    0

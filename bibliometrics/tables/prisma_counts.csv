@@ -1,0 +1,40 @@
+﻿stage,n
+Records identified through database searching (all query hits),15697
+   of which from arxiv,217
+   of which from crossref,8750
+   of which from s2,6674
+   of which from seed,56
+Duplicates removed (same DOI / id / title across queries and databases),3842
+Unique records screened on title (+ abstract where the database supplied one),11855
+Removed at title pre-screen (off-topic),8052
+Records looked up in OpenAlex,3803
+Duplicates removed after OpenAlex matching (same work / same title),22
+Excluded at full screen: offtopic_fails_inclusion_rule,1753
+Excluded at full screen: type_excluded,337
+Excluded at full screen: no_openalex_record (no DOI / not indexed),182
+Excluded at full screen: uncited_older_record (citation floor),134
+Excluded at full screen: language_not_english,23
+Excluded at full screen: paratext_or_container_record,3
+Excluded at full screen: offtopic_exclusion_term_in_title,2
+Included after search screening,1347
+Snowball: central papers used,25
+Snowball: backward-reference candidates,684
+Snowball: forward-citation candidates (OpenCitations),2359
+Snowball: duplicates of corpus records,55
+Snowball excluded: offtopic_fails_inclusion_rule,1985
+Snowball excluded: no_openalex_record,220
+Snowball excluded: type_excluded,175
+Snowball excluded: offtopic_exclusion_term_in_title,133
+Snowball excluded: uncited_older_record (citation floor),50
+Snowball excluded: language_not_english,43
+Snowball excluded: year_out_of_range,16
+Snowball excluded: paratext_or_container_record,16
+Snowball: included (backward),41
+Snowball: included (forward),309
+Corpus before hand-screening,1697
+Removed at hand-screening (see tables/hand_screen_removed.csv),337
+FINAL CORPUS,1360
+   with abstract,899
+   with DOI,1244
+   with a reference list in OpenAlex,1185
+Distinct cited references / resolved to metadata,33158 / 7677

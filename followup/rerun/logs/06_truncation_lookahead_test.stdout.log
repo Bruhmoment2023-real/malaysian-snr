@@ -1,0 +1,23 @@
+BTCUSDT 1h done
+BTCUSDT 4h done
+BTCUSDT 1d done
+SOLUSDT 1h done
+SOLUSDT 4h done
+SOLUSDT 1d done
+GC=F 1h done
+GC=F 4h done
+GC=F 1d done
+           checks    bars  mismatches
+series                               
+atr            27  343559           0
+nres           27  343559           0
+nsup           27  343559           0
+sig_htf        27  343559           0
+sig_pivot      27  343559           0
+sig_qm         27  343559           0
+sig_raw        27  343559           0
+story          27  343559           0
+TOTAL mismatches: 0 in 216 checks
+Empty DataFrame
+Columns: [asset, tf, cut_frac, series, bars_compared, mismatches]
+Index: []

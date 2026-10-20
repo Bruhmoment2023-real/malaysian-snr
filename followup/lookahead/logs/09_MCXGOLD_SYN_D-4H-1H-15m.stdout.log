@@ -1,0 +1,22 @@
+MCXGOLD_SYN D-4H-1H-15m cell built 24.0 s; T4 bars 246039
+story_simple differs (shipped vs causal) on 3248 of 246039 entry bars
+  configs done 200 36 s
+  configs done 400 38 s
+  configs done 600 40 s
+  configs done 800 46 s
+  configs done 1000 57 s
+  configs done 1200 62 s
+  configs done 1400 66 s
+  configs done 1600 70 s
+  configs done 1800 80 s
+  configs done 2000 90 s
+  configs done 2200 93 s
+  configs done 2400 96 s
+  configs done 2600 103 s
+  configs done 2800 115 s
+  configs done 3000 121 s
+  configs done 3200 126 s
+  configs done 3400 131 s
+  configs done 3600 140 s
+validation vs stored results (no change applied): 3616 of 3616 configs identical
+seconds 140.8

@@ -1,0 +1,40 @@
+﻿                                  file  in_original  in_rerun byte_identical                                                                          detail
+ check_phase1_full_cells_vs_trades.csv         True      True           True                                                                                
+      check_phase1_truncation_test.csv         True      True           True                                                                                
+       check_phase3_histdata_clock.csv         True      True           True                                                                                
+           dsr_sensitivity_summary.csv         True      True           True                                                                                
+      dsr_sensitivity_top15_phase2.csv         True      True           True                                                                                
+      dsr_sensitivity_top15_phase3.csv         True      True           True                                                                                
+         fig1_gross_edge_vs_random.png         True      True           True                                                                                
+                fig2_gross_vs_cost.png         True      True           True                                                                                
+                    fig3_win_rates.png         True      True           True                                                                                
+               fig4_is_vs_oos_edge.png         True      True           True                                                                                
+                        fig4_stats.csv         True      True           True                                                                                
+            fig5_canonical_by_cell.png         True      True           True                                                                                
+       fig6_canonical_cumulative_R.png         True      True           True                                                                                
+            fig7_pvalue_histograms.png         True      True           True                                                                                
+          fig8_intrabar_resolution.png         True      True           True                                                                                
+        phase2_configs_compact.parquet         True      True           True                                                                                
+  phase3_canonical_trades_tidy.parquet         True      True           True                                                                                
+        phase3_configs_compact.parquet         True      True           True                                                                                
+                     reproduce_log.txt         True     False           None not produced by the six scripts as files (original was captured console output)
+                reproduction_check.csv         True      True           True                                                                                
+    robustness_R1_intrabar_by_cell.csv         True      True           True                                                                                
+     robustness_R1_intrabar_pooled.csv         True      True           True                                                                                
+                 robustness_R1_log.txt         True     False           None not produced by the six scripts as files (original was captured console output)
+     table1a_phase1_data_inventory.csv         True      True           True                                                                                
+       table1b_phase3_data_windows.csv         True      True           True                                                                                
+table2_phase1_pooled_by_tf_variant.csv         True      True           True                                                                                
+           table3_phase1_cells_OOS.csv         True      True           True                                                                                
+   table3b_phase2_V1_fixed_by_cell.csv         True      True           True                                                                                
+   table4_phase3_canonical_by_cell.csv         True      True           True                                                                                
+   table5_multiple_testing_summary.csv         True      True           True                                                                                
+           table6_phase3_ablations.csv         True      True           True                                                                                
+  table7_cost_assumptions_as_coded.csv         True      True           True                                                                                
+byte-identical: 30 of 30 files present in both
+
+reproduce_log.txt vs 01_reproduce_headlines.stdout.log: 62 vs 62 non-empty lines; lines only in stored 1; only in re-run 1
+  stored only: WROTE D:\Research-Publishing\02-malaysian-snr\results\reproduction_check.csv 61 rows
+  re-run only: WROTE D:\Research-Publishing\02-malaysian-snr\followup\rerun\results\reproduction_check.csv 61 rows
+
+robustness_R1_log.txt vs 02_intrabar_resolution_check.stdout.log: 52 vs 52 non-empty lines; lines only in stored 0; only in re-run 0

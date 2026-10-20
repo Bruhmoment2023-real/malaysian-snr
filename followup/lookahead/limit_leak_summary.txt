@@ -1,0 +1,128 @@
+cells with results: 18
+      asset       ladder  configs
+    BTCUSDT 4H-1H-15m-5m     1820
+    BTCUSDT  D-4H-1H-15m     1820
+    BTCUSDT    W-D-4H-1H     1820
+    ETHUSDT 4H-1H-15m-5m     1820
+    ETHUSDT  D-4H-1H-15m     1820
+    ETHUSDT    W-D-4H-1H     1820
+MCXGOLD_SYN 4H-1H-15m-5m     3616
+MCXGOLD_SYN  D-4H-1H-15m     3616
+MCXGOLD_SYN    W-D-4H-1H     3616
+    SOLUSDT 4H-1H-15m-5m     1820
+    SOLUSDT  D-4H-1H-15m     1820
+    SOLUSDT    W-D-4H-1H     1820
+     XAGUSD 4H-1H-15m-5m     1808
+     XAGUSD  D-4H-1H-15m     1808
+     XAGUSD    W-D-4H-1H     1808
+     XAUUSD 4H-1H-15m-5m     1808
+     XAUUSD  D-4H-1H-15m     1808
+     XAUUSD    W-D-4H-1H     1808
+validation: configs reproduced exactly from the stored parquet: 38076 of 38076
+
+### 15 real-data cells: 27228 configs, 15 cells
+LIMIT-ENTRY LAG: configs 7200; with >=100 WF trades in both versions 6762
+  mean WF net R (>=100 trades): shipped -0.3623  lagged -0.4689  mean change -0.1066  median -0.0357  share lower 0.79
+  mean WF gross R             : shipped +0.0448  lagged -0.0535
+  trade count change (mean n): 4401 -> 4793
+  best shipped WF net R among them: +1.1862   best lagged: +0.8096;  # with net>0: shipped 670, lagged 159
+  smallest p (net>0): shipped 0.01113  lagged 0.06278
+CAUSAL STORYLINE (story=simple, all confirmations): configs 22428; >=100 trades both 20004
+  mean WF net R: shipped -0.4704  causal -0.4724  mean change -0.0020  median -0.0018  share higher 0.40
+  best WF net R: shipped +0.7159  causal +0.7200;  # net>0: shipped 785, causal 789;  smallest p 0.01113 -> 0.01196
+  limit AND simple (2255 configs): net shipped -0.3506  lag-only -0.4575  causal-only -0.3555  both -0.4598
+
+### all 18 cells incl. synthetic MCX proxy: 38076 configs, 18 cells
+LIMIT-ENTRY LAG: configs 10080; with >=100 WF trades in both versions 9468
+  mean WF net R (>=100 trades): shipped -0.3524  lagged -0.4506  mean change -0.0983  median -0.0322  share lower 0.76
+  mean WF gross R             : shipped +0.0010  lagged -0.0904
+  trade count change (mean n): 4249 -> 4604
+  best shipped WF net R among them: +1.1862   best lagged: +0.8096;  # with net>0: shipped 943, lagged 202
+  smallest p (net>0): shipped 0.01113  lagged 0.06278
+CAUSAL STORYLINE (story=simple, all confirmations): configs 31356; >=100 trades both 28014
+  mean WF net R: shipped -0.4251  causal -0.4314  mean change -0.0063  median -0.0027  share higher 0.39
+  best WF net R: shipped +0.7159  causal +0.7200;  # net>0: shipped 1175, causal 1068;  smallest p 0.01113 -> 0.01154
+  limit AND simple (3151 configs): net shipped -0.3336  lag-only -0.4331  causal-only -0.3425  both -0.4390
+BTCUSDT  4H-1H-15m-5m  limit: best shipped -0.297 -> lagged-version-of-that-config -0.586; mean change -0.131 | simple: mean change -0.0067
+BTCUSDT  D-4H-1H-15m   limit: best shipped +0.188 -> lagged-version-of-that-config -0.377; mean change -0.089 | simple: mean change -0.0097
+BTCUSDT  W-D-4H-1H     limit: best shipped +0.671 -> lagged-version-of-that-config +0.653; mean change -0.080 | simple: mean change +0.0094
+ETHUSDT  4H-1H-15m-5m  limit: best shipped +0.562 -> lagged-version-of-that-config +0.098; mean change -0.145 | simple: mean change -0.0070
+ETHUSDT  D-4H-1H-15m   limit: best shipped +0.303 -> lagged-version-of-that-config -0.134; mean change -0.101 | simple: mean change +0.0018
+ETHUSDT  W-D-4H-1H     limit: best shipped +0.272 -> lagged-version-of-that-config +0.297; mean change -0.062 | simple: mean change +0.0166
+SOLUSDT  4H-1H-15m-5m  limit: best shipped +0.278 -> lagged-version-of-that-config -0.224; mean change -0.099 | simple: mean change +0.0006
+SOLUSDT  D-4H-1H-15m   limit: best shipped +0.228 -> lagged-version-of-that-config -0.158; mean change -0.087 | simple: mean change -0.0102
+SOLUSDT  W-D-4H-1H     limit: best shipped +0.233 -> lagged-version-of-that-config +0.246; mean change -0.052 | simple: mean change -0.0002
+XAGUSD   4H-1H-15m-5m  limit: best shipped -1.244 -> lagged-version-of-that-config -1.577; mean change -0.125 | simple: mean change -0.0073
+XAGUSD   D-4H-1H-15m   limit: best shipped -0.577 -> lagged-version-of-that-config -0.938; mean change -0.148 | simple: mean change +0.0026
+XAGUSD   W-D-4H-1H     limit: best shipped +0.515 -> lagged-version-of-that-config +0.044; mean change -0.129 | simple: mean change +0.0118
+XAUUSD   4H-1H-15m-5m  limit: best shipped +0.175 -> lagged-version-of-that-config -0.259; mean change -0.110 | simple: mean change -0.0127
+XAUUSD   D-4H-1H-15m   limit: best shipped +0.716 -> lagged-version-of-that-config +0.085; mean change -0.134 | simple: mean change -0.0165
+XAUUSD   W-D-4H-1H     limit: best shipped +1.186 -> lagged-version-of-that-config +0.797; mean change -0.072 | simple: mean change +0.0063
+
+### F9 target: XAUUSD weekly ladder, limit + story=simple, >=100 WF trades (shipped -> lagged -> causal story -> both)
+                                                                                     name  n0     net0    nL     netL    nC     netC   nLC    netLC       p0       pL
+depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=storyEnd|rb=1|liq=0|miss=1|sess=1|xf= 101 0.612914 101.0 0.659234 100.0 0.629275 100.0 0.676055 0.177306 0.168360
+depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=storyEnd|rb=0|liq=0|miss=1|sess=1|xf= 102 0.596419 102.0 0.642285 101.0 0.612455 101.0 0.658772 0.181558 0.172333
+depth=2|gaps=0|story=simple|conf=limit|stop=lvl|tgt=storyEnd|rb=0|liq=0|miss=1|sess=1|xf= 105 0.582757 106.0 0.707634 103.0 0.719980 103.0 0.761200 0.185265 0.146069
+depth=2|gaps=0|story=simple|conf=limit|stop=lvl|tgt=storyEnd|rb=1|liq=0|miss=1|sess=1|xf= 105 0.582757 106.0 0.707634 103.0 0.719980 103.0 0.761200 0.185265 0.146069
+depth=2|gaps=0|story=simple|conf=limit|stop=lvl|tgt=storyEnd|rb=1|liq=0|miss=1|sess=0|xf= 118 0.507607 119.0 0.532221 111.0 0.499128 113.0 0.605488 0.195276 0.190212
+depth=2|gaps=0|story=simple|conf=limit|stop=lvl|tgt=storyEnd|rb=0|liq=0|miss=1|sess=0|xf= 119 0.493933 120.0 0.518456 112.0 0.484675 114.0 0.590355 0.199791 0.194505
+depth=2|gaps=0|story=simple|conf=limit|stop=lvl|tgt=storyEnd|rb=1|liq=0|miss=0|sess=1|xf= 118 0.456987 118.0 0.472119 118.0 0.466708 118.0 0.471796 0.209625 0.206265
+depth=2|gaps=0|story=simple|conf=limit|stop=lvl|tgt=storyEnd|rb=0|liq=0|miss=0|sess=1|xf= 119 0.443689 119.0 0.458694 119.0 0.453328 119.0 0.458374 0.214568 0.211074
+--- the audit F9 group: same cell, >=400 WF trades (shipped -> lagged -> causal -> both)
+                                                                                      name  n0     net0     nL      netL    nC     netC    nLC     netLC       p0       pL
+       depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=4R|rb=0|liq=1|miss=1|sess=1|xf= 509 0.225211  726.0 -0.016287 506.0 0.223071  722.0 -0.010403 0.011135 0.583727
+       depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=4R|rb=1|liq=1|miss=1|sess=1|xf= 470 0.187846  672.0 -0.046912 468.0 0.182629  669.0 -0.042258 0.032269 0.723054
+       depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=3R|rb=0|liq=1|miss=1|sess=1|xf= 521 0.160759  748.0 -0.077574 518.0 0.160175  744.0 -0.072261 0.024896 0.886284
+       depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=3R|rb=1|liq=1|miss=1|sess=1|xf= 498 0.131847  714.0 -0.094894 495.0 0.131061  710.0 -0.089425 0.056791 0.926527
+       depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=4R|rb=0|liq=1|miss=1|sess=0|xf= 698 0.130758  978.0 -0.087239 696.0 0.134216  973.0 -0.082155 0.056130 0.910657
+       depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=3R|rb=0|liq=1|miss=1|sess=0|xf= 724 0.127540 1020.0 -0.100906 722.0 0.130872 1015.0 -0.096101 0.032489 0.967399
+       depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=2R|rb=0|liq=1|miss=1|sess=1|xf= 534 0.111117  771.0 -0.106563 531.0 0.112118  768.0 -0.094926 0.041538 0.981248
+       depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=2R|rb=1|liq=1|miss=1|sess=1|xf= 523 0.108570  757.0 -0.107453 520.0 0.109578  754.0 -0.095603 0.046847 0.981182
+depth=2|gaps=0|story=simple|conf=limit|stop=lvl|tgt=roadblock|rb=1|liq=1|miss=0|sess=0|xf= 934 0.106650 1142.0 -0.075327 933.0 0.112488 1137.0 -0.061412 0.183115 0.767797
+depth=2|gaps=0|story=simple|conf=limit|stop=lvl|tgt=roadblock|rb=0|liq=1|miss=0|sess=0|xf= 934 0.106650 1142.0 -0.075327 933.0 0.112488 1137.0 -0.061412 0.183115 0.767797
+       depth=3|gaps=0|story=simple|conf=limit|stop=lvl|tgt=4R|rb=1|liq=1|miss=1|sess=0|xf= 635 0.106314  896.0 -0.126373 633.0 0.102148  893.0 -0.117544 0.107454 0.970778
+       depth=2|gaps=0|story=simple|conf=limit|stop=lvl|tgt=4R|rb=1|liq=1|miss=0|sess=1|xf= 851 0.096869 1095.0 -0.077298 848.0 0.100852 1094.0 -0.085315 0.094277 0.895878
+
+### Table 6 ablation row (canonical but limit entry): 18 cells
+      asset       ladder   n0      net0     nL      netL  stored_n  stored_net
+    BTCUSDT 4H-1H-15m-5m 4248 -0.559856 4310.0 -0.581581      4248   -0.559856
+    BTCUSDT  D-4H-1H-15m 1454 -0.309429 1460.0 -0.328160      1454   -0.309429
+    BTCUSDT    W-D-4H-1H  595 -0.173936  596.0 -0.177172       595   -0.173936
+    ETHUSDT 4H-1H-15m-5m 3922 -0.431336 3968.0 -0.422871      3922   -0.431336
+    ETHUSDT  D-4H-1H-15m 1396 -0.199303 1413.0 -0.193759      1396   -0.199303
+    ETHUSDT    W-D-4H-1H  202 -0.157845  204.0 -0.148314       202   -0.157845
+MCXGOLD_SYN 4H-1H-15m-5m 1710 -0.601957 1688.0 -0.626263      1710   -0.601957
+MCXGOLD_SYN  D-4H-1H-15m  896 -0.531912  911.0 -0.478517       896   -0.531912
+MCXGOLD_SYN    W-D-4H-1H  404 -0.238837  411.0 -0.183819       404   -0.238837
+    SOLUSDT 4H-1H-15m-5m 2124 -0.268935 2132.0 -0.280899      2124   -0.268935
+    SOLUSDT  D-4H-1H-15m  755 -0.197240  764.0 -0.215152       755   -0.197240
+    SOLUSDT    W-D-4H-1H  349 -0.198826  353.0 -0.209414       349   -0.198826
+     XAGUSD 4H-1H-15m-5m 4316 -1.809742 4343.0 -1.829306      4316   -1.809742
+     XAGUSD  D-4H-1H-15m 1994 -1.012704 2015.0 -1.028007      1994   -1.012704
+     XAGUSD    W-D-4H-1H  530 -0.471724  534.0 -0.476213       530   -0.471724
+     XAUUSD 4H-1H-15m-5m 2477 -0.362573 2466.0 -0.359916      2477   -0.362573
+     XAUUSD  D-4H-1H-15m 1859 -0.365486 1878.0 -0.367744      1859   -0.365486
+     XAUUSD    W-D-4H-1H  530 -0.238082  532.0 -0.234910       530   -0.238082
+trade-weighted WF net R: shipped -0.6421  lagged -0.6489 ; mean over cells: shipped -0.4517 lagged -0.4523; cells with positive WF: shipped 0 lagged 0
+
+### Table-5 style counts, phase 3 family (94068 configs; 18 cells have been re-run) - lagged limit entries
+  p<0.05:            shipped 90   after 65
+  BH q<0.10 (all):   shipped 0   after 0
+  BH q<0.10 (>=100 trades): shipped 0   after 0
+  max WF net R (>=100 trades): shipped +2.1666  after +2.1666 ;  # configs net>0 (>=100 trades): shipped 3328 after 2620
+  smallest p (>=100 trades): shipped 0.01113 after 0.02495
+
+### Table-5 style counts, phase 3 family (94068 configs; 18 cells have been re-run) - causal storyline (simple)
+  p<0.05:            shipped 90   after 89
+  BH q<0.10 (all):   shipped 0   after 0
+  BH q<0.10 (>=100 trades): shipped 0   after 0
+  max WF net R (>=100 trades): shipped +2.1666  after +2.1666 ;  # configs net>0 (>=100 trades): shipped 3328 after 3220
+  smallest p (>=100 trades): shipped 0.01113 after 0.01154
+
+### Table-5 style counts, phase 3 family (94068 configs; 18 cells have been re-run) - both
+  p<0.05:            shipped 90   after 66
+  BH q<0.10 (all):   shipped 0   after 0
+  BH q<0.10 (>=100 trades): shipped 0   after 0
+  max WF net R (>=100 trades): shipped +2.1666  after +2.1666 ;  # configs net>0 (>=100 trades): shipped 3328 after 2511
+  smallest p (>=100 trades): shipped 0.01113 after 0.02495

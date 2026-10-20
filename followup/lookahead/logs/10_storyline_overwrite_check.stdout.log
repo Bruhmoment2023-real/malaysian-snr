@@ -1,0 +1,103 @@
+P1 BTCUSDT 1h 2384
+P1 BTCUSDT 4h 419
+P1 BTCUSDT 1d 70
+P1 SOLUSDT 1h 1524
+P1 SOLUSDT 4h 198
+P1 SOLUSDT 1d 28
+P1 GC=F 1h 399
+P1 GC=F 4h 113
+P1 GC=F 1d 20
+P2 BTCUSDT 15m 8375
+P2 BTCUSDT 1h 2384
+P2 BTCUSDT 4h 419
+P2 BTCUSDT 1d 70
+P2 ETHUSDT 15m 8617
+P2 ETHUSDT 1h 2372
+P2 ETHUSDT 4h 594
+P2 ETHUSDT 1d 21
+P2 SOLUSDT 15m 6324
+P2 SOLUSDT 1h 1524
+P2 SOLUSDT 4h 198
+P2 SOLUSDT 1d 28
+P2 PAXGUSDT 1h 2280
+P2 PAXGUSDT 4h 546
+P2 PAXGUSDT 1d 0
+P2 GC=F 1h 399
+P2 GC=F 4h 113
+P2 SI=F 1h 367
+P2 SI=F 4h 99
+P2 GC=F_D2011 1d 5
+P3 BTCUSDT W-D-4H-1H 1680
+P3 BTCUSDT D-4H-1H-15m 6688
+P3 BTCUSDT 4H-1H-15m-5m 28512
+P3 ETHUSDT W-D-4H-1H 504
+P3 ETHUSDT D-4H-1H-15m 9504
+P3 ETHUSDT 4H-1H-15m-5m 28463
+P3 SOLUSDT W-D-4H-1H 668
+P3 SOLUSDT D-4H-1H-15m 3168
+P3 SOLUSDT 4H-1H-15m-5m 18288
+P3 XAUUSD W-D-4H-1H 579
+P3 XAUUSD D-4H-1H-15m 14725
+P3 XAUUSD 4H-1H-15m-5m 32545
+P3 XAGUSD W-D-4H-1H 1391
+P3 XAGUSD D-4H-1H-15m 12291
+P3 XAGUSD 4H-1H-15m-5m 36421
+P3 MCXGOLD_SYN W-D-4H-1H 4151
+P3 MCXGOLD_SYN D-4H-1H-15m 3886
+P3 MCXGOLD_SYN 4H-1H-15m-5m 21578
+phase                     cell               series  bars  differing  share_differing  entry_bars  entry_bars_differing  entry_share_differing  entry_bars_sign_flipped
+    1               BTCUSDT 1h storyline of 4h bars 20004        596         0.029794       79950                  2384               0.029819                     2384
+    1               BTCUSDT 4h storyline of 1d bars  3337         70         0.020977       20004                   419               0.020946                      419
+    1               BTCUSDT 1d storyline of 1w bars   478         10         0.020921        3337                    70               0.020977                       70
+    1               SOLUSDT 1h storyline of 4h bars 13480        381         0.028264       53896                  1524               0.028277                     1524
+    1               SOLUSDT 4h storyline of 1d bars  2247         33         0.014686       13480                   198               0.014688                      198
+    1               SOLUSDT 1d storyline of 1w bars   322          4         0.012422        2247                    28               0.012461                       28
+    1                  GC=F 1h storyline of 4h bars  3603        105         0.029142       13729                   399               0.029063                      399
+    1                  GC=F 4h storyline of 1d bars   616         19         0.030844        3603                   113               0.031363                      113
+    1                  GC=F 1d storyline of 1w bars   126          4         0.031746         616                    20               0.032468                        0
+    2              BTCUSDT 15m storyline of 1h bars 79950       2095         0.026204      319747                  8375               0.026193                     8375
+    2               BTCUSDT 1h storyline of 4h bars 20004        596         0.029794       79950                  2384               0.029819                     2384
+    2               BTCUSDT 4h storyline of 1d bars  3337         70         0.020977       20004                   419               0.020946                      419
+    2               BTCUSDT 1d storyline of 1w bars   478         10         0.020921        3337                    70               0.020977                       70
+    2              ETHUSDT 15m storyline of 1h bars 79950       2155         0.026954      319747                  8617               0.026949                     8617
+    2               ETHUSDT 1h storyline of 4h bars 20004        593         0.029644       79950                  2372               0.029669                     2372
+    2               ETHUSDT 4h storyline of 1d bars  3337         99         0.029667       20004                   594               0.029694                      528
+    2               ETHUSDT 1d storyline of 1w bars   478          3         0.006276        3337                    21               0.006293                       21
+    2              SOLUSDT 15m storyline of 1h bars 53896       1581         0.029334      215570                  6324               0.029336                     6324
+    2               SOLUSDT 1h storyline of 4h bars 13480        381         0.028264       53896                  1524               0.028277                     1524
+    2               SOLUSDT 4h storyline of 1d bars  2247         33         0.014686       13480                   198               0.014688                      198
+    2               SOLUSDT 1d storyline of 1w bars   322          4         0.012422        2247                    28               0.012461                       28
+    2              PAXGUSDT 1h storyline of 4h bars 13376        570         0.042614       53482                  2280               0.042631                     2280
+    2              PAXGUSDT 4h storyline of 1d bars  2230         91         0.040807       13376                   546               0.040819                      546
+    2              PAXGUSDT 1d storyline of 1w bars   320          0         0.000000        2230                     0               0.000000                        0
+    2                  GC=F 1h storyline of 4h bars  3603        105         0.029142       13729                   399               0.029063                      399
+    2                  GC=F 4h storyline of 1d bars   616         19         0.030844        3603                   113               0.031363                      113
+    2                  SI=F 1h storyline of 4h bars  3603         96         0.026644       13728                   367               0.026734                      367
+    2                  SI=F 4h storyline of 1d bars   616         18         0.029221        3603                    99               0.027477                       99
+    2            GC=F_D2011 1d storyline of 1w bars   822          1         0.001217        3851                     5               0.001298                        5
+    3        BTCUSDT W-D-4H-1H storyline of 1w bars   477         10         0.020964       79837                  1680               0.021043                     1680
+    3      BTCUSDT D-4H-1H-15m storyline of 1d bars  3332         70         0.021008      319294                  6688               0.020946                     6688
+    3     BTCUSDT 4H-1H-15m-5m storyline of 4h bars 19974        594         0.029739      957865                 28512               0.029766                    28512
+    3        ETHUSDT W-D-4H-1H storyline of 1w bars   477          3         0.006289       79837                   504               0.006313                      504
+    3      ETHUSDT D-4H-1H-15m storyline of 1d bars  3332         99         0.029712      319294                  9504               0.029766                     8448
+    3     ETHUSDT 4H-1H-15m-5m storyline of 4h bars 19974        593         0.029689      957865                 28463               0.029715                    28463
+    3        SOLUSDT W-D-4H-1H storyline of 1w bars   321          4         0.012461       53783                   668               0.012420                      668
+    3      SOLUSDT D-4H-1H-15m storyline of 1d bars  2242         33         0.014719      215115                  3168               0.014727                     3168
+    3     SOLUSDT 4H-1H-15m-5m storyline of 4h bars 13451        381         0.028325      645341                 18288               0.028339                    18288
+    3         XAUUSD W-D-4H-1H storyline of 1w bars   916          5         0.005459      104392                   579               0.005546                      579
+    3       XAUUSD D-4H-1H-15m storyline of 1d bars  4548        161         0.035400      414080                 14725               0.035561                    14725
+    3      XAUUSD 4H-1H-15m-5m storyline of 4h bars 27162        718         0.026434     1238998                 32545               0.026267                    32169
+    3         XAGUSD W-D-4H-1H storyline of 1w bars   909         12         0.013201      103509                  1391               0.013438                     1391
+    3       XAGUSD D-4H-1H-15m storyline of 1d bars  4510        134         0.029712      410385                 12291               0.029950                    12291
+    3      XAGUSD 4H-1H-15m-5m storyline of 4h bars 26942        793         0.029434     1225173                 36421               0.029727                    36147
+    3    MCXGOLD_SYN W-D-4H-1H storyline of 1w bars   916         56         0.061135       67833                  4151               0.061194                     3627
+    3  MCXGOLD_SYN D-4H-1H-15m storyline of 1d bars  4535         67         0.014774      260937                  3886               0.014892                     3886
+    3 MCXGOLD_SYN 4H-1H-15m-5m storyline of 4h bars 18124        500         0.027588      782575                 21578               0.027573                    21578
+       series  series_with_any  ...  entry_sign_flipped  entry_share
+phase                           ...                                 
+1           9                9  ...                5135     0.027009
+2          20               19  ...               34669     0.028038
+3          18               18  ...              222812     0.027324
+
+[3 rows x 8 columns]
+done

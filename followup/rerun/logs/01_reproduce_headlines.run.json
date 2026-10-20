@@ -1,0 +1,9 @@
+﻿{
+    "script":  "01_reproduce_headlines",
+    "started":  "2026-10-13T22:18:14",
+    "status":  "completed",
+    "exit_code":  0,
+    "wall_seconds":  3.4,
+    "cpu_seconds":  3,
+    "peak_working_set_MB":  347
+}

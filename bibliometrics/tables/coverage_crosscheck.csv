@@ -1,0 +1,24 @@
+﻿item,value
+corpus records,1360.0
+records with DOI,1244.0
+found in Crossref (DOI lookup),1199.0
+found in Semantic Scholar (batch DOI lookup),1137.0
+Spearman corr. OpenAlex vs Crossref cited-by,0.945
+Spearman corr. OpenAlex vs Semantic Scholar cited-by,0.953
+median cited-by: OpenAlex,11.0
+median cited-by: Crossref,8.0
+median cited-by: Semantic Scholar,13.0
+records with no reference list in OpenAlex,175.0
+  of which Crossref holds a reference list,5.0
+records with no institution/country data,230.0
+records without abstract,461.0
+open-access records (OpenAlex),691.0
+origin: search,978.0
+origin: snowball_forward,306.0
+origin: snowball_backward,40.0
+origin: seed,36.0
+retrieved by: s2,974.0
+retrieved by: openalex_snowball,346.0
+retrieved by: arxiv,38.0
+retrieved by: seed,37.0
+retrieved by: crossref,1.0

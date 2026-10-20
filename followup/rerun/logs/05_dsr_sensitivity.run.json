@@ -1,0 +1,9 @@
+﻿{
+    "script":  "05_dsr_sensitivity",
+    "started":  "2026-10-13T22:18:47",
+    "status":  "completed",
+    "exit_code":  0,
+    "wall_seconds":  3.9,
+    "cpu_seconds":  3.5,
+    "peak_working_set_MB":  284
+}
