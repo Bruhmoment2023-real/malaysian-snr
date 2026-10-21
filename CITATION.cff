@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
 title: "Does the Malaysian SnR method find better entries than chance? A codified test on crypto, gold and silver against matched random entries"
+doi: 10.5281/zenodo.23537688
 type: software
 authors:
   - family-names: "Solano Paul"
