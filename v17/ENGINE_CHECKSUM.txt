@@ -1,0 +1,2 @@
+msnr_frozen.py sha256 543bb8c74b52e07c3928ea756ff70a4bc6c28b8a40a88f44bd677a944159891e
+(identical to D:/Malaysian-SNR/backtest/msnr.py of the earlier version)
