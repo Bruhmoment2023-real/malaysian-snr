@@ -41,7 +41,7 @@ def md_table(df):
 o = []
 o.append(f"# Search protocol - {cfg['paper_id']}\n")
 o.append(f"- Paper question: {cfg['paper_title']}\n- Date of search and data pull: **{date}**\n- Years covered: {cfg['year_min']}-{cfg['year_max']}; language: English (OpenAlex language field `en` or missing)\n"
-         f"- Built by an AI agent (Claude) with the scripts in `python\\` and `R\\`; all numbers below are read from the run logs.\n")
+         f"- Built with the scripts in `python\\` and `R\\`; all numbers below are read from the run logs.\n")
 o.append("## 1. Databases\n")
 o.append("| Role | Database | Access | Note |\n|---|---|---|---|\n"
          "| Discovery | Crossref REST API | free, no key, `mailto` polite pool | relevance-ranked keyword search; top N per query |\n"
@@ -135,7 +135,7 @@ r.append(f"# Literature map (bibliometrics) - {cfg['paper_id']}\n")
 r.append(f"Data-driven map of the literature around: *{cfg['paper_title']}*\n")
 r.append(f"- **Corpus size:** {len(M)} records" + (" (" + "; ".join(f"{cfg['sublits'].get(k, {}).get('label', k)}: {v}" for k, v in M.sublit.value_counts().items()) + ")" if len(M) else "") +
          f"\n- **Date of pull:** {date}\n- **Sources:** discovery in Crossref, Semantic Scholar, ERIC and arXiv; metadata from OpenAlex; forward citations from OpenCitations. No Scopus/WoS data ({drop.status.iloc[0] if len(drop) else 'scopus-drop not checked'}).\n"
-         "- **Made by:** an AI agent (Claude). It contains data, figures, tables and bullet-point analysis only - no manuscript prose.\n")
+         "- **Contents:** data, figures, tables and bullet-point analysis only - no manuscript prose.\n")
 r.append("## What is here\n")
 r.append("| Path | Contents |\n|---|---|\n"
          "| `search-protocol.md` | exact search strings, databases, inclusion/exclusion rules, PRISMA-style counts, coverage checks |\n"

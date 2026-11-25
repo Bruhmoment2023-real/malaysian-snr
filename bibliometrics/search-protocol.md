@@ -3,7 +3,7 @@
 - Paper question: A multiple-testing-controlled test of a social-media support/resistance trading method (Malaysian SnR) in gold, silver and crypto
 - Date of search and data pull: **2026-10-13**
 - Years covered: 1960-2026; language: English (OpenAlex language field `en` or missing)
-- Built by an AI agent (Claude) with the scripts in `python\` and `R\`; all numbers below are read from the run logs.
+- Built with the scripts in `python\` and `R\`; all numbers below are read from the run logs.
 
 ## 1. Databases
 

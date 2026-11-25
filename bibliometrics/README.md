@@ -5,7 +5,7 @@ Data-driven map of the literature around: *A multiple-testing-controlled test of
 - **Corpus size:** 1360 records (Technical analysis and trading-rule profitability: 1044; Support and resistance, price levels and order clustering: 191; Data snooping, multiple testing and backtest overfitting in finance: 121; seed: 4)
 - **Date of pull:** 2026-10-13
 - **Sources:** discovery in Crossref, Semantic Scholar, ERIC and arXiv; metadata from OpenAlex; forward citations from OpenCitations. No Scopus/WoS data (EMPTY - no Scopus/WoS export to merge; corpus is OpenAlex-only).
-- **Made by:** an AI agent (Claude). It contains data, figures, tables and bullet-point analysis only - no manuscript prose.
+- **Contents:** data, figures, tables and bullet-point analysis only - no manuscript prose.
 
 ## What is here
 
